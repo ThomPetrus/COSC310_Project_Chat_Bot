@@ -75,9 +75,9 @@ matcher.add('PhraseMatcher', None, *phrase_patterns)
 
 found_matches = matcher(doc3)
 
-# formatted output
+# formatted output - the -5 and +5 adds extra tokens.
 for match_id, start, end in found_matches:
     string_id = nlp.vocab.strings[match_id]
-    span = doc3[start:end]
+    span = doc3[start-5:end+5]
     print(match_id, string_id, start, end, span.text)
 
