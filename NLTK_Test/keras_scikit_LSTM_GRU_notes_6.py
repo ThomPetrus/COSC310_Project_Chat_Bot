@@ -3,7 +3,10 @@
 Created on Wed Feb 19 20:33:14 2020
 
 Hey fellas, most of this is not really required knowledge as this occurs under the hood 
-but it is super interesting if you ask me so I've left it in.
+but it is super interesting if you ask me so I've left it in. Also won't really make sense without the image.
+If you open the image and find the functions associated with each step and read the notes below it should be 
+fairly simple to understand. It's just a bunch of linear combinations of inputs and prev input passed into sigmoid or hyperbolic tangent 
+functions as a way to determine what to store, pass on, etc.
 
 Recurrent Neural Networks
     -Best suited for sequenced data:
@@ -36,11 +39,22 @@ Recurrent Neural Networks
                 where f_t is stuff to be rememner or forgotten, 
                 C_t-1 is prev cell state,
                 i_t is multiplied by C_t~ 
-    
+        -fourth step - final decision - h_t
+            filtered version of cell state.
+            same linear combination of h_t-1 and x_t passed into sigmoid function multiplied by
+            tanh(C_t), C_t was calculated in last step .
+            tanh is hyperbolic tangent function.
+            
     This is likely gibberish without looking at the diagram and associated mathemcatical functions.
     
-    
-    
+    There's different variants:
+        peephole variant: adds 'peepholes' at each gate to allow each gate (f_t, i_t, o_t)
+            to see the previous cell state C_t-1
+        Gated recurrent Unit (GRU): combines the forget and input gate into an update gate.
+            also merges the cell state and hiden state. Not much more info here.
+            
+FORTUNATELY KERAS HAS BUILT IN APIS FOR LSTM AND RNNs woopwoop.
+
 @author: tpvan
 """
 

@@ -6,8 +6,11 @@ Session 2 - NLTK - Udemy
 @author: tpvan
 """
 
-# Basic Expressions --
-
+"""
+-------------------------------------------------------------------------------
+Text Basics Continued - Python 
+-------------------------------------------------------------------------------
+"""
 # in keyword -- like 'contains()'
 if("408-555-1234" in "Her phone is 408-555-12345"):
     print("yep");
@@ -27,7 +30,7 @@ r"\d{3}-\d{3}-\d{4}"
 + one or more, {3} 3 times, {2,5} 2 - 5 times
 {3, } 3 or more, * 0 or more,  ? once or more
 
-note the import is needed.
+note the import is needed - stand for regular expressions.
 """
 import re
 
@@ -67,12 +70,7 @@ print(matches)
 
 
 
-
-
-#can be used to REMOVE PUNCTUATION
-
-
-
+#could be used to REMOVE PUNCTUATION -- See later notes for better implementation.
 
 
 text = "This is a String!, with a, bunch of , stupid punctuation!!"

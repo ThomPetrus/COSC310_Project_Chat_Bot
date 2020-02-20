@@ -5,37 +5,47 @@ Python Text Basics - Udemy Course
 COSC 310 - NLP
 @author: tpvan
 """
-# F String literals
+
+"""
+-------------------------------------------------------------------------------
+Text Basics - Python 
+-------------------------------------------------------------------------------
+"""
+# F String literals - formatting text 
 person="Thom"
 print(f"My name is {person}")
 
 # List of tuples
 library = [('Author', 'Topic', 'Pages'), ('Twain', 'Rafting', 601), ('Hamilton', 'Blalbasdvasdvasdvasda', 400)]
 
-# Tuple unpacking:
+# Tuple unpacking & fstring literals
 for author, topic, pages in library:
     print(f"{author} {topic} {pages}")
     
-# Tuple unpacking and formatting
+# Tuple unpacking and formatting w/ fstring literals
 for author, topic, pages in library:
     print(f"{author:{10}} {topic:{30}} {pages:{10}}")
 
-# Auto-align
+# Auto-align ( > )
 for author, topic, pages in library:
     print(f"{author:{10}} {topic:{30}} {pages:>{10}}")
     
-# Auto-align & padding w/ characters
+# Auto-align & padding w/ characters ( +> )
 for author, topic, pages in library:
     print(f"{author:{10}} {topic:{30}} {pages:+>{10}}")    
     
-# dates / strftime -- Ton of different directives - googleable
+# dates / strftime -- Ton of different directives - googleable - not super useful
 from datetime import datetime
 
 # i.e. %B is full month etc
 today = datetime(year=2019, month=2, day=27)
 print(f"{today:%B %d %Y}")
 
-# Opening files ----------------------------------------
+"""
+-------------------------------------------------------------------------------
+Files Basics - Python 
+-------------------------------------------------------------------------------
+"""
 myfile = open("C:/Users/tpvan/OneDrive/Documents/UBCO/Second Year/COSC 310/Project/Udemy Course/test.txt")
 
 print(myfile.read())
@@ -63,7 +73,7 @@ for line in content_as_list:
 
 myfile.close()
 
-# Writing to files. ------------------------------------------- NOTE the 'w', if you 'w+' or 'w' it'll overwrite
+# Writing to files. -- NOTE the 'w', if you 'w+' or 'w' it'll overwrite
 myfile = open("C:/Users/tpvan/OneDrive/Documents/UBCO/Second Year/COSC 310/Project/Udemy Course/test.txt", 'w')
 myfile.write('whats up txt file')
 myfile.close()
@@ -73,14 +83,18 @@ myfile = open("C:/Users/tpvan/OneDrive/Documents/UBCO/Second Year/COSC 310/Proje
 myfile.write('This was appended to the previous')
 myfile.close()
 
-################################## !!! just use this.
+
+"""
+-------------------------------------------------------------------------------
+File Basics - Just use this fr - Python 
+-------------------------------------------------------------------------------
+"""
 # Using the context-manager, kind of like try-w-resources in java -- auto closes.
 with open("C:/Users/tpvan/OneDrive/Documents/UBCO/Second Year/COSC 310/Project/Udemy Course/test.txt", 'w') as mynewfile:
     myvariable = mynewfile.readlines()
     
-#--- Reading PDFS with extractable text --- 
-#pyPDF2 library only for pdf files from word processors
-# skipped due to irrelevance t topic at hand.
+# Note it is possible to read pdfs with extractable text -- i.e. those created by a word processor but it not really relevant to us.
     
+
 
     

@@ -4,6 +4,8 @@ Created on Tue Feb 18 21:57:47 2020
 
 Spacy - Part of Speech Tagging
 
+    Some more POS related Spacy info.
+
 @author: tpvan
 """
 

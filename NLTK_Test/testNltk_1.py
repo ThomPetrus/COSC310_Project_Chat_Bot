@@ -9,6 +9,11 @@ All code derived from:
 1. https://pythonspot.com/category/nltk/
 2. 
 
+
+    The majority of the other notes use Spacy / scikit-learn / Keras
+    Will come back to NLTK if need be.
+    
+
 @author: ThomPetrus
 """
 import nltk
@@ -27,8 +32,6 @@ from PIL import Image
 import nltk.classify.util
 from nltk.corpus import names
 from nltk.classify import NaiveBayesClassifier
-
-
 
 
 data = "In computer science 310 we are building a chat bot! We are using python because why not. NLTK is the toolkit."
@@ -163,7 +166,6 @@ sentence = sentence.lower()
 words = sentence.split(' ')
 
 """
-
 I could see this working on a larger pre-defined dataset on whichever topic we choose
 If there's a way to create a tree structure of sorts starting general and progressively getting
 more specialized with its questions / responses ? 

@@ -5,14 +5,23 @@ Created on Tue Feb 18 17:02:33 2020
 NLTK Notes Stemming
 Porter Stemmer / Snowball Stemmer
 
+
+ Meh
+
+
+
 @author: tpvan
 """
 
 import nltk
 from nltk.stem.porter import PorterStemmer
 
+"""
+-------------------------------------------------------------------------------
+NLTK - Porter Stemmer
+-------------------------------------------------------------------------------
+"""
 
-# Porter Stemmer -----------------------------------------------
 print("~~~~~Porter Stemmer~~~~")
 p_stemmer = PorterStemmer()
 
@@ -23,7 +32,12 @@ for word in words:
 print("Not awesome")    
 print("\n\n")
 
-# Snowball stemmer -----------------------------------------------
+"""
+-------------------------------------------------------------------------------
+NLTK - Snowball Stemmer
+-------------------------------------------------------------------------------
+"""
+
 print("~~~~~Snowball Stemmer~~~~~~")
 
 from nltk.stem.snowball import SnowballStemmer

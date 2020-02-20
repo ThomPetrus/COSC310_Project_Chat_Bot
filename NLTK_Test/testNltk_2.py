@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Feb  4 17:02:36 2020
-
-@author: tpvan
-"""
-
-# -*- coding: utf-8 -*-
-"""
 Created on Tue Feb  4 11:26:04 2020
 
 Install Instructions For NLTK found at:
@@ -15,6 +8,15 @@ https://www.nltk.org/install.html
 All code derived from: 
 1. https://pythonspot.com/category/nltk/
 2. 
+
+
+    Basic Sentiment Analysis with NLTK 
+    Data set is tiny and user defined. Check out other notes using
+    Spacy honestly. Will come back to NLTK if need be.
+    
+    Note the as TA man said PorterStemmer is fairly innacurate and Lemmatization
+    is preferred, Spacy's default stemmer is a lemmatization.
+
 
 @author: ThomPetrus
 """
