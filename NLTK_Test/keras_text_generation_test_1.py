@@ -324,11 +324,13 @@ random_text = sequence_list[random_pick]
 seed_text = ' '.join(random_text)
 print("Input Text:\n")
 print(seed_text)
+
 """
 ------------------------------------------------------------------------
 Output
 ------------------------------------------------------------------------
 """
+
 predicted_text = generate_text(model, tokenizer, seq_length, seed_text=seed_text, num_gen_words=25)
 print("\nOutput Text:\n")
 print(predicted_text)
