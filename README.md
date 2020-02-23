@@ -37,3 +37,5 @@ Please cite this paper if you write any papers involving the use of the data abo
     Question Generation as a Competitive Undergraduate Course Project
     Noah A. Smith, Michael Heilman, and Rebecca Hwa
     In Proceedings of the NSF Workshop on the Question Generation Shared Task and Evaluation Challenge, Arlington, VA, September 2008. 
+    
+Feb 22 : Finished the Wiki QA Bot prototype.
