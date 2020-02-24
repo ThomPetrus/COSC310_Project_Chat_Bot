@@ -57,11 +57,11 @@ Step 1: Load in the test and train data:
 ------------------------------------------------------------------------------------------------
 """
 
-with open('qa_train_df.txt', 'rb') as f:
+with open('qa_train_df_50.txt', 'rb') as f:
     train_data = pickle.load(f)
-with open('qa_test_df.txt', 'rb') as f:
+with open('qa_test_df_50.txt', 'rb') as f:
     test_data = pickle.load(f)
-with open('qa_indexed_ans.txt', 'rb') as f:
+with open('qa_indexed_ans_50.txt', 'rb') as f:
     idx_ans_list = pickle.load(f)
     
 # Sklearn train test split should provide roughly 30/70 split :
@@ -189,6 +189,13 @@ from tensorflow.python.keras.models import Sequential, Model
 from tensorflow.python.keras.layers.embeddings import Embedding
 from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dropout, add, dot, concatenate, LSTM
 
+
+"""
+All dropouts currently commented out.
+"""
+
+
+
 # Two sperate inputs - stories and questions - need a placeholder for now 
 # Input(shape(maxlenght, batch_size)) - tuple w empty spot
 input_sequence = Input((max_article_len, ))
@@ -202,20 +209,20 @@ input_encoder_m.add(Embedding(input_dim=vocab_len, output_dim=64))
 
 # This randomly turns off 30% ( to 50%) of neurons off in this layer - this is supposed to help with overfitting.
 # overfitting is when a model is too trained on specific data and does not handle new data well.
-input_encoder_m.add(Dropout(0.3))
+#input_encoder_m.add(Dropout(0.3))
 # output -> (samples, article_max_len, embedding_dim)
 
 # ------------------------- C ----------------------------------------
 # Input encoder C - Each input vector x has a corresponding output vector c 
 input_encoder_c = Sequential()
 input_encoder_c.add(Embedding(input_dim=vocab_len, output_dim=max_question_len))
-input_encoder_c.add(Dropout(0.3))
+#input_encoder_c.add(Dropout(0.3))
 # output -> (samples, article_max_len, max_question_len)
 
 # ------------------ Question Encoder (B) ----------------------------
 question_encoder = Sequential()
 question_encoder.add(Embedding(input_dim=vocab_len, output_dim=64, input_length=max_question_len))
-question_encoder.add(Dropout(0.3))
+#question_encoder.add(Dropout(0.3))
 # output -> (samples, question_max_len, embedding_dim)
 
 # ---------- pass inputs into the appropriate encoders ----------------
@@ -284,7 +291,7 @@ answer = concatenate([response, question_encoded])
 
 # Weighting
 answer = LSTM(64)(answer)
-answer = Dropout(0.5)(answer)
+#answer = Dropout(0.5)(answer)
 answer = Dense(vocab_len)(answer)
 answer = Activation('softmax')(answer)
 
@@ -309,7 +316,17 @@ Step 6: Fit and Train network
 -----------------------------------------------------------------
 """
 
-#history = model.fit([articles_train, questions_train], answers_train, batch_size=64, epochs=2000, validation_data=([articles_test, questions_test], answers_test))
+
+
+
+"""
+Currently set to validate on training data --- just trying things.
+"""
+
+
+
+
+#history = model.fit([articles_train, questions_train], answers_train, batch_size=64, epochs=500, validation_data=([articles_train, questions_train], answers_train))
 
 """
 -----------------------------------------------------------------
@@ -327,14 +344,13 @@ plt.xlabel('Epoch')
 plt.legend(['train', 'Test'], loc='lower left')
 plt.show()
 """
-
 """
 -----------------------------------------------------------------
 Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training data.
 -----------------------------------------------------------------
 """
 
-filename = 'chat_bot_experiment_200_v3.h5'
+filename = 'chat_bot_experiment_500_50_nodropout_validated_on_train_v1.h5'
 #model.save(filename)
 
 """
@@ -343,7 +359,7 @@ Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 
-model.load_weights('chat_bot_experiment_200_v3.h5')
+model.load_weights('chat_bot_experiment_500_50_nodropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
@@ -357,12 +373,12 @@ pred_results = model.predict(([articles_test, questions_test]))
 #print(pred_results)
 
 # For example for the first of the results at index 0 - find the highest probability answer
-max_probability_answer = np.argmax(pred_results[0])
+max_probability_answer = np.argmax(pred_results[12])
 
 # print the actual article, question and answer 
-print(test_data[0][0])
-print(test_data[0][1])
-print(test_data[0][2])
+print(test_data[12][0])
+print(test_data[12][1])
+print(test_data[12][2])
 
 # Then using the max_probability find the answer using the indexes from tokenizer.
 for key, val in tokenizer.word_index.items():
@@ -370,7 +386,7 @@ for key, val in tokenizer.word_index.items():
         k = key
 
 # There's an off by one error we should fix due to indexing for answers starting at 1 ... 
-print(' '.join(idx_ans_list[int(k)-1][1]))
+print(k)
 
 """
 -----------------------------------------------------------------
@@ -382,7 +398,7 @@ User Input :
     the program continues with the words that it can use.
     
     And like cycle through maybe 10-15 different ways of answering or introducing the questions
-    just to add some spiccceee and personality.
+    just to add some spiceee and personality.
     
     Also depending on how sure it is we could adjust the tone of the message ? 
     
@@ -392,24 +408,27 @@ User Input :
 def seperate_punct_doc(doc):
     return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n']
 
-
-# possibly change this to remove punctuation and lower case it after printing the next message... 
-my_article_text = input('Pick an article from the list! : When we have one...\n')
-my_article = seperate_punct_doc(nlp(my_article_text))
-my_question_text = input('Ask a question about ' + my_article_text + ' : \n')
-my_question = seperate_punct_doc(nlp(my_question_text))
-
-# This is the process for adding new data to train / test dataset. 
-my_data = [(my_article, my_question, 'irrelevant answer here ~')]
-my_article, my_question, my_answer = vectorize_stories(my_data)
-
-
-pred_results = model.predict(([my_article, my_question]))
-val_max = np.argmax(pred_results[0])
-
-for key, val in tokenizer.word_index.items():
-    if val == val_max:
-        k = key
-
-print('I am pretty sure this is the answer you\'re looking for: ' +  ' '.join(idx_ans_list[int(k)-1][1]))
+counter = 15
+while(counter > 0):
+    # possibly change this to remove punctuation and lower case it after printing the next message... 
+    my_article_text = input('Pick an article from the list! : When we have one...\n')
+    my_article = seperate_punct_doc(nlp(my_article_text))
+    my_question_text = input('Ask a question about ' + my_article_text + ' : \n')
+    my_question = seperate_punct_doc(nlp(my_question_text))
+    
+    # This is the process for adding new data to train / test dataset. 
+    my_data = [(my_article, my_question, 'irrelevant answer here ~')]
+    my_article, my_question, my_answer = vectorize_stories(my_data)
+    
+    
+    pred_results = model.predict(([my_article, my_question]))
+    val_max = np.argmax(pred_results[0])
+    
+    for key, val in tokenizer.word_index.items():
+        if val == val_max:
+            k = key
+    
+    print(' '.join(idx_ans_list[int(k)-1][1]))
+    print("Number of Questions left: " + str(counter))
+    counter-=1
 

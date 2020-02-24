@@ -39,3 +39,13 @@ Please cite this paper if you write any papers involving the use of the data abo
     In Proceedings of the NSF Workshop on the Question Generation Shared Task and Evaluation Challenge, Arlington, VA, September 2008. 
     
 Feb 22 : Finished the Wiki QA Bot prototype.
+
+Feb 23 : Experiment with different parameter values for the network trying to get an 
+optimal result for this current data set and application.
+
+Considering our use case if the network I get the highest degree of accuracy with a 50/50 split, and training the network and validating it against the training data (see the model.fit line). It is around 80%. Obviously this is not exactly how this should be used but as long as it finds the right answer for each question. I have printed the corresponding train text questions, answers and articles to a seperate file. When you ask the appropriate question it has a fairly high success rate. Will work on making sure user can enter any question without throwing an error next. From there we can make it more conversational in verious ways. I had a couple ideas:
+Obvs Andy's idea with making the bot determine the topic rather than the list.
+having it print the list regardless if asked?
+Asking whether it was the right answer?
+Apologize if wrong -- storing and writing correct answers to a file?
+

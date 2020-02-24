@@ -43,6 +43,8 @@ data_frame = pd.read_csv('q_a_test.tsv', sep='\t')
 'Clean' data
 --------------------------------------------------------------------------------------------------
 """
+
+"""
 print('\n')
 print('Before Cleaning NULL data ...')
 # check for missing data - I saw a fair few NULLS in original file.
@@ -72,6 +74,8 @@ data_frame.drop(blanks, inplace=True)
 print('Number of Blank Lines after:')
 print(len(data_frame))
 print('\n')
+
+"""
 
 """
 --------------------------------------------------------------------------------------------------
@@ -151,24 +155,28 @@ df_train = [tuple(x) for x in train_data]
 df_test = [tuple(x) for x in test_data]
 
 
-# Serialize objects.
-with open('qa_train_df.txt', 'wb') as fp:
+# Serialize objects / write actual text to file.
+with open('qa_train_df_70_30.txt', 'wb') as fp:
             pickle.dump(df_train, fp, protocol=4) 
         
-with open('qa_test_df.txt', 'wb') as fp:
+with open('qa_train_text_70_30.txt', 'w') as f:
+    for i in range(len(df_train)):
+            f.write("Article : " + ' '.join(df_train[i][0]) +", Question: "+ ' '.join(df_train[i][1]) + ", Answer: " + ' '.join(df_train[i][2]) + '\n')
+
+with open('qa_test_df_70_30.txt', 'wb') as fp:
             pickle.dump(df_test, fp, protocol=4) 
 
-with open('qa_indexed_ans.txt', 'wb') as fp:
+with open('qa_indexed_ans_70_30.txt', 'wb') as fp:
             pickle.dump(indexed_answers, fp, protocol=4)
             
 # Ensure output is as desired.
-with open('qa_train_df.txt', 'rb') as f:
+with open('qa_train_df_70_30.txt', 'rb') as f:
     df_train_loaded = pickle.load(f)
     
-with open('qa_test_df.txt', 'rb') as f:
+with open('qa_test_df_70_30.txt', 'rb') as f:
     df_test_loaded = pickle.load(f)
 
-with open('qa_indexed_ans.txt', 'rb') as f:
+with open('qa_indexed_ans_70_30.txt', 'rb') as f:
     df_idx_ans = pickle.load(f)
     
 print(df_idx_ans)
