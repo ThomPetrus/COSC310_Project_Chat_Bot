@@ -6,7 +6,7 @@ Created on Sat Feb 22 20:18:02 2020
         
     It lives! Functions as expected with careful input of articles and questions.
     
-    Currently the answer's it predicts are actually just the indexes of the asners in 
+    Currently the answer's it predicts are actually just the indexes of the answers in 
     the indexed list I've provided. For whatever reason I could not get  it to train on the 
     full sentence answers -- constant errors with datatypes, so I opted for this route.
     It is currently trained to about 75% accuracy and is actually pretty neat.
@@ -41,10 +41,12 @@ Basic Imports:
 --------------------------------------------------------------------------------------------------
 """
 
+from tkinter import *
 import pickle
 import numpy as np
 import spacy
-nlp = spacy.load('en_core_web_sm')
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 
 """
 ------------------------------------------------------------------------------------------------
@@ -309,7 +311,7 @@ Step 6: Fit and Train network
 -----------------------------------------------------------------
 """
 
-#history = model.fit([articles_train, questions_train], answers_train, batch_size=64, epochs=2000, validation_data=([articles_test, questions_test], answers_test))
+history = model.fit([articles_train, questions_train], answers_train, batch_size=64, epochs=5, validation_data=([articles_test, questions_test], answers_test))
 
 """
 -----------------------------------------------------------------
@@ -333,17 +335,17 @@ plt.show()
 Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training data.
 -----------------------------------------------------------------
 """
-
+"""
 filename = 'chat_bot_experiment_200_v3.h5'
-#model.save(filename)
-
+model.save(filename)
+"""
 """
 -----------------------------------------------------------------
 Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 
-model.load_weights('chat_bot_experiment_200_v3.h5')
+#model.load_weights('chat_bot_experiment_200_v3.h5')
 
 """
 -----------------------------------------------------------------
@@ -392,7 +394,62 @@ User Input :
 def seperate_punct_doc(doc):
     return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n']
 
+"""
+------------------------------------------------------------------------------------------------
+GUI Step 1: Import everything from the Tkinter module and specify the main window and title
+I'll work on resizing the window and fixing the presentation. For now, I want to be able to let a user
+enter a category and question from a widget inside the main window
+"""
+window = Tk()
+window.title("Chatbot")
 
+#These will be declared inside of an event function for the button
+my_article_text = ""
+my_article = ""
+my_question_text = ""
+my_question = ""
+
+# For now I'll use a label to display instructions. I'll look for another widget later. 
+lbl = Label(window, text="Pick an article from the list! : When we have one...")
+lbl.grid(column = 0, row = 0)
+
+# The text area is where the user will enter all inputs
+txt = Entry(window, width=10)
+txt.grid(column = 0, row = 1)
+txt.focus()
+
+def articleSelect():
+    global my_article_text
+    global my_article
+    my_article_text = txt.get()
+    my_article = seperate_punct_doc(nlp(my_article_text))
+    lbl.configure(text = "Ask a question about " + my_article_text)
+
+def questionSelect():
+    global my_article
+    global my_question_text
+    global my_question
+    my_question_text = txt.get()
+    my_question = seperate_punct_doc(nlp(my_question_text))
+    my_data = [(my_article, my_question, 'irrelevant answer here ~')]
+    my_article, my_question, my_answer = vectorize_stories(my_data)
+
+    pred_results = model.predict(([my_article, my_question]))
+    val_max = np.argmax(pred_results[0])
+
+    for key, val in tokenizer.word_index.items():
+        if val == val_max:
+            k = key
+    lbl.configure(text = 'I am pretty sure this is the answer you\'re looking for: ' +  ' '.join(idx_ans_list[int(k)-1][1]))
+
+btn = Button(window, text="Submit Article", command = articleSelect)
+btn.grid(column = 0, row = 2)
+
+btn = Button(window, text="Submit Question", command = questionSelect)
+btn.grid(column = 0, row = 3)
+
+window.mainloop()
+"""
 # possibly change this to remove punctuation and lower case it after printing the next message... 
 my_article_text = input('Pick an article from the list! : When we have one...\n')
 my_article = seperate_punct_doc(nlp(my_article_text))
@@ -412,4 +469,4 @@ for key, val in tokenizer.word_index.items():
         k = key
 
 print('I am pretty sure this is the answer you\'re looking for: ' +  ' '.join(idx_ans_list[int(k)-1][1]))
-
+"""
