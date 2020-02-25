@@ -57,11 +57,11 @@ Step 1: Load in the test and train data:
 ------------------------------------------------------------------------------------------------
 """
 
-with open('qa_train_df_50.txt', 'rb') as f:
+with open('qa_train_df_99_v2.txt', 'rb') as f:
     train_data = pickle.load(f)
-with open('qa_test_df_50.txt', 'rb') as f:
+with open('qa_test_df_99_v2.txt', 'rb') as f:
     test_data = pickle.load(f)
-with open('qa_indexed_ans_50.txt', 'rb') as f:
+with open('qa_indexed_ans_99_v2.txt', 'rb') as f:
     idx_ans_list = pickle.load(f)
     
 # Sklearn train test split should provide roughly 30/70 split :
@@ -78,7 +78,9 @@ Step 2: Create a vocabulary for our model to learn on
 ------------------------------------------------------------------------------------------------
 """
 
-all_data = test_data + train_data
+# Changed the vocab to only include the train data - as it is the only thing it knows how to answer.
+#all_data = test_data + train_data
+all_data = train_data
 
 vocab = set()
 
@@ -145,7 +147,7 @@ def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max
         x = [word_index[word.lower()] for word in article]
         xq = [word_index[word.lower()] for word in question]
         y = np.zeros(len(word_index)+1)
-        y[word_index[answer[0]]] = 1
+        y[word_index[str(answer[0])]] = 1
        
         # Then add that vector to the corresponding main list.
         X.append(x)
@@ -157,7 +159,7 @@ def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max
 
 # Actual method call and unpacking of the tuples to set each respective variable below.
 articles_train, questions_train, answers_train = vectorize_stories(train_data)
-articles_test, questions_test, answers_test = vectorize_stories(test_data)
+#articles_test, questions_test, answers_test = vectorize_stories(test_data)
 
 """
 -----------------------------------------------------------------
@@ -333,6 +335,7 @@ Currently set to validate on training data --- just trying things.
 Step 7: Plotting model accuracy - only works after training.
 -----------------------------------------------------------------
 """
+
 """
 import matplotlib.pyplot as plt
 print(history.history.keys())
@@ -344,13 +347,14 @@ plt.xlabel('Epoch')
 plt.legend(['train', 'Test'], loc='lower left')
 plt.show()
 """
+
 """
 -----------------------------------------------------------------
 Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training data.
 -----------------------------------------------------------------
 """
 
-filename = 'chat_bot_experiment_500_50_nodropout_validated_on_train_v1.h5'
+filename = 'chat_bot_experiment_500_99_nodropout_limited_vocab_validated_on_train_v2.h5'
 #model.save(filename)
 
 """
@@ -359,14 +363,14 @@ Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 
-model.load_weights('chat_bot_experiment_500_50_nodropout_validated_on_train_v1.h5')
+model.load_weights('chat_bot_experiment_500_99_nodropout_limited_vocab_validated_on_train_v2.h5')
 
 """
 -----------------------------------------------------------------
 Step 10: Prediction - Based on test data
 -----------------------------------------------------------------
 """
-
+"""
 pred_results = model.predict(([articles_test, questions_test]))
 
 # Following prints all the probabilities for each article / question combo
@@ -387,7 +391,7 @@ for key, val in tokenizer.word_index.items():
 
 # There's an off by one error we should fix due to indexing for answers starting at 1 ... 
 print(k)
-
+"""
 """
 -----------------------------------------------------------------
 User Input : 
@@ -417,7 +421,7 @@ while(counter > 0):
     my_question = seperate_punct_doc(nlp(my_question_text))
     
     # This is the process for adding new data to train / test dataset. 
-    my_data = [(my_article, my_question, 'irrelevant answer here ~')]
+    my_data = [(my_article, my_question, ['nikola'])]
     my_article, my_question, my_answer = vectorize_stories(my_data)
     
     
@@ -428,7 +432,7 @@ while(counter > 0):
         if val == val_max:
             k = key
     
-    print(' '.join(idx_ans_list[int(k)-1][1]))
+    print(' '.join(idx_ans_list[int(k)][1]))
     print("Number of Questions left: " + str(counter))
     counter-=1
 

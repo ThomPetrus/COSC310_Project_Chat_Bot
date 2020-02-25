@@ -36,7 +36,7 @@ def read_file(filepath):
     return text
 
 # Returns pandas DataFrame
-data_frame = pd.read_csv('q_a_test.tsv', sep='\t')
+data_frame = pd.read_csv('q_a_test_v2.tsv', sep='\t')
 
 """
 --------------------------------------------------------------------------------------------------
@@ -131,10 +131,8 @@ for i in range(len(df_list)):
     y.append([df_list[i][0], df_list[i][3]])
     indexed_answers.append([df_list[i][0], df_list[i][3]])
 
-
-print(indexed_answers)
 # Use the sklean train_test_split method - 70/30 and shuffles
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.01, random_state=42)
     
 # Copy the appropriate answers from y_train to X_train to create 70% test data portion
 # This will likely need refactoring -- I am setting the index to be the first word in every answer list.
@@ -150,35 +148,55 @@ for i in range(len(X_test)):
 train_data = X_train
 test_data = X_test
 
+print(train_data)
+
+indexed_train_answers =[]
+# append articles, questions and answers to X or y respectively -- X always represents 'features' and y is 'targets'
+for i in range(len(train_data)):
+    indexed_train_answers.append([train_data[i][2][0], ' '.join(train_data[i][2][1:])])
+
+#print(indexed_train_answers)
+
 # Convert the lists consisting of [Article, Question, Asnwer] to a tuple.
 df_train = [tuple(x) for x in train_data]
 df_test = [tuple(x) for x in test_data]
 
 
 # Serialize objects / write actual text to file.
-with open('qa_train_df_70_30.txt', 'wb') as fp:
+# training data
+with open('qa_train_df_99_v2.txt', 'wb') as fp:
             pickle.dump(df_train, fp, protocol=4) 
-        
-with open('qa_train_text_70_30.txt', 'w') as f:
+# text representation of training data
+with open('qa_train_text_99_v2.txt', 'w') as f:
     for i in range(len(df_train)):
             f.write("Article : " + ' '.join(df_train[i][0]) +", Question: "+ ' '.join(df_train[i][1]) + ", Answer: " + ' '.join(df_train[i][2]) + '\n')
-
-with open('qa_test_df_70_30.txt', 'wb') as fp:
+# test data
+with open('qa_test_df_99_v2.txt', 'wb') as fp:
             pickle.dump(df_test, fp, protocol=4) 
 
-with open('qa_indexed_ans_70_30.txt', 'wb') as fp:
+# indexed answers
+with open('qa_indexed_ans_99_v2.txt', 'wb') as fp:
             pickle.dump(indexed_answers, fp, protocol=4)
             
+# indexed answers - train data
+with open('qa_train_indexed_ans_99_v2.txt', 'wb') as fp:
+            pickle.dump(indexed_train_answers, fp, protocol=4)
+
+# indexed train answers text representation            
+with open('qa_train_indexed_ans_text_99_v2.txt', 'w') as f:
+    for i in range(len(indexed_train_answers)):
+            f.write("Article : " + ' '.join(df_train[i][0]) +", Question: "+ ' '.join(df_train[i][1]) + ", Answer: " + ' '.join(df_train[i][2]) + '\n')
+            
 # Ensure output is as desired.
-with open('qa_train_df_70_30.txt', 'rb') as f:
+with open('qa_train_df_99_v2.txt', 'rb') as f:
     df_train_loaded = pickle.load(f)
     
-with open('qa_test_df_70_30.txt', 'rb') as f:
+with open('qa_test_df_99_v2.txt', 'rb') as f:
     df_test_loaded = pickle.load(f)
 
-with open('qa_indexed_ans_70_30.txt', 'rb') as f:
+with open('qa_indexed_ans_99_v2.txt', 'rb') as f:
     df_idx_ans = pickle.load(f)
-    
-print(df_idx_ans)
+
+#print(df_idx_ans)
 
    

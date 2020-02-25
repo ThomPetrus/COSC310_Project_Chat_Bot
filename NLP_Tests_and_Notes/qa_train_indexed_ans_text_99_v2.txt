@@ -1,0 +1,764 @@
+Article : san francisco, Question: give an example of the ten beta world cities, Answer: 641 san trancisco
+Article : portuguese language, Question: what event marked the end of the old portuguese period, Answer: 590 the end of the old portuguese period was marked by the publication of the cancioneiro geral by garcia de resende
+Article : jakarta, Question: did the economy improve in jakarta in 2007, Answer: 335 yes
+Article : dragonfly, Question: is the dragonfly associated with late summer as well as early autumn, Answer: 199 yes
+Article : trumpet, Question: what is the earliest date of the trumpet, Answer: 675 around 1500 bc
+Article : san francisco, Question: is the standard of living in san franciscio high, Answer: 618 yes san francisco is characterized by a high standard of living
+Article : korean language, Question: older english sources used the name korean to refer to what, Answer: 365 language country and people
+Article : giant panda, Question: why is the giant panda an endangered species, Answer: 266 it is threatened by continued habitat loss and by a very low birthrate
+Article : melbourne, Question: where is melbourne situated, Answer: 456 boundary of the very hot inland areas and the cold southern ocean
+Article : jakarta, Question: do other landmarks include the istiqlal mosque as well as jakarta cathedral, Answer: 342 yes
+Article : berlin, Question: which building is the site of the german parliament, Answer: 97 the reichstag building is the site of the german parliament
+Article : finnish language, Question: is finnish threatened by english, Answer: 227 no finnish is not threatened by english
+Article : arabic language, Question: why is arabic related to islam, Answer: 84 arabic is the liturgical language of islam
+Article : chinese language, Question: are all spoken varieties of chinese tonal and analytical, Answer: 155 yes
+Article : drum, Question: what has the most effect on how a drum sounds, Answer: 211 the drumhead
+Article : zebra, Question: what do zebras eat, Answer: 767 grasses shrubs herbs twigs leaves and bark
+Article : dragonfly, Question: what are dragonfly larvae known as, Answer: 193 nan
+Article : flute, Question: what material is a chi flute fashioned from, Answer: 247 lacquered bamboo
+Article : drum, Question: how do rock and roll drummers like their drumheads, Answer: 208 rock and roll drummer may prefer drums that sound loud and deep
+Article : octopus, Question: is octopus a common food in mediterranean cuisine as well as portuguese cuisine, Answer: 547 yes
+Article : lyre, Question: does a classical lyre have a hollow body, Answer: 422 yes
+Article : kuala lumpur, Question: when did kuala lumpur become a federal territory of malaysia, Answer: 396 1-feb-74
+Article : flute, Question: are western flutes simpler than indian flutes, Answer: 239 yes
+Article : san francisco, Question: is san francisco also the financial cultural and transportation center of the larger san francisco bay area a region of 7.4 million people, Answer: 643 yes
+Article : ant, Question: do some caterpillars produce vibrations as well as sounds, Answer: 66 yes
+Article : lyre, Question: does a standard piano have fewer strings than a harp, Answer: 429 no
+Article : blaise pascal, Question: is there a programming language called pascal, Answer: 120 yes
+Article : malay language, Question: is malay an agglutinative language, Answer: 432 yes
+Article : san francisco, Question: is crissy field an airfield, Answer: 633 yes
+Article : taipei, Question: is the national palace museum in taipei, Answer: 665 yes
+Article : melbourne, Question: how many domestic tourists visit melbourne, Answer: 457 7.6 million domestic visitors
+Article : cougar, Question: does the world conservation union consider the cougar a least concern species, Answer: 174 the world conservation union iucn currently lists the cougar as a least concern species
+Article : jakarta, Question: where does the name of the city jakarta come from, Answer: 324 the name jakarta is derived from the sanskrit word jayakarta
+Article : san francisco, Question: are more residents employed by small businesses than in 1977, Answer: 625 the number of san franciscans employed by firms of more than 1,000 employees has fallen by half since 1977
+Article : trumpet, Question: are there several types of trumpet, Answer: 695 yes
+Article : blaise pascal, Question: how old was pascal when he died, Answer: 118 39
+Article : amedeo avogadro, Question: what does avogadro 's law state, Answer: 30 avogadro 's law states that the relationship between the masses of the same volume of different gases at the same temperature and pressure corresponds to the relationship between their respective molecular weights
+Article : guitar, Question: which guitars use three single coil pickups, Answer: 275 fender stratocaster type guitars
+Article : amedeo avogadro, Question: who was avogadro 's wife, Answer: 33 felicita mazzé was avogadro 's wife
+Article : amedeo avogadro, Question: who showed that avogadro 's theory held in dilute solutions, Answer: 31 jacobus henricus van ' t hoff showed that avogadro 's theory holds in dilute solutions
+Article : amedeo avogadro, Question: avogadro did not actually use what word, Answer: 39 atom
+Article : antwerp, Question: how many municipalities does antwerp have, Answer: 77 none antwerp is a municipality
+Article : korean language, Question: is the word korean derived from goryeo, Answer: 362 yes
+Article : san francisco, Question: like many larger where cities san francisco is a minority majority city as non hispanic whites comprise less than half of the population, Answer: 636 u.s.
+Article : portuguese language, Question: is portuguese an official language of andorra, Answer: 585 no portuguese is not an official language of andorra
+Article : dragonfly, Question: do dragonflies spend most of their lives in their adult form, Answer: 192 nan
+Article : turkish language, Question: is it possible to alter the word order to stress the importance of a certain phrase, Answer: 698 yes
+Article : piano, Question: is the left most pedal on a grand piano called the una corda, Answer: 568 yes the left most pedal on a grand piano is called the una corda
+Article : eel, Question: where is smoked eel considered a delicacy, Answer: 220 smoked eel is considered a delicacy in northern germany the netherlands denmark and sweden
+Article : piano, Question: about how tall is a typical studio piano, Answer: 571 studio pianos are around 42 to 45 inches tall
+Article : charles augustin de coulomb, Question: was charles augustin de coulomb ever employed at la rochelle, Answer: 137 yes upon his return to france with the rank of captain he was employed at la rochelle
+Article : nikola tesla, Question: was nikola tesla 's mother illiterate, Answer: 513 nikola tesla 's mother never learned to read
+Article : zebra, Question: what are zebras hunted for, Answer: 768 mainly for their skins
+Article : korean language, Question: where do the majority of loanwords other than sino korean come from, Answer: 368 modern times 90 of which are from english
+Article : berlin, Question: which is the busiest airport in berlin, Answer: 109 tegel international airport is the busiest airport in berlin
+Article : cymbal, Question: is one of the parts of a cymbal called a disc, Answer: 181 no
+Article : isaac newton, Question: were newton 's religious views consistent with anglicanism, Answer: 299 no a conflict between newton 's religious views and anglican orthodoxy was averted
+Article : ant, Question: did ants evolve from wasp like ancestors in the mid cretaceous period between 110 and 130 million years ago and diversified after the rise of flowering plants, Answer: 67 yes
+Article : giant panda, Question: how long does it take for the panda cubs skin to turn gray, Answer: 254 one to two weeks after birth
+Article : melbourne, Question: does melbourne have a large international student community, Answer: 451 yes
+Article : san francisco, Question: how does poverty in san francisco compare to the nation wide average, Answer: 626 the city 's poverty rate is 11.8 and the number of families in poverty stands at 7.4 both lower than the national average
+Article : xylophone, Question: how do the java and bali use xylophones, Answer: 758 in gamelan ensembles
+Article : henri becquerel, Question: whom did he share the nobel prize with, Answer: 286 pierre and marie curie
+Article : violin, Question: is the tuning g d a e used for most violin music, Answer: 750 yes
+Article : ant, Question: do male ants take flight before females, Answer: 54 yes male ants take flight before females
+Article : vietnamese language, Question: what are the three dialect regions of vietnamese, Answer: 724 the three regions are north central and south
+Article : jakarta, Question: did suharto resign as president, Answer: 340 yes
+Article : arabic language, Question: is arabic the largest member of the semitic language family, Answer: 86 yes
+Article : michael faraday, Question: who was faraday 's wife, Answer: 470 sarah barnard
+Article : malay language, Question: what is the basic word order in malay, Answer: 434 subject object verb
+Article : san francisco, Question: what is the cause of local earthquakes, Answer: 624 the nearby san andreas and hayward faults are responsible for much earthquake activity
+Article : violin, Question: is the violin supported by the left shoulder, Answer: 738 yes
+Article : violin, Question: what were strings first made out of, Answer: 740 sheep gut
+Article : lyre, Question: how many raised arms are extending from the sound chest of a classical lyre, Answer: 425 two
+Article : alessandro volta, Question: was volta taught in public schools, Answer: 10 yes
+Article : trumpet, Question: is the trumpet the musical instrument with the highest register in the brass family, Answer: 672 yes
+Article : montreal, Question: what is the name of the largest church in montreal, Answer: 486 the largest church in montreal is named saint joseph 's oratory
+Article : swahili language, Question: how many noun classes does swahili have, Answer: 651 swahili has sixteen noun classes
+Article : taipei, Question: what does taipei produce, Answer: 671 taipei produces textiles apparel electronics machinery printed materials precision equipment food and beverages
+Article : jakarta, Question: is jakarta a city, Answer: 329 yes
+Article : giant panda, Question: has the dragon historically served as china 's national emblem, Answer: 250 yes
+Article : kuala lumpur, Question: is it home to the parliament of malaysia, Answer: 395 yes
+Article : kuala lumpur, Question: is the central market located in the proximity of the pertama complex, Answer: 394 no
+Article : ant, Question: are termites actually more closely related to cockroaches as well as mantids, Answer: 65 yes termites are actually more closely related to cockroaches as well as mantids
+Article : eel, Question: is eel blood toxic to humans, Answer: 218 yes eel blood is toxic to humans
+Article : jakarta, Question: why does jakarta suffer frequent flooding, Answer: 327 the fact that the northern part of jakarta lies on a plain approximately eight meters above the sea level
+Article : montreal, Question: who is the mayor of montreal, Answer: 485 the mayor is gãrald tremblay
+Article : arabic language, Question: how many people speak the arabic language, Answer: 81 280 million people
+Article : norman rockwell, Question: who spent the next 10 years painting for look magazine, Answer: 525 norman rockwell
+Article : guitar, Question: how old is the oldest known representation of a guitar like intrument being played, Answer: 281 3,300 years old
+Article : violin, Question: is the violin shaped like an hourglass, Answer: 739 yes
+Article : saint petersburg, Question: when did the crime level become higher, Answer: 607 after the october revolution
+Article : piano, Question: what are the names of a piano 's pedals, Answer: 576 piano pedals from left to right una corda sostenuto and damper
+Article : zebra, Question: which species of zebra is known as the common zebra, Answer: 770 plains zebra equus quagga formerly equus burchelli
+Article : antwerp, Question: antwerp is to the east of what river, Answer: 76 antwerp is to the east of the scheldt river
+Article : isaac newton, Question: which fruit inspired isaac newton 's theory of gravitation, Answer: 300 isaac newton 's theory of gravitation was inspired by watching the fall of an apple from a tree
+Article : isaac newton, Question: did isaac newton die a death in 1898, Answer: 294 no newton died in his sleep in london on 31 march 1727
+Article : antwerp, Question: is antwerp in belgium, Answer: 72 yes
+Article : leonardo da vinci, Question: is he widely considered to be one of the greatest painters of all time and perhaps the most diversely talented person ever to have lived, Answer: 409 yes
+Article : kuala lumpur, Question: what is the official religion in the country, Answer: 398 islam
+Article : portuguese language, Question: is portuguese an official language of several international organizations, Answer: 598 yes
+Article : ant, Question: do ants thrive in most ecosystems, Answer: 63 yes
+Article : saint petersburg, Question: founded by tsar peter i of russia on 27 may 1703 was it the capital of the russian empire for more than two hundred years 1713 1728 1732 1918, Answer: 617 yes
+Article : xylophone, Question: was the xylophone associated with the folk music of the united states by the 19th century, Answer: 755 no
+Article : isaac newton, Question: was isaac newton british, Answer: 292 yes he was english
+Article : flute, Question: when was the pan flute used in greece, Answer: 244 the 7th century bc
+Article : malay language, Question: could malay have originated from sumatra island, Answer: 431 yes
+Article : ant, Question: who wrote about ants in a tramp abroad, Answer: 49 mark twain
+Article : korean language, Question: is the dialect spoken in jeju located in fact classified as a different language by all korean linguists, Answer: 382 the dialect spoken in jeju is in fact classified as a different language by some korean linguists
+Article : flute, Question: what is the earliest extant transverse flute, Answer: 234 chi
+Article : korean language, Question: why may english translation of koreans adjectives misleadingly suggest that they are verbs, Answer: 367 english does not have an identical grammatical category
+Article : nikola tesla, Question: is there a monument to tesla at niagara falls new york, Answer: 516 yes
+Article : michelangelo, Question: when was his house demolished, Answer: 477 1874
+Article : korean language, Question: from which languages is korean descended, Answer: 377 korean is descended from old korean middle korean and modern korean
+Article : vietnamese language, Question: was vietnamese formally written using the chinese writing system, Answer: 722 yes vietnamese was formerly written using the chinese writing system
+Article : alessandro volta, Question: when did alessandro volta improve and popularize the electrophorus, Answer: 7 alessandro volta improved and popularized the electrophorus in 1775
+Article : leonardo da vinci, Question: when did he flee to venice, Answer: 405 in 1499
+Article : saint petersburg, Question: were the city 's other names petrograd 1914 1924 and leningrad 1924 1991, Answer: 615 yes
+Article : alessandro volta, Question: is the battery made by volta credited as the first electrochemical cell, Answer: 23 yes
+Article : finnish language, Question: for how long has the classification of dialects spoken outside of finland been a controversial issue, Answer: 231 the classification of dialects spoken outside of finland has been a controversial issue since finland 's independence in 1917
+Article : berlin, Question: why is vattenfall shifting towards reliance on cleaner renewable energy sources, Answer: 101 because burning lignite produces harmful emissions vattenfall has announced a commitment to shift towards reliance on cleaner renewable energy sources
+Article : isaac newton, Question: was isaac newton educated at the king 's schol grantham, Answer: 302 yes
+Article : dragonfly, Question: what is the hobby of seeking out dragonflies and damselflies called, Answer: 196 nan
+Article : trumpet, Question: was dizzy gillespie a famous trumpeter in 1998, Answer: 683 no
+Article : alessandro volta, Question: was alessandro volta taught in public schools, Answer: 2 volta was taught in public schools
+Article : drum, Question: is the aburukuwa a type of drum, Answer: 204 yes
+Article : taipei, Question: who sets up shrines, Answer: 670 many homes and businesses would set up shrines
+Article : charles augustin de coulomb, Question: when did coulomb return to paris, Answer: 148 in 1759
+Article : jakarta, Question: who created monas park, Answer: 332 dutch governor general herman willem deandels
+Article : vietnamese language, Question: when did written vietnamese become the official administrative language, Answer: 718 vietnamese became the official administrative language by the 20th century
+Article : michelangelo, Question: give an example of the most renowned works of the renaissance, Answer: 479 the statue of david completed by michelangelo in 1504
+Article : drum, Question: are n't drums often used in music therapy, Answer: 215 yes drums are often used in music therapy
+Article : pablo picasso, Question: who was not long in finding another lover jacqueline roque, Answer: 552 picasso
+Article : trumpet, Question: what are the smallest trumpets referred to as, Answer: 677 piccolo trumpets
+Article : arabic language, Question: was arabic a major vehicle of culture in europe, Answer: 79 yes
+Article : kuala lumpur, Question: what does the name kuala lumpur mean, Answer: 388 muddy confluence muddy estuary and muddy city
+Article : vincent van gogh, Question: is today he widely regarded as one of history 's greatest painters and an important contributor to the foundations of modern art, Answer: 736 yes
+Article : leonardo da vinci, Question: when did baldassare castiglione author of il cortegiano the courtier write, Answer: 404 1528
+Article : giant panda, Question: is the giant panda a mammal, Answer: 259 yes
+Article : butterfly, Question: what allows the butterfly to evade predators, Answer: 133 a butterfly 's hind wings allow the butterfly to evade predators
+Article : koala, Question: did eucalypt forests grow in the place of rainforests, Answer: 356 yes the koala did not specialise in a diet of eucalyptus until the climate cooled and eucalypt forests grew in the place of rainforests
+Article : ant, Question: do worker ants have wings, Answer: 55 no worker ants do not have wings
+Article : trumpet, Question: are they constructed of brass tubing bent twice into an oblong shape and are played by blowing air through closed lips producing a buzzing ' ' sound which starts a standing wave vibration in the air column inside the trumpet, Answer: 694 yes
+Article : malay language, Question: give an example of the tributary states of the majapahit kingdom in eastern java, Answer: 446 malayu is an example of the tributary states of the majapahit kingdom in eastern java
+Article : octopus, Question: where is the mouth of an octopus, Answer: 537 the mouth of an octopus is at the center point of the arms
+Article : xylophone, Question: does kelon increase or decrease tone quality of the xylophone, Answer: 762 decrease
+Article : trumpet, Question: do many players use a smaller mouthpiece on the piccolo trumpet, Answer: 690 yes
+Article : james watt, Question: where did watt attend university, Answer: 352 he did not attend a university
+Article : ant, Question: what is the most common color of ants, Answer: 60 most ants are red or black
+Article : pablo picasso, Question: is he best known for co founding the cubist movement and for the wide variety of styles embodied in his work, Answer: 558 yes
+Article : james watt, Question: where is the james watt memorial college, Answer: 350 the james watt memorial is in greenock
+Article : turkish language, Question: was the ottoman script replaced with a variant of the latin alphabet, Answer: 696 yes
+Article : henri becquerel, Question: why did bequerel win the nobel prize in physics, Answer: 291 discovery of spontaneous radioactivity
+Article : jakarta, Question: is jakarta the country 's economic cultural and political center, Answer: 344 yes
+Article : drum, Question: had the drums been used in sri lanka since before christ, Answer: 210 yes
+Article : chinese language, Question: when was middle chinese used, Answer: 168 middle chinese was used during southern and northern dynasties and the sua tang and sang dynasties
+Article : nairobi, Question: what is the current estimated population of nairobi, Answer: 493 about 3 million
+Article : arabic language, Question: egyptian arabic is spoken by how many in egypt, Answer: 90 76 million
+Article : nairobi, Question: is central park adjacent to uhuru park, Answer: 501 central park is adjacent to uhuru park
+Article : korean language, Question: is it not also one of the two official languages of the yanbian korean autonomous prefecture in china, Answer: 381 yes
+Article : san francisco, Question: when did it sign on the air, Answer: 639 in 1941
+Article : chinese language, Question: what is the most common romanization standard for standard mandarin today, Answer: 158 hanyu pinyin
+Article : ant, Question: are they easily identified by their elbowed antennae and a distinctive node like structure that forms a slender waist, Answer: 69 yes they are easily identified by their elbowed antennae and a distinctive node like structure that forms a slender waist
+Article : san francisco, Question: what prompted the city to upgrade its building codes, Answer: 635 the threat of major earthquakes
+Article : butterfly, Question: what butterfly is migratory, Answer: 131 the monarch butterfly is migratory
+Article : ant, Question: do ants belong to the hymenoptera order, Answer: 44 yes
+Article : antwerp, Question: is antwerp a city, Answer: 70 yes
+Article : nikola tesla, Question: how many siblings did nikola tesla have, Answer: 514 nikola tesla had four siblings
+Article : vietnamese language, Question: do more northern speakers speak the southern regional dialect than southern speakers speak the northern dialect, Answer: 729 more southern speakers speak the northern dialect than northerners speak the suthern dialect
+Article : henri becquerel, Question: where are there craters named becquerel, Answer: 290 moon and mars
+Article : drum, Question: what is the name for drums that have a set of wires held across some of all of the drum heads, Answer: 209 snares
+Article : charles augustin de coulomb, Question: was charles augustin de coulomb a spanish biologist, Answer: 135 no he was a french physicist
+Article : nairobi, Question: in what year was nairobi founded, Answer: 494 1899
+Article : chinese language, Question: do linguists often view chinese as a language family, Answer: 165 yes linguists often view chinese as a language family
+Article : chinese language, Question: is diglossia a common feature in mainland china and taiwan, Answer: 164 yes diglossia is a common feature in mainland china and taiwan
+Article : amedeo avogadro, Question: is avogadro 's number used to compute the results of chemical reactions, Answer: 28 yes avagadro 's number is used to compute the results of chemical reactions
+Article : korean language, Question: are the korean names for the language based on the names for korea used in north as well as south korea, Answer: 380 yes
+Article : pablo picasso, Question: is he one of the most recognized figures in 20th century art, Answer: 557 yes
+Article : nairobi, Question: which embassy in nairobi was bombed in august 1998, Answer: 495 the united states embassy
+Article : isaac newton, Question: who shares credit with isaac newton for developing calculus, Answer: 296 newton shares the credit with gottfried leibniz for the development of the differential and integral calculus
+Article : charles augustin de coulomb, Question: was the si unit of charge named after charles augustin de coulomb, Answer: 136 yes the si unit of charge the coulomb was named after him
+Article : turkish language, Question: who were the orkhon inscriptions built for, Answer: 702 the orkhon inscriptions were erected in honour of the prince kul tigin and his brother emperor bilge khan
+Article : korean language, Question: what percentage of the korean language does jeong jae do estimate to be sino korean, Answer: 375 sino korean makes up 30 of the korean language
+Article : san francisco, Question: was the university of san fransisco founded in 1855, Answer: 628 yes
+Article : malay language, Question: is malay spoken as local dialect of ethnic malays, Answer: 445 yes
+Article : alessandro volta, Question: did alessandro volta die and retire in the same place, Answer: 6 alessandro volta retired and died in the same place
+Article : korean language, Question: are all dialects of korean similar to each other, Answer: 363 yes
+Article : san francisco, Question: in what year did the spanish establish a fort at the golden gate and a mission named for francis of assisi on the site, Answer: 644 in 1776 the spanish established a fort at the golden gate and a mission named for francis of assisi on the site
+Article : antwerp, Question: what is antwerp, Answer: 73 antwerp is a city and municipality in belgium
+Article : flute, Question: when does a flute produce sound, Answer: 235 when a stream of air directed across a hole in the instrument creats a vibration of air at the hole
+Article : saint petersburg, Question: what were some other names of the city, Answer: 603 petrograd leningrad and piter
+Article : charles augustin de coulomb, Question: what happened in 1757 to 1759, Answer: 145 charles augustin de coulomb joined his father 's family in montpellier and took part in the work of the academy of the city
+Article : san francisco, Question: is san franscico a popular tourist destination, Answer: 620 yes san francisco is a popular international tourist destination
+Article : trumpet, Question: is the breeze eazy ' ' method sometimes used to teach younger students, Answer: 689 yes
+Article : butterfly, Question: do butterflies carry more pollen than hymenoptera, Answer: 132 no butterflies carry less pollen than hymenoptera
+Article : nairobi, Question: does the name nairobi ' ' come from the maasai phrase enkare nyirobi which translates to the place of cool waters ' ', Answer: 506 yes
+Article : saint petersburg, Question: what was made in russia 's largest foundry, Answer: 606 thousands of sculptures and statues
+Article : vietnamese language, Question: does vietnamese have a large number of vowels, Answer: 723 yes vietnamese has a comparatively large number of vowels
+Article : lobster, Question: are lobsters invertebrates, Answer: 411 yes
+Article : amedeo avogadro, Question: what would a german call avogadro 's number, Answer: 41 loschmidt number
+Article : michael faraday, Question: what is the faraday effect, Answer: 464 the faraday effect is the phenomenon that the plane of polarisation of linearly polarised light can be rotated by the application of an external magnetic field aligned in the direction the light is moving
+Article : berlin, Question: when did berlin give up its status as a free hanseatic city, Answer: 108 in 1451 berlin gave up its status as a free hanseatic city
+Article : violin, Question: is a string first tuned to a standard pitch, Answer: 749 yes
+Article : ant, Question: what are the three segments of an ant, Answer: 56 the head mesosoma and metasoma are the three distinct body segments
+Article : saint petersburg, Question: who laid down the peter and paul fortress, Answer: 609 peter the great
+Article : giant panda, Question: is the giant panda an endangered species, Answer: 260 yes
+Article : korean language, Question: is it also one of the two official languages in the yanbian korean autonomous prefecture in china, Answer: 383 yes
+Article : drum, Question: who constructed a kit using diatonic and chromatically tuned drums, Answer: 212 terry bozzio
+Article : piano, Question: do older pianos have more keys than modern pianos, Answer: 575 many older pianos only have 85 keys
+Article : jacksn pollock, Question: who was a farmer and later a land surveyor for the government, Answer: 309 leroy pollock was a farmer and later a land surveyor for the government
+Article : alessandro volta, Question: was volta made a count by napoleon in 1810, Answer: 24 yes volta was made a count by napoleon in 1810
+Article : jakarta, Question: how is the climate in the city, Answer: 323 jakarta has a hot and humid equatorial tropical climate
+Article : nairobi, Question: is nairobi the capital of kenya, Answer: 490 yes
+Article : jakarta, Question: why does jakarta suffer frequent flooding, Answer: 326 because it is located approximately eight meters above the sea level
+Article : koala, Question: do koalas have a slow metabolism, Answer: 355 yes
+Article : jakarta, Question: where is jakarta located, Answer: 331 northwest coast of java
+Article : berlin, Question: how many occupation zones was germany divided into after the war, Answer: 110 germany was divided into four occupation zones after the war
+Article : arabic language, Question: when was arabic calligraphy invented, Answer: 82 many styles were developed after 786
+Article : ant, Question: what organs gives a bull ant its good sight, Answer: 51 compound eyes
+Article : melbourne, Question: what is a resident of melbourne known as, Answer: 453 a melburnian
+Article : violin, Question: is a violin sometimes informally called a fiddle regardless of the type of music played on it, Answer: 752 yes
+Article : turkish language, Question: is the spelling of turkish phonetic, Answer: 707 yes turkish now has an alphabet suited to the sounds of the language the spelling is largely phonetic with one letter corresponding to each phoneme
+Article : san francisco, Question: where is san francisco, Answer: 623 san francisco is located on the west coast of the united states at the tip of the san francisco peninsula
+Article : dragonfly, Question: which culture has a legend that claims that trolls sent dragonflies to poke out their enemies ' eyes, Answer: 198 nan
+Article : octopus, Question: what is an example of something an octopus learned in a research experiment, Answer: 541 in research experiments octopus can be trained to distinguish between different shapes and patterns
+Article : jakarta, Question: do mikrolets travel on the main roads, Answer: 333 no
+Article : isaac newton, Question: where was isaac newton buried, Answer: 306 westminster abbey
+Article : nikola tesla, Question: did nikola tesla die alone, Answer: 507 nikola tesla died alone
+Article : jakarta, Question: who began control of migration to the city in order to stem the overcrowding and poverty, Answer: 338 lieutenant general ali sadikin began control of migration to the city in order to stem the overcrowding and poverty
+Article : charles augustin de coulomb, Question: whose ideas inspired charles augustin de coulomb 's experiments on the resistance of masonries, Answer: 139 he carried out several experiments on the resistance of masonries which were inspired by the ideas of pieter van musschenbroek on friction
+Article : jackson pollock, Question: who used hardened brushes sticks, Answer: 311 jackson pollock used hardened brushes sticks
+Article : giant panda, Question: why is the giant panda an endangered species, Answer: 265 threatened by habitat loss
+Article : alessandro volta, Question: what happened in 1810, Answer: 18 volta was made a count by napoleon
+Article : vincent van gogh, Question: what happened in 1860, Answer: 730 vincent van gogh attended the zundert village school from 1860
+Article : charles augustin de coulomb, Question: when did charles augustin de coulomb join his father 's family in montpeillier, Answer: 140 from 1757 to 1759 he joined his father 's family in montpellier
+Article : san francisco, Question: how many state parks are in san francisco, Answer: 622 there is only one park managed by the california state park system candlestick point
+Article : michael faraday, Question: does the charge reside on the interior of a charged conductor, Answer: 473 no
+Article : norman rockwell, Question: when did rockwell marry his first wife irene o'connor, Answer: 527 in 1916
+Article : arabic language, Question: where is arabic spoken, Answer: 83 the middle east and north africa
+Article : ant, Question: do all ants build nests, Answer: 61 no not all ants build nests
+Article : portuguese language, Question: what are the two main groups of portuguese dialects, Answer: 589 the two main groups of dialects are brazil and the old world
+Article : michelangelo, Question: was michelangelo s mother francesca di neri del miniato di siena, Answer: 478 yes
+Article : amedeo avogadro, Question: who first calculated the value of avogadro 's number, Answer: 29 johann josef loschmidt first calculated the value of avogadro 's number
+Article : koala, Question: were the koalas of south australia largely exterminated during the early part of the 20th century but the state has since been repopulated with victorian stock, Answer: 360 the koalas of south australia were largely exterminated during the early part of the 20th century but the state has since been repopulated with victorian stock
+Article : giant panda, Question: is the giant panda a carnivore, Answer: 264 yes
+Article : turkish language, Question: why does lewis use absolute case instead of nominative, Answer: 704 because it is also used for the indefinite accusative
+Article : norman rockwell, Question: are among the best known of rockwell 's works the willie gillis series rosie the riveter although his rosie was reproduced less than others of the day saying grace 1951 and the four freedoms series, Answer: 532 yes
+Article : lobster, Question: what is the caridoid escape reaction, Answer: 420 when lobsters swim backwards quickly by curling and uncurling their abdomen
+Article : cymbal, Question: are ride cymbals very common, Answer: 182 yes
+Article : michael faraday, Question: was he active in the area now called environmental science, Answer: 468 yes
+Article : eel, Question: what do leptocephali eat, Answer: 223 leptocephali eat small particles called marine snow
+Article : nikola tesla, Question: when did tesla receive his last patent, Answer: 519 1928
+Article : malay language, Question: can speakers of modern malay understand old malay, Answer: 439 no
+Article : pablo picasso, Question: what happened in 1838, Answer: 551 don josé ruiz y blasco was born
+Article : lyre, Question: is the lyre a stringed musical instrument, Answer: 423 yes
+Article : malay language, Question: what family is malay a member of, Answer: 433 austronesian family
+Article : michael faraday, Question: who discovered benzene, Answer: 462 michael faraday discovered benzene
+Article : cougar, Question: how long are cougar adult males from nose to tail, Answer: 176 the length of adult males is around 2.4 meters 8 ft long nose to tail
+Article : norman rockwell, Question: did norman rockwell spend the winter months as artist in residence at otis college of art as well as design, Answer: 528 yes
+Article : nikola tesla, Question: was tesla rich at the time of his death, Answer: 522 no
+Article : chinese language, Question: what is the standardized form of spoken chinese, Answer: 163 the standardized from of spoken chinese is standard mandarin
+Article : flute, Question: how does a flute player change the pitch of the sound, Answer: 248 opening and closing holes in the body of the instrument
+Article : vincent van gogh, Question: were the letters first annotated in 1913 by theo s widow johanna van gogh bonger, Answer: 732 yes
+Article : antwerp, Question: what is the population of the city of antwerp, Answer: 74 antwerp 's population is 472,071
+Article : malay language, Question: had the language already been used as the lingua franca throughout the archipelago since the 15th century, Answer: 443 yes
+Article : taipei, Question: what is along the city 's western border, Answer: 666 taipei has the danshui river along its western border
+Article : berlin, Question: does the gendarmenmarkt border the french cathedral, Answer: 104 yes the gendarmenmarkt borders the french cathedral
+Article : blaise pascal, Question: did pascal have poor health throughout his life, Answer: 114 yes
+Article : michael faraday, Question: did faraday discover diamagnetism, Answer: 465 yes faraday discovered diamagnetism
+Article : arabic language, Question: the most active academies of arabic language are found where, Answer: 92 damascus and cairo
+Article : pierre auguste renoir, Question: as a boy did he work in a porcelain factory where his drawing talents led to him being chosen to paint designs on fine china, Answer: 584 yes
+Article : arabic language, Question: what is the only variety of modern arabic that has acquired official language status, Answer: 89 maltese
+Article : octopus, Question: does the octopus have a hard beak, Answer: 536 yes the octopus has a hard beak
+Article : montreal, Question: is english the language most often spoken in montreal, Answer: 481 no the language most spoken in montreal is french
+Article : vietnamese language, Question: was vietnamese influenced by chinese, Answer: 717 yes
+Article : xylophone, Question: some versions of xylophones have resonators made of what, Answer: 759 gourds
+Article : vietnamese language, Question: is vietnamese the official administrative language of vietnam, Answer: 715 yes
+Article : alessandro volta, Question: was volta made a count in 1810, Answer: 11 yes
+Article : jakarta, Question: is the the biggest university in jakarta the university of indonesia, Answer: 328 yes
+Article : amedeo avogadro, Question: did he become a professor before the revolutionary movements against the king of sardinia, Answer: 43 yes
+Article : amedeo avogadro, Question: is amedeo avogadro italian, Answer: 42 yes
+Article : chinese language, Question: how does the government of the people 's republic of china often refer to all divisions of the sinitic language(s besides standard mandarin, Answer: 167 the prc commonly refers to all divisons of the sinitic language(s beside standard mandarin as fangyan or regional tongues
+Article : trumpet, Question: why does the cornet have a slightly mellower tone than the trumpet, Answer: 679 the cornet and flugelhorn have conical bores
+Article : portuguese language, Question: was n't portuguese language spread by arriving roman soldiers, Answer: 595 yes
+Article : malay language, Question: are there many words in malay that use natural gender, Answer: 436 no
+Article : cougar, Question: what are the three heaviest cats in the world, Answer: 178 the three heaviest cats in the world are the tiger lion and jaguar
+Article : nikola tesla, Question: where did nikola tesla move to in 1880, Answer: 512 in 1880 nikola tesla moved to budapest
+Article : nikola tesla, Question: did tesla win the nobel prize, Answer: 521 no
+Article : cougar, Question: how long is an adult cougar 's paw print, Answer: 177 an adult cougar 's paw print is approximately 10 cm 4 inches long
+Article : octopus, Question: does the octopus have two eyes, Answer: 535 yes the octopus has two eyes
+Article : octopus, Question: how can an octopus defend against predators, Answer: 542 to defend against predators an octopus can hide flee quickly expel ink or use color changing camouflage
+Article : giant panda, Question: what are the two subspecies of giant pandas, Answer: 257 ailuropoda melanoleuca melanoleuca and the qinling panda ailuropoda melanoleuca qinlingensis
+Article : jakarta, Question: what contributes to frequent flooding in jakarta, Answer: 334 jakarta lies on a plain eight meters approximately eight meters above the sea level
+Article : malay language, Question: do another distinguishing feature of malay include indonesian malay, Answer: 444 another distinguishing feature of malay include indonesian malay is its use of measure words penjodoh bilangan
+Article : alessandro volta, Question: a year before improving and popularizing the electrophorus what did volta become, Answer: 15 a professor of physics at the royal school in como
+Article : montreal, Question: is montreal 's economy the third largest of all cities in canada, Answer: 482 no montreal 's economy is the second largest of all cities in canada
+Article : giant panda, Question: what foods do pandas eat, Answer: 256 bamboo honeys eggs fish yams shrub leaves oranges and bananas
+Article : koala, Question: does the koala fill the same ecological role as the sloth of south america, Answer: 357 the koala fills the same ecological role as the sloth of south america
+Article : saint petersburg, Question: has equestrianism been a long tradition popular among the tsars and aristocracy, Answer: 611 yes
+Article : jackson pollock, Question: was paul jackson pollock an influential american painter as well as a major figure in the abstract expressionist movement, Answer: 314 yes pollock was an influential american painter and a major figure in the abstract expressionist movement
+Article : melbourne, Question: is melbourne home to australia 's busiest seaport, Answer: 450 yes
+Article : taipei, Question: what are some annual festivals in taipei, Answer: 668 some annual festivals include tomb sweping day the dragon boat festival the ghost festival and the mid autumn festival
+Article : james watt, Question: did james watt improve an engine, Answer: 346 yes his improvements to the newcomen steam engine were fundamental to the changes brought by the industrial revolution
+Article : jakarta, Question: is there a chinese community in jakarta, Answer: 319 yes
+Article : portuguese language, Question: give an example of the official languages of the special administrative region of macau and east timor, Answer: 597 portuguese
+Article : alessandro volta, Question: was alessandro volta an egyptian, Answer: 9 no
+Article : flute, Question: what is the most basic form of the flute, Answer: 249 a flute can be an open tube which is blown like a bottle
+Article : alessandro volta, Question: is volta s legacy celebrated by a temple on the shore of lake como in the center of the town, Answer: 22 yes
+Article : eel, Question: how do eels begin life, Answer: 221 eels begin life as flat and transparent larvae called leptocephali
+Article : norman rockwell, Question: did norman rockwell publish a total of 321 original covers for the saturday evening post over 47 years, Answer: 529 yes
+Article : taipei, Question: what is taipei 101, Answer: 667 taipei 101 is a 101-floor landmark skyscraper
+Article : xylophone, Question: was it likely that the xylophone reached europe during the crusades, Answer: 756 yes
+Article : lyre, Question: where was the deepest note of the classical lyre in relation to the player 's body, Answer: 428 it was farthest from the player 's body
+Article : swahili language, Question: what is the swahili word for the swahili language, Answer: 648 kiswahili is the swahili word for the swahili language
+Article : drum, Question: does each type of drum head serve its own musical purpose, Answer: 203 yes
+Article : vietnamese language, Question: did vietnamese come to predominate politically in 2nd century bc, Answer: 728 no chinese came to predominate politically in the 2nd century b.c.
+Article : arabic language, Question: hassan massoudy is a master of what genre, Answer: 93 arabic calligraphy
+Article : saint petersburg, Question: has the terrain in the city been artificially raised, Answer: 602 yes
+Article : jakarta, Question: in ad 39 king purnawarman established sunda pura as a new capital city for the kingdom located at the northern coast of where, Answer: 336 java
+Article : vincent van gogh, Question: did he suffer from anxiety and increasingly frequent bouts of mental illness throughout his life and died largely unknown at the age of 37 from a self inflicted gunshot wound, Answer: 734 yes
+Article : henri becquerel, Question: did he become chief engineer in the department of bridges and highways in 1892, Answer: 284 yes
+Article : cymbal, Question: what part of the cymbal is the bell, Answer: 184 the center of a cymbal
+Article : san francisco, Question: was mission bay campus opened in 2003, Answer: 627 yes
+Article : korean language, Question: how many korean speakers are there, Answer: 369 there are about 78 million korean speakers
+Article : charles augustin de coulomb, Question: the si unit of charge the coulomb was named after him, Answer: 153 yes
+Article : antwerp, Question: where is the city of antwerp, Answer: 75 antwerp is in belgium
+Article : lyre, Question: what were the strings of a classical lyre made of, Answer: 426 gut
+Article : guitar, Question: how many strings does a guitar typically have, Answer: 277 six
+Article : ant, Question: is the ant a marsupial, Answer: 68 no
+Article : montreal, Question: where was much of montreal 's industry during the late 19th and early to mid 20th century, Answer: 487 the sud ouest borough was home to much of the city 's industry during the late 19th and early to mid 20th century
+Article : cymbal, Question: how many cymbals typically go in a drum kit, Answer: 188 at least 3
+Article : guitar, Question: whom are guitars made and repaired by, Answer: 271 luthiers
+Article : flute, Question: how can a flute 's volume be increased, Answer: 236 a flute 's volume can generally be increased by making its resonator and tone holes larger
+Article : arabic language, Question: is hassaniya arabic spoken in mauritania, Answer: 88 yes
+Article : swedish language, Question: how many letters are in the basic latin alphabet, Answer: 658 26
+Article : blaise pascal, Question: what led pascal to his religious conversion, Answer: 117 two basic influences led him to his conversion sickness and jansenism
+Article : blaise pascal, Question: what was pascal 's earliest work in the natural and applied sciences, Answer: 125 he made important contributions to the construction of mechanical calculators the study of fluids and clarified the concepts of pressure and vacuum by generalizing the work of evangelista torricelli
+Article : san francisco, Question: who laid out a street plan for the expanded settlement, Answer: 637 william richardson and alcalde francisco de haro
+Article : henri becquerel, Question: when becquerel discovered radioactivity whose work did he investigate, Answer: 289 wilhelm conrad röntgen
+Article : flute, Question: where was the oldest flute ever discovered found, Answer: 238 various parts of germany.o
+Article : alessandro volta, Question: was alessandro volta a professor of chemistry, Answer: 0 alessandro volta was not a professor of chemistry
+Article : zebra, Question: do the different species of zebras interbreed, Answer: 763 no
+Article : saint petersburg, Question: how to travel to work from the city to moscow, Answer: 608 one way is through the moscow saint petersburg railway
+Article : trumpet, Question: what is a trumpet constructed of, Answer: 676 brass tubing bent twice into an oblong shape
+Article : pierre auguste renoir, Question: what happened in 1887, Answer: 578 in 1887 a year when queen victoria celebrated her golden jubilee and upon the request of the queen 's associate phillip richbourg he donated several paintings to the french impressionist paintings catalog as a token of his loyalty
+Article : guitar, Question: what is located at the end of the guitar neck furthest from the body, Answer: 278 headstock
+Article : saint petersburg, Question: where do most people in urban saint petersburg live, Answer: 605 apartments
+Article : blaise pascal, Question: who was pascal 's younger sister, Answer: 116 jacqueline
+Article : finnish language, Question: when did proto uralic language arrive in finland, Answer: 228 proto uralic language arrived in finland around 1900 bce
+Article : octopus, Question: is the collective form octopus usually reserved for animals consumed for food, Answer: 548 yes
+Article : kuala lumpur, Question: is it a host city for the formula one world championship, Answer: 393 yes
+Article : norman rockwell, Question: do his works enjoy a broad popular appeal in the united states where rockwell is most famous for the cover illustrations of everyday life scenarios he created for the saturday evening post magazine over more than four decades, Answer: 531 yes
+Article : guitar, Question: what is the bridge used for, Answer: 274 the transfer of string vibrations
+Article : jakarta is the wisma building the tallest building in indonesia, Question: yes, Answer: 318 nan
+Article : norman rockwell, Question: is he also noted for his work for the boy scouts of america bsa, Answer: 533 yes
+Article : charles augustin de coulomb, Question: what happened in 1785, Answer: 144 coulomb presented his three reports on electricity and magnetism
+Article : montreal, Question: is the most popular sport in montreal ice hockey, Answer: 483 yes the most popular sport in montreal is ice hockey
+Article : vincent van gogh, Question: appreciated during his lifetime did his fame grow in the years after his death, Answer: 735 yes
+Article : zebra, Question: how many species of zebra are there, Answer: 766 three
+Article : piano, Question: what kind of piano did irving berlin play, Answer: 567 the transposing piano
+Article : guitar, Question: is the battente smaller than a classical guitar, Answer: 268 yes
+Article : octopus, Question: has an octopus a hard beak with its mouth at the center point of the arms, Answer: 549 yes
+Article : isaac newton, Question: what religion did isaac newton follow, Answer: 307 unorthodox christian
+Article : jackson pollock, Question: regarding this topic what did david alfaro siqueiros do, Answer: 310 pollock was introduced to the use of liquid paint in 1936 at an experimental workshop operated in new york city by the mexican muralist david alfaro siqueiros
+Article : lyre, Question: which constellation is said to resemble a lyre shape, Answer: 424 lyra
+Article : ant, Question: does an ant 's head contain sensory organs, Answer: 46 yes
+Article : james watt, Question: when did watt retire, Answer: 349 watt retired in 1800
+Article : korean language, Question: how many verb paradigms are there in korean, Answer: 371 there are seven verb paradigms or speech levels in korean
+Article : nairobi, Question: when did the catholic university of eastern africa which obtain its letter of interim authority, Answer: 500 in 1989
+Article : giant panda, Question: where do giant pandas live, Answer: 261 sichuan province shaanxi and gansu provinces
+Article : dragonfly, Question: in how many directions can the adult dragonfly propel itself, Answer: 195 nan
+Article : zebra, Question: at what age can a zebra breed, Answer: 771 5 or 6
+Article : swahili language, Question: is swahili spoken in mozambique, Answer: 649 yes swahili is spoken in parts of northern mozambique
+Article : berlin, Question: where does the german president live, Answer: 107 the german president lives west of the center schloss bellevue
+Article : ant, Question: do ants belong to the same order as bees, Answer: 59 yes ants belong to the same order as bees
+Article : pierre auguste renoir, Question: have two of renoir s paintings sold for more than us0 million, Answer: 581 yes any painting sells for more than 0 million though ...
+Article : lobster, Question: are lobsters kosher, Answer: 412 no
+Article : berlin, Question: which berlin building did architect norman foster remodel in the 1990s, Answer: 100 the reichstag building was remodeled by architect norman foster in the 1990s
+Article : melbourne, Question: is melbourne the capital and most populous city in the state of victoria, Answer: 449 yes
+Article : trumpet, Question: were slide trumpets the first trumpets allowed in the christian church, Answer: 693 slide trumpets were the first trumpets allowed in the christian church
+Article : portuguese language, Question: does the portuguese language have its roots in the latin language, Answer: 586 yes portuguese is derived from latin
+Article : turkish language, Question: what exception to the rules of vowel harmony do compound words have, Answer: 710 in compound words the vowels need not harmonize between the constituent words of the compound
+Article : cougar, Question: on average are cougar males heavier than females, Answer: 179 on average cougar males are heavier than females
+Article : isaac newton, Question: when was the principia published, Answer: 304 1687
+Article : vincent van gogh, Question: who frequented the circle of the british australian artist john peter russell, Answer: 731 van gogh
+Article : malay language, Question: was it derived from latin, Answer: 448 yes
+Article : violin, Question: what is a person that makes or repairs violins called, Answer: 743 a luthier or simply a violin maker
+Article : charles augustin de coulomb, Question: does coulomb leave a legacy as a pioneer in the field of geotechnical engineering for his contribution to retaining wall design, Answer: 149 yes
+Article : blaise pascal, Question: was he a child prodigy who was educated by his father a civil servant, Answer: 124 yes
+Article : zebra, Question: do zebras sleep standing up, Answer: 764 yes
+Article : trumpet, Question: is a trumpet played by blowing air through closed lips, Answer: 673 yes
+Article : cymbal, Question: what 's the timber of ancient cimbals like disfluent, Answer: 185 like that of small hand bells or of the notes of the keyed harmonica
+Article : nikola tesla, Question: what music group was named after tesla, Answer: 523 tesla
+Article : nairobi, Question: the district is bordered to the southwest by uhuru park and where, Answer: 499 central park
+Article : malay language, Question: what language besides malay is in the austronesia language family, Answer: 440 malagasy
+Article : xylophone, Question: did the golden age of xylophones come before or after the first usage of the european derived orchestral, Answer: 761 after
+Article : norman rockwell, Question: when was his last painting for the post published, Answer: 526 1963
+Article : jakarta, Question: what is the capital of indonesia, Answer: 321 the capital of indonesia is jakarta
+Article : james watt, Question: what did he invent, Answer: 353 he invented a new method of measuring distances by telescope a device for copying letters improvements in the oil lamp a steam mangle and a machine for copying sculptures
+Article : vietnamese language, Question: does vietnamese have a comparatively large number of vowels, Answer: 713 yes
+Article : charles augustin de coulomb, Question: what is coulomb 's law, Answer: 142 the definition of the electrostatic force of attraction and repulsion
+Article : turkish language, Question: after what event was the turkish language association established, Answer: 709 after the foundation of the republic of turkey and the script reform the turkish language association tdk was established in 1932
+Article : charles augustin de coulomb, Question: did charles augustin de coulomb come from a poor family, Answer: 141 no his mother came from a wealthy family in the wool trade
+Article : kuala lumpur, Question: is there a more industrialized region in malaysia, Answer: 399 no
+Article : nairobi, Question: how many trades can the nse make per day, Answer: 497 10 million trades
+Article : jakarta, Question: is jakarta the 12th largest city in the world, Answer: 320 yes
+Article : alessandro volta, Question: was alessandro volta born in como, Answer: 19 yes
+Article : cougar, Question: is a cougar also known as a mountain lion, Answer: 172 a cougar is also known as a mountain lion
+Article : san francisco, Question: what makes san francisco among the top ten north american destinations for conventions and conferences, Answer: 631 san francisco has a large hotel infrastructure and a world class convention facility in the moscone center
+Article : jackson pollock, Question: when were his papers donated by lee krasner, Answer: 312 in 1983
+Article : kuala lumpur, Question: how long was kuala lumpur occupied by the japanese, Answer: 390 42 months
+Article : vietnamese language, Question: is the red river delta traditionally poor, Answer: 719 not compared to nghe an ha tinh or quang binh
+Article : alessandro volta, Question: who made volta a count, Answer: 12 napoleon
+Article : leonardo da vinci, Question: is the larger work now almost universally attributed to leonardo, Answer: 407 although previously attributed to ghirlandaio the larger work is now almost universally attributed to leonardo
+Article : leonardo da vinci, Question: has leonardo often been described as the archetype of the renaissance man a man whose unquenchable curiosity was equaled only by his powers of invention, Answer: 408 yes
+Article : isaac newton, Question: where is there a newton statue on display, Answer: 305 oxford university museum of natural history
+Article : koal, Question: what happened in the early 20th century, Answer: 354 the koalas of south australia were largely exterminated
+Article : alessandro volta, Question: in what year did he become a professor of physics at the royal school in como, Answer: 25 1774
+Article : pierre auguste renoir, Question: is one of the best known impressionist works renoir s 1876 dance at le moulin de la galette, Answer: 579 yes
+Article : chinese language, Question: how is the pronunciation of foreign words determined, Answer: 169 the pronunciation of foreign words is done by employing chinese characters with similar pronuncations
+Article : amedeo avogadro, Question: in 1820 avogadro became a professor of physics where, Answer: 38 university of turin
+Article : nikola tesla, Question: who became adversaries with nikola tesla, Answer: 511 nikola tesla became adversaries with edison
+Article : flute, Question: when did concert flutes begin appearing in concert ensembles, Answer: 245 the 16th century
+Article : isaac newton, Question: did the occult influence newton 's theory of gravitation, Answer: 298 if newton had not relied on the occult idea of action at a distance he might not have developed his theory of gravity
+Article : swahili language, Question: does swahili have dipthongs, Answer: 645 yes swahili has diphthongs typo
+Article : lobster, Question: what is the mean level of mercury in american lobsters, Answer: 416 0.31 ppm
+Article : norman rockwell, Question: was rockwell also commissioned to illustrate over 40 books including tom sawyer as well as huckleberry finn, Answer: 530 rockwell was also commissioned to illustrate over 40 books including tom sawyer and huckleberry finn
+Article : guitar, Question: what are modern guitar strings constructed of, Answer: 272 metal polymers or animal or plant product materials
+Article : portuguese language, Question: in which country is portuguese the co official language with cantonese chinese, Answer: 593 macau
+Article : charles augustin de coulomb, Question: did coulomb die in angoulãªme france to a well to do family, Answer: 154 no
+Article : blaise pascal, Question: did pascal also write in defense of the scientific method, Answer: 126 yes
+Article : swahili language, Question: how does swahili time run, Answer: 650 swahili time runs from dawn to dusk
+Article : jakarta, Question: was the jakarta area part of the fourth century indianized kingdom of tarumanagara, Answer: 341 yes
+Article : malay language, Question: is malay the official language of iraq, Answer: 430 no
+Article : henri becquerel, Question: when did he die, Answer: 287 1908
+Article : blaise pascal, Question: was pascal a french mathematician, Answer: 113 yes
+Article : michael faraday, Question: where is michael faraday buried, Answer: 467 michael faraday is buried in the dissenters ' section of highgate cemetery
+Article : cougar, Question: are cougars larger than jaguars, Answer: 173 cougars are not larger than jaguars
+Article : koala, Question: do populations also extend for considerable distances inland in regions with enough moisture to support suitable woodlands, Answer: 359 populations also extend for considerable distances inland in regions with enough moisture to support suitable woodlands
+Article : turkish language, Question: what are the patterns of vowel harmony, Answer: 711 vowels are characterised by two features front back and rounded unrounded
+Article : ant, Question: what are the ant colonies that lack queens called, Answer: 57 colonies that lack queens are called gamergate colonies
+Article : octopus, Question: is the octopus a cephalopod, Answer: 534 yes the octopus is a cephalopod
+Article : eel, Question: what types of fins do eels have, Answer: 222 eels have dorsal and anal fins fused with a tail fin some also have pectoral fins
+Article : guitar, Question: why do some people believe that left handed people should learn to play guitars as right handed people do, Answer: 280 to standardise the instrument
+Article : alessandro volta, Question: did volta marry before he became professor of experimental physics at the university of pavia, Answer: 17 no
+Article : butterfly, Question: do butterflies have two eyes, Answer: 127 yes butterflies have two eyes
+Article : jakarta, Question: what is the official name of jakarta, Answer: 322 daerah khusus ibukota jakarta
+Article : giant panda, Question: how many different names did chinese writings give to the panda, Answer: 255 20
+Article : trumpet, Question: why do trumpets have a bright loud sound, Answer: 678 the trumpet and trombone share a roughly cylindrical bore
+Article : pierre auguste renoir, Question: was pierre auguste renoir born in limoges haute vienne france the child of a working class family, Answer: 580 yes
+Article : violin, Question: what is a violin called informally, Answer: 741 a fiddle
+Article : dragonfly, Question: are dragonflies capable of walking, Answer: 190 nan
+Article : blaise pascal, Question: how old was pascal when he lost his mother, Answer: 115 at the age of three
+Article : trumpet, Question: the trumpet can be confused with what close relative, Answer: 685 the coronet
+Article : saint petersburg, Question: is the city named after the apostle saint peter, Answer: 601 yes
+Article : berlin, Question: is berlin the capital city of germany, Answer: 94 berlin is the capital city of germany
+Article : cougar, Question: what are the three cat species that are native to canada, Answer: 180 the three cat species that are native to canada are the cougar the bobcat and the canadian lynx
+Article : isaac newton, Question: did he build the first practical reflecting telescope, Answer: 301 yes
+Article : portuguese language, Question: where french has a similar phenomenon with alveolar affricates instead of postalveolars, Answer: 596 quebec
+Article : piano, Question: what are a piano 's keys generally made of, Answer: 572 piano keys are generally made of spruce or basswood
+Article : octopus, Question: are octopus highly intelligent, Answer: 543 yes
+Article : san francisco, Question: who manages candlestick point, Answer: 632 the california state park system
+Article : trumpet, Question: what trumpet was the first to be allowed in the christian church, Answer: 684 slide trumpets
+Article : san francisco, Question: what is northern california 's most widely circulated newspaper, Answer: 630 san francisco chronicle
+Article : alessandro volta, Question: what is the battery made by alessandro volta credited as, Answer: 5 the battery made by volta is credited as the first electrochemical cell
+Article : xylophone, Question: the xylophone is an instrument from what family, Answer: 757 percussion
+Article : ant, Question: are ants used in cuisine, Answer: 45 yes
+Article : nikola tesla, Question: was tesla an american citizen, Answer: 517 yes
+Article : portuguese language, Question: does portuguese contain words from the arabic language, Answer: 587 yes portuguese contains words from the arabic language
+Article : chinese language, Question: what language was used in the zhou and southern dynasties, Answer: 171 old chinese was the language common during the early and middle zhou dynasty
+Article : alessandro volta, Question: was volta buried where he died or was he buried someplace else, Answer: 16 yes
+Article : ant, Question: in ant colonies what are the fertile female ants called, Answer: 48 queens
+Article : violin, Question: regarding this topic what did antonio stradivari do, Answer: 747 antonio stradivari made violins
+Article : turkish language, Question: what percentage of the words in turkish vocabulary have turkish origins, Answer: 708 86 of the turkish vocabulary have turkish origins
+Article : alessandro volta, Question: who did alessandro volta marry, Answer: 3 alessandro volta married teresa peregrini
+Article : pablo picasso, Question: are among his most famous works the proto cubist les demoiselles d'avignon 1907 and guernica 1937 his portrayal of the german bombing of guernica during the spanish civil war, Answer: 559 yes
+Article : swahili language, Question: which is the sub saharan indigenous language with the greatest number of speakers, Answer: 653 hausa of west africa is the sub saharan indigenous language with the greatest number of speakers
+Article : jackson pollock, Question: during his lifetime did pollock enjoy considerable fame and notoriety, Answer: 316 yes
+Article : octopus, Question: do males use a specialized arm called a hectocotylus to insert spermatophores, Answer: 544 yes
+Article : michelangelo, Question: was michelangelo 's output in every field during his long life prodigious, Answer: 480 yes
+Article : malay language, Question: is malay the one of the most widely spoken languages in the world, Answer: 447 yes
+Article : turkish language, Question: what are the ways to join groups of nouns, Answer: 712 two nouns or groups of nouns may be joined in either of two ways definite or indefinite
+Article : henri becquerel, Question: did becquerel study science at the école des ponts et chaussées, Answer: 283 yes
+Article : berlin, Question: is schloss charlottenburg the largest existing palace in berlin, Answer: 96 schloss charlottenburg is the largest existing palace in berlin
+Article : henri becquerel, Question: was becquerel a french physicist, Answer: 285 yes
+Article : nikola tesla, Question: where did tesla study electrical engineering, Answer: 518 the austrian polytechnic in graz
+Article : finnish language, Question: is finnish an official language of the european union, Answer: 225 yes finnish is an official language of the european union
+Article : amedeo avogadro, Question: was avogadro a professor at the university of turin, Answer: 26 yes avogadro was a professor at the university of turin
+Article : saint petersburg, Question: when was the 7th symphony premiered, Answer: 610 1942
+Article : giant panda, Question: how many subspecies of the giant panda are there, Answer: 263 two
+Article : malay language, Question: how are new words formed in malay, Answer: 437 affixation composition and reduplication
+Article : ant, Question: do the ants eat plants meats or both, Answer: 50 both
+Article : korean language, Question: about how many koreans speakers are there, Answer: 364 78 million korean speakers
+Article : finnish language, Question: what are characteristic features of finnish, Answer: 229 characteristic features of finnish are vowel harmony and an agglutinative morphology
+Article : amedeo avogadro, Question: did johann josef loschmidt first calculate the value of avogadro 's number, Answer: 37 yes
+Article : chinese language, Question: does ketchup come from the minnan pronunciation of koe tsiap, Answer: 157 yes
+Article : flute, Question: do open ended flutes have brighter timbres, Answer: 237 yes
+Article : violin, Question: what does vitula mean, Answer: 742 stringed instrument
+Article : korean language, Question: is modern korean written in columns or rows, Answer: 374 it is written in rows
+Article : michael faraday, Question: who was his mentor, Answer: 469 john ' mad jack ' fuller
+Article : korean language, Question: how many parts of speech does the korean language contain, Answer: 370 the korean language contains nine parts of speech
+Article : malay language, Question: was malay language written using pallava, Answer: 442 yes
+Article : violin, Question: what does the voice of a violin depend upon, Answer: 744 its shape
+Article : cougar, Question: what are some of the cougar 's primary food sources, Answer: 175 the cougar 's primary food sources include ungulates such as deer elk and bighorn sheep as well as domestic cattle horses and sheep particularly in the northern part of its range
+Article : swedish language, Question: when did a standard and common language become available to all swedes, Answer: 659 it was during the 20th century that a common standardized national language became available to all swedes
+Article : san francisco, Question: give an example of the largest two year community colleges in the country, Answer: 640 the city college of san francisco
+Article : dragonfly, Question: on what continent have dragonflies often been seen as sinister, Answer: 194 nan
+Article : violin, Question: does the word violin ' ' come from the middle latin word vitula meaning stringed instrument ' ', Answer: 753 yes
+Article : taipei, Question: when is the pacific typhoon season, Answer: 669 it 's between june and october
+Article : nairobi, Question: give an example of the most prominent cities in africa politically and financially, Answer: 503 nairobi is now one of the most prominent cities in africa politically and financially
+Article : violin, Question: who features violinist boyd tinsley, Answer: 746 dave matthews band features violinist boyd tinsley
+Article : vietnamese language, Question: when was the reunification of vietnam, Answer: 725 the reunification of vietnam occurred in 1975 76
+Article : violin, Question: what happened in 1980s, Answer: 745 the use of traditional non synthesized orchestras declined
+Article : chinese language, Question: how is south china linguistically different from north china, Answer: 162 south china displays more linguistic diversity
+Article : san francisco, Question: how large is the population of san francisco, Answer: 621 the estimated population of san francisco in the year 2008 was 808,976
+Article : charles augustin de coulomb, Question: is he best known for developing coulomb 's law the definition of the electrostatic force of attraction and repulsion, Answer: 152 yes
+Article : octopus, Question: how many arms does an octopus have, Answer: 539 the octopus has four pairs of arms
+Article : pablo picasso, Question: give an example of the most comprehensive records extant of any major artists beginnings, Answer: 554 museu picasso
+Article : portuguese language, Question: in which country is portuguese the co official language with cantonese chinese, Answer: 594 portuguese is the co official language with cantonese chinese in macau
+Article : berlin, Question: where was popkomm held before moving to berlin, Answer: 111 popkomm was held in cologne before moving to berlin
+Article : finnish language, Question: are the dialects of finnish divided into two groups, Answer: 226 yes the dialects of finnish are divided into two groups
+Article : octopus, Question: do the octopuses in the less familiar cirrina suborder have two fins and an internal shell, Answer: 545 yes the octopuses in the less familiar cirrina suborder have two fins and an internal shell
+Article : berlin, Question: is berlin the headquarters of springer, Answer: 103 yes berlin is the headquarters of springer
+Article : lyre, Question: were the recitations of the ancient greeks accompanied by lyre playing, Answer: 421 yes
+Article : lobster, Question: what is the caridoid escape reaction, Answer: 419 swimming backwards quickly by curling and uncurling their abdomen
+Article : blaise pascal, Question: did pascal write about cycloid before 1658, Answer: 119 no
+Article : ant, Question: are ants found in antartica, Answer: 53 no there are no ants in antarctica
+Article : charles augustin de coulomb, Question: was coulomb born in angoulme france to a well to do family, Answer: 151 coulomb was born in angoulãªme france to a well to do family
+Article : leonardo da vinci, Question: who left verroccio 's studio, Answer: 403 leonardo da vinci left verroccio 's studio
+Article : vietnamese language, Question: does vietnamese borrow from latin and greek, Answer: 727 no vietnamese does not borrow from latin and greek
+Article : drum, Question: by what name are drums classified as under the percussion group, Answer: 207 membranophone
+Article : swedish language, Question: is swedish a descendant of old norse, Answer: 654 yes
+Article : vietnamese language, Question: what kind of words have been borrowed from chinese, Answer: 720 words that denote abstract ideas in the same way european languages borrow form latin and greek
+Article : alessandro volta, Question: how long was alessandro volta a professor at the university of pavia, Answer: 8 alessandro volta was a professor at the university of pavia for almost 25 years
+Article : san francisco, Question: is golden gate park the largest city park, Answer: 629 yes
+Article : amedeo avogadro, Question: is avogadro hailed as a founder of the atomic molecular theory, Answer: 36 yes
+Article : melbourne, Question: what is a resident of melbourne known as, Answer: 452 melburnian
+Article : giant panda, Question: what family is the panda a part of, Answer: 253 ursidae bear
+Article : isaac newton, Question: where was isaac newton born, Answer: 303 woolsthorpe manor in woolsthorpe by colsterworth
+Article : portuguese language, Question: where are there small portuguese speaking communities, Answer: 588 there are small portuguese speaking communities in macau and east timor
+Article : turkish language, Question: how many people speak turkish worldwide, Answer: 705 there are roughly another 10 million native speakers worldwide
+Article : piano, Question: is it advantageous for a grand piano 's metal plate to be quite massive, Answer: 569 it is advantageous for the plate to be quite massive
+Article : giant panda, Question: when was the giant panda 's genome sequenced, Answer: 262 2009
+Article : isaac newton, Question: when did isaac newton discover the generalized binomial theorem, Answer: 297 in 1665
+Article : lobster, Question: how many legs do lobsters have, Answer: 414 10
+Article : charles augustin de coulomb, Question: did the family move to paris as well as there coulomb studied at the prestigious collge des quatre nations, Answer: 150 yes
+Article : saint petersburg, Question: is it often called just petersburg -rrb- and is informally known as piter -rrb-, Answer: 616 yes
+Article : trumpet, Question: what happened in nineteen fifty seven, Answer: 688 maynard ferguson formed his own band
+Article : pablo picasso, Question: what happened in 1968 through 1971, Answer: 550 devoting his full energies to his work picasso became more daring his works more colorful and expressive and from 1968 through 1971
+Article : montreal, Question: does montreal contain the largest church in canada, Answer: 488 yes montreal contains the largest church in canada
+Article : charles augustin de coulomb, Question: who determined to pursue mathematics, Answer: 147 charles augustin de coulomb
+Article : charles augustin de coulomb, Question: regarding this topic what did the revolution do, Answer: 146 the revolution caused coulomb to resign his appointment as intendent des eaux et fontains and retire
+Article : piano, Question: is the mechanism in an upright piano perpendicular to its keys, Answer: 570 the mechanism in upright pianos is perpendicular to the keys
+Article : vietnamese language, Question: was vietnamese influenced by chinese, Answer: 716 much vocabulary has been borrowed from chinese
+Article : pierre auguste renoir, Question: did pierre auguste renoir die in limoges haute vienne france the child of a working class family, Answer: 583 no
+Article : james watt, Question: what was james watt 's father 's job, Answer: 348 his father was a shipwright ship owner and contractor and served as the town 's chief baillie
+Article : michael faraday, Question: where was michael faraday born, Answer: 463 michael faraday was born in newington butts
+Article : jakarta, Question: how is the city 's governor chosen, Answer: 325 through election
+Article : cymbal, Question: what does it sound like to play cymbals with a cello bow, Answer: 186 squealing car brakes
+Article : blaise pascal, Question: when did his father die, Answer: 123 his father died in 1651
+Article : swedish language, Question: when did the soviet military forces occupy estonia, Answer: 660 in 1944
+Article : charles augustin de coulomb, Question: where is collège des quatre nations located, Answer: 143 in paris
+Article : violin, Question: does a violin have four strings, Answer: 737 yes
+Article : dragonfly, Question: in what country are dragonflies used as a food source, Answer: 197 nan
+Article : guitar, Question: what are most electric guitar bodies made of, Answer: 279 wood
+Article : isaac newton, Question: was isaac newton religious, Answer: 293 yes he was highly religious though an unorthodox christian
+Article : kuala lumpur, Question: after the 2008 elections what party had the most parliament seats, Answer: 400 dap
+Article : blaise pascal, Question: was n't blaise pascal a work of desargues on conic sections, Answer: 122 yes it was
+Article : cymbal, Question: does fender make cymbals, Answer: 183 no
+Article : drum, Question: is the drum a member of the percussion group, Answer: 202 yes
+Article : malay language, Question: what is the national language in malaysia, Answer: 438 malay
+Article : flute, Question: how many main varieties of indian flutes are currently used, Answer: 246 two
+Article : lobster, Question: where are lobsters found, Answer: 415 in all oceans
+Article : trumpet, Question: what happened in 1894, Answer: 687 jean baptiste arban published complete conservatory method for trumpet
+Article : butterfly, Question: what is the outer layer of the cuticle made of, Answer: 129 the outer layer of the cuticle is made of of a mixture of chitin and specialized proteins
+Article : leonardo da vinci, Question: was n't leonardo da vinci born on april 15, Answer: 402 yes leonardo da vinci was born on april 15
+Article : swahili language, Question: in what year did germany seize tanganyika, Answer: 652 germany seized tanganyika in 1886
+Article : saint petersburg, Question: what festival features fireworks celebrating the end of the school year, Answer: 604 the white nights festival in saint petersburg
+Article : turkish language, Question: what are the most significant foreign contributors to turkish vocabulary, Answer: 701 among the most significant foreign contributors to turkish vocabulary are arabic french persian italian english and greek
+Article : eel, Question: how many species of true eels are there, Answer: 219 there are approximately 800 species of true eels
+Article : turkish language, Question: what was one of the results of the introduction of the new turkish alphabet, Answer: 703 there was a dramatic increase in literacy from its original third world levels
+Article : portuguese language, Question: which government established portuguese as it 's third official language in order to meet the requirements to apply for full membership in the cplp, Answer: 591 the government of equatorial guinea established portuguese as its third official language in order to meet the requirements to apply for full membership in the cplp
+Article : turkish language, Question: in turkish which syllable usually has the stress, Answer: 706 stress is usually on the last syllable
+Article : portuguese language, Question: is it derived from the latin spoken by the romanized pre roman peoples of the iberian peninsula namely the gallaeci the lusitanians the celtici and the conii around 2000 years ago, Answer: 599 yes
+Article : kuala lumpur, Question: what 's the population of kuala lumpur, Answer: 386 1.6 million
+Article : violin, Question: when did charles ix order amati to construct 24 violins for him, Answer: 748 1560
+Article : nikola tesla, Question: did nikola tesla use a technique called picture thinking, Answer: 509 nikola tesla used a technique called picture thinking
+Article : giant panda, Question: is the population of wild giant pandas growing, Answer: 267 according to some reports yes
+Article : san francisco, Question: when was a 43-acre mission bay campus opened, Answer: 638 2003
+Article : malay language, Question: was n't malay language found in sumatra, Answer: 441 the malay language was found in sumatra
+Article : nairobi, Question: how many civilians died in the 1998 u.s. embassy bombing, Answer: 496 over two hundred
+Article : blaise pascal, Question: who was blaise pascal 's father, Answer: 112 ãtienne pascal
+Article : finnish language, Question: who wrote the first novel in finnish, Answer: 232 the first novel in finnish was published by aleksis kivi
+Article : trumpet, Question: is the most common type of trumpet the b trumpet, Answer: 674 yes
+Article : korean language, Question: what is another term for korean adjectives, Answer: 373 adjectives are also known as descriptive verbs or stative verbs
+Article : finnish language, Question: what book defined the official finnish language, Answer: 233 the dictionary of contemporary finnish defined the official finnish language
+Article : saint petersburg, Question: give an example of the best known symphony orchestras in the world under the leadership of conductors yevgeny mravinsky and yuri temirkanov, Answer: 613 the leningrad philharmonic orchestra
+Article : jackson pollock, Question: was he regarded as a mostly reclusive artist, Answer: 317 yes he was regarded as a mostly reclusive artist
+Article : leonardo da vinci, Question: according to art historian helen gardner were the scope and depth of his interests without precedent and his mind and personality seem to us superhuman the man himself mysterious and remote ' ', Answer: 410 yes
+Article : trumpet, Question: give an example of the most influential musicians of the 20th century, Answer: 692 miles davis
+Article : koala, Question: is the long term viability of the koala therefore threatened by genetic weakness, Answer: 358 the long term viability of the koala is therefore threatened by genetic weakness
+Article : giant panda, Question: what is panda diplomacy, Answer: 258 loans of giant pandas to american and japanese zoos
+Article : guitar, Question: what is the point called that is bolted or glued to the body of the guitar, Answer: 282 neck joint or ' heel '
+Article : korean language, Question: do chinese and japanese have spaces between words, Answer: 376 no chinese and japanese do not have spaces between words
+Article : kuala lumpur, Question: is kuala lumpur the capitol of malaysia, Answer: 384 yes
+Article : eel, Question: do all eels live in fresh water, Answer: 224 no not all eels live in fresh water
+Article : vincent van gogh, Question: was kee seven years older than van gogh as well as had an eight year old son, Answer: 733 yes
+Article : san francisco, Question: does the de young museum house the asian art museum, Answer: 634 yes
+Article : michael faraday, Question: did faraday have strong maritime interests, Answer: 472 yes
+Article : james watt, Question: is there a statue of watt in the white house, Answer: 347 no a colossal statue of watt by chantrey was placed in westminster abbey and later was moved to st. paul 's cathedral
+Article : nairobi, Question: does the city and its surrounding area also form the nairobi province, Answer: 505 yes
+Article : xylophone, Question: which came first the xylophone or the vibraphone, Answer: 760 the xylophone
+Article : vietnamese language, Question: is vietnamese the mother tongue of the vietnamese people, Answer: 714 yes
+Article : turkish language, Question: is there a definite article in turkish language, Answer: 697 no
+Article : san francisco, Question: does san francisco have a high percentage of gay and lesbian individuals, Answer: 619 yes according to the 2005 american community survey san francisco has the highest percentage of gay and lesbian individuals of any of the 50 largest u.s. cities at 15.4
+Article : swedish language, Question: how does swedish language counterbalance the absence of cases, Answer: 662 the lack of cases in swedish is compensated by a wide variety of prepositions
+Article : swedish language, Question: does swedish use the perfect participle to form the present perfect tense, Answer: 655 no
+Article : pablo picasso, Question: is the u.s. copyright representative for the picasso administration the artists rights society, Answer: 556 yes
+Article : pierre auguste renoir, Question: what happened in the january 15 1882, Answer: 577 on january 15 1882 renoir met the composer richard wagner at his home in palermo sicily
+Article : arabic language, Question: why does arabic heavily influence european languages, Answer: 85 arabic was a major vehicle of culture in europe and the arab and european civilizations are geographically close
+Article : flute, Question: was the pan flute used in greece, Answer: 242 yes
+Article : chinese language, Question: what is the official standard language used by the people 's republic of china the republic of china and singapore where it is called huayu, Answer: 159 standard mandarin
+Article : norman rockwell, Question: consequently what is not considered a serious painter by some contemporary artists who often regard his work as bourgeois and kitsch, Answer: 524 rockwell
+Article : amedeo avogadro, Question: was amedeo avogadro was born in turin, Answer: 35 yes
+Article : octopus, Question: what is the range of lifespans of the octopus, Answer: 540 octopuses can live from six months to five years
+Article : chinese language, Question: what is the total number of chinese words, Answer: 170 the hanyu da zidian includes 54,678 head entries for characters
+Article : taipei, Question: was taipei founded in the 18th century, Answer: 664 yes
+Article : swedish language, Question: how many swedish speakers were reported in canada in 2001, Answer: 656 16,915.00
+Article : vietnamese language, Question: how many tones do northern varieties have, Answer: 726 northern vietnamese has six tones
+Article : berlin, Question: is berlin the largest city in germany, Answer: 95 berlin is germany 's largest city and capital
+Article : piano, Question: what is the middle pedal called on grand pianos, Answer: 563 the sostenuto pedal
+Article : flute, Question: why is a police whistle very wide for its pitch, Answer: 240 a flute 's volume can generally be increased by making its resonator and tone holes larger
+Article : piano, Question: why are upright pianos more compact, Answer: 574 upright pianos are more compact because the frame and strings are vertical
+Article : michael faraday, Question: did faraday marry sarah barnard, Answer: 460 yes faraday married sarah barnard
+Article : pablo picasso, Question: when did picasso make his first trip to paris, Answer: 553 1900
+Article : trumpet, Question: what makes a trumpet fully chromatic, Answer: 680 able to play all twelve pitches of western music
+Article : drum, Question: what is the second biggest factor affecting the sound produced by a drum, Answer: 206 the tension at which the drum head is held against the shell of the drum
+Article : kuala lumpur, Question: when were the colonial buildings in kuala lumpur constructed, Answer: 392 toward the end of the 19th and early 20th centuries
+Article : kuala lumpur, Question: what is the city 's population, Answer: 397 1.6 million
+Article : swedish language, Question: how many swedish speakers were reported in canada in 2001, Answer: 657 there are 16,915 reported swedish speakers in canada
+Article : eel, Question: are most eels predators, Answer: 217 yes most eels are predators
+Article : alessandro volta, Question: what did alessandro volta invent in 1800, Answer: 4 in 1800 alessandro volta invented the voltaic pile
+Article : san francisco, Question: the only consolidated city county in california does it encompass a land area of on the northern end of the san francisco peninsula making it the second most densely populated city in the united states, Answer: 642 san francisco
+Article : trumpet, Question: is the trumpet constructed of brass tubing bent twice into an oblong shape, Answer: 691 yes
+Article : saint petersburg, Question: give an example of the largest stadiums anywhere in the world and the home to fc zenit st. petersburg in 1950 1993 and 1995, Answer: 612 kirov stadium now demolished was one of the largest stadiums anywhere in the world and the home to fc zenit st. petersburg in 1950 1993 and 1995
+Article : octopus, Question: do octopuses have two eyes and four pairs of arms, Answer: 546 yes octopuses have two eyes and four pairs of arms
+Article : berlin, Question: which two sports events did the olympiastadion host, Answer: 98 the olympiastadion hosted the 1936 summer olympics and the 2006 fifa world cup final
+Article : piano, Question: how many total keys does a typical modern piano have, Answer: 573 a modern piano has 88 keys
+Article : leonardo da vinci, Question: was leonardo a contemporary of botticelli domenico ghirlandaio as well as perugino, Answer: 406 leonardo was a contemporary of botticelli domenico ghirlandaio and perugino
+Article : nairobi, Question: give an example of the highest growth rates of any city in africa, Answer: 502 the growth rate of nairobi is currently 6.9 an example of the highest growth rates of any city in africa
+Article : ant, Question: how do most ants travel, Answer: 47 most ants travel by walking
+Article : amedeo avogadro, Question: in what language was his 1811 paper published, Answer: 32 avogadro 's 1811 paper was published in french
+Article : dragonfly, Question: does exposure to air cause the larva to begin breathing, Answer: 200 yes capitalization
+Article : butterfly, Question: what happens if a wing is removed, Answer: 134 if a ring is removed the other three will grow to a larger size
+Article : amedeo avogadro, Question: was he a member of the royal superior council on public instruction, Answer: 27 yes avogadro was a member of the royal superior council on public instruction
+Article : trumpet, Question: are pocket trumpets compact b trumpets, Answer: 682 yes
+Article : finnish language, Question: where is the kven language spoken, Answer: 230 the kven language is spoken in northern norway
+Article : montreal, Question: what is the largest primarily french speaking city in the western world, Answer: 489 paris is the largest primarily french speaking city in the western world
+Article : korean language, Question: are there seven verb paradigms or speech levels in korean, Answer: 378 yes
+Article : henri becquerel, Question: what is the si unit for radioactivity called, Answer: 288 the becquerel bq
+Article : lobster, Question: did the moche people worship lobsters, Answer: 418 yes
+Article : kuala lumpur, Question: how many seasons does kuala lumpur experience, Answer: 391 1
+Article : portuguese language, Question: by 2050 what will the total population of portuguese speakers in the world be, Answer: 592 by 2050 portuguese speaking countries will have a total population of 335 million people
+Article : nairobi, Question: about how many people are estimated to live in nairobi, Answer: 498 3 million
+Article : charles augustin de coulomb, Question: what is charles augustin de coulomb best known for, Answer: 138 he is best known for developing coulomb 's law
+Article : ant, Question: ultraviolet vision was first discovered in ants by sir who in 1881, Answer: 62 john lubbok
+Article : michael faraday, Question: did he advise the british government on the production of chemical weapons for use in the crimean war, Answer: 471 no
+Article : swahili language, Question: did uganda make swahili a required subject in primary schools, Answer: 647 yes uganda made swahili a required subject in primary schools
+Article : butterfly, Question: does a black moth mean that someone has died, Answer: 128 in the philippines a black butterfly or moth mean that someone has died
+Article : violin, Question: is it the smallest and highest pitched member of the violin family of string instruments which also includes the viola and cello, Answer: 751 yes it is the smallest and highest pitched member of the violin family of string instruments which also includes the viola and cello
+Article : nikola tesla, Question: what languages did tesla speak, Answer: 520 serbian czech english french german hungarian italian and latin
+Article : ant, Question: are several species of ants able to use the earth s magnetic field, Answer: 64 yes
+Article : alessandro volta, Question: when did volta retire, Answer: 14 in 1819
+Article : chinese language, Question: is fifty percent or more of korean vocabulary of chinese origin, Answer: 156 yes
+Article : amedeo avogadro, Question: the number of elementary entities in 1 mole of a substance is known as what, Answer: 40 avogadro 's constant
+Article : nairobi, Question: is the current estimated population of nairobi about 6 milion, Answer: 492 no
+Article : korean language, Question: is modern korean written with spaces between words, Answer: 379 yes
+Article : cymbal, Question: what are cymbals made of, Answer: 187 brass
+Article : eel, Question: is the electric eel a true eel, Answer: 216 no the electric eel is not a true eel
+Article : ant, Question: what may happen to red fire ants if we use boiling water on the queen, Answer: 52 nests of red fire ants may be destroyed
+Article : jakarta, Question: in 1602 the british east india company 's first voyage commanded by sir who arrived in aceh and sailed on to banten where they were allowed to build a trading post, Answer: 337 james lancaster
+Article : isaac newton, Question: where was isaac newton born, Answer: 295 he was born at woolsthorpe manor in woolsthorpe by colsterworth a hamlet in the county of lincolnshire
+Article : giant panda, Question: do pandas hibernate, Answer: 251 no
+Article : michael faraday, Question: did faraday also discover the laws of electrolysis, Answer: 461 yes faraday also discovered the laws of electrolysis
+Article : melbourne, Question: how many sister cities does the city of melbourne have, Answer: 455 six
+Article : zebra, Question: what areas do the grevy 's zebras inhabit, Answer: 769 semi arid grasslands of ethiopia and northern kenya
+Article : guitar, Question: is the flamenco guitar similar to the classical guitar, Answer: 269 yes
+Article : dragonfly, Question: is it characterized by large multifaceted eyes two pairs of strong transparent wings and an elongated body, Answer: 201 yes
+Article : chinese language, Question: what does the prc government classify as literacy amongst workers, Answer: 161 a knowledge of 2000 characters
+Article : pablo picasso, Question: is in the 1996 movie surviving picasso picasso played by actor anthony hopkins, Answer: 555 yes
+Article : kuala lumpur, Question: what is the name of the event that draws the worlds top riders to malaysia, Answer: 401 kl grand prix csi 5
+Article : michelangelo, Question: when did filippo strozzi sell it to francis i, Answer: 476 in 1529
+Article : berlin, Question: is the nauen plain north of berlin, Answer: 105 no the nauen plain stretches to the west of berlin
+Article : piano, Question: what is the sustain pedal called, Answer: 565 damper pedal
+Article : kuala lumpur, Question: what airports does kuala lumpur have, Answer: 389 kuala lumpur international airport and subang international airport
+Article : alessandro volta, Question: did alessandro volta invent the remotely operated pistol, Answer: 1 alessandro volta did invent the remotely operated pistol
+Article : vietnamese language, Question: is vietnam independent from france, Answer: 721 yes
+Article : piano, Question: are upright pianos called vertical pianos, Answer: 561 yes
+Article : arabic language, Question: is arabic classified alongside semitic languages, Answer: 80 yes
+Article : drum, Question: how long has the basic design of the drum remained unchanged, Answer: 205 remained virtually unchanged for thousands of years
+Article : amedeo avogadro, Question: why did avogadro lose his chair at the university of turin, Answer: 34 avogadro lost his chair at the university of turin because he was active in the revolutionary movements of 1821 against the king of sardinia
+Article : nikola tesla, Question: was nikola tesla close friends with mark twain, Answer: 508 nikola tesla was close friends with mark twain
+Article : lyre, Question: is the foot pedal framework for a piano called a lyre, Answer: 427 yes
+Article : melbourne, Question: when was melbourne officially declared as a city, Answer: 454 in 1847
+Article : korean language, Question: what is the official language of north korea, Answer: 366 korean
+Article : arabic language, Question: where are the western arabic numerals used, Answer: 91 north africa
+Article : jakarta, Question: did jayawikarta 's soldiers attack the dutch fortress, Answer: 339 yes
+Article : piano, Question: how many black keys do modern pianos have, Answer: 564 36
+Article : james watt, Question: is james watt french, Answer: 345 no he was scottish
+Article : flute, Question: what are the two main varieties of indian flutes, Answer: 241 the first the bansuri the second the venu or pullanguzhal
+Article : alessandro volta, Question: where was volta born, Answer: 13 como italy
+Article : jackson pollock, Question: give an example of the origins of the term action painting, Answer: 315 pollock 's technique of pouring and dripping paint is thought to be one of the origins of the term action painting
+Article : portuguese language, Question: was it used as the exclusive lingua franca on the island of sri lanka for almost 350 years, Answer: 600 yes
+Article : kuala lumpur, Question: what language do they speak in kuala lumpur, Answer: 387 bahasa melayu
+Article : guitar, Question: why are harp guitars difficult to classify, Answer: 273 there are many variations within this type
+Article : chinese language, Question: when did classical chinese literature begin, Answer: 166 classical chinese literature began in the 14th to 11th centuires bce
+Article : zebra, Question: have plains zebras been crossed with mountain zebras, Answer: 765 yes
+Article : swahili language, Question: is swahili a bantu language, Answer: 646 yes swahili is a bantu language
+Article : montreal, Question: how many international airports does montreal have, Answer: 484 montreal has two international airports
+Article : xylophone, Question: is the xylophone a musical instrument, Answer: 754 yes
+Article : nairobi, Question: is nairobi not the capital as well as largest city of kenya, Answer: 504 nairobi is the capital and largest city of kenya
+Article : flute, Question: can a flute be played with several different air sources, Answer: 243 yes
+Article : piano, Question: where is irving berlin 's piano located, Answer: 566 in the smithsonian museum
+Article : piano, Question: did bartolomeo cristofori invent the modern piano, Answer: 562 yes
+Article : trumpet, Question: what trumpet was built to play in both b and a keys, Answer: 686 piccolo trumpets
+Article : cymbal, Question: what kinds of musical groups use cymbals, Answer: 189 cymbals are used in modern orchestras and many military marching concert and other bands
+Article : turkish language, Question: what is the official language of turkey, Answer: 699 turkish is the official language of turkey
+Article : michelangelo, Question: was n't michelangelo a homosexual, Answer: 475 it is not clear
+Article : trumpet, Question: were trumpet players heavily guarded, Answer: 681 yes
+Article : nikola tesla, Question: when did nikola tesla appear on the cover of time magazine, Answer: 510 on tesla 's 75th birthday in 1931 time magazine put him on its cover
+Article : ant, Question: where are bullet ants located, Answer: 58 bullet ants are located in central and south america
+Article : michelangelo, Question: was n't michelangelo abstemious, Answer: 474 michelangelo was abstemious
+Article : piano, Question: are pianos used in western music, Answer: 560 yes
+Article : giant panda, Question: do giant pandas attack humans, Answer: 252 yes
+Article : alessandro volta, Question: when was volta made a count by napoleon, Answer: 21 volta was made a count by napoleon in 1810
+Article : jackson pollock, Question: did free jazz feature a pollock painting as its cover artwork, Answer: 313 yes
+Article : michael faraday, Question: did albert einstein keep a photograph of faraday on his study wall, Answer: 459 yes albert einstein kept a photograph of faraday on his study wall
+Article : chinese language, Question: how many head entries for character definitions does the zhonghua zihai 1994 contain, Answer: 160 85,568 head entries
+Article : guitar, Question: is a guitar an instrument, Answer: 276 yes
+Article : dragonfly, Question: do dragonfly nymphs ever hunt on land, Answer: 191 nan
+Article : kuala lumpur, Question: is kuala lumpur in the selangor state, Answer: 385 yes
+Article : lobster, Question: do lobsters have blue blood, Answer: 413 yes
+Article : nairobi, Question: was nairobi founded in 1899, Answer: 491 yes
+Article : jakarta, Question: give an example of the many sukarno era monuments in the city, Answer: 343 the west irian liberation statue is one of the many sukarno era monuments in the city
+Article : isaac newton, Question: what food gave isaac newton clues to his theory of gravity, Answer: 308 apple
+Article : swedish language, Question: what are the differences between english and swedish pronouns, Answer: 661 swedish pronouns are basically the same as those of english but distinguish two genders and have an additional object form derived from the old dative form as well as a distinct genitive case
+Article : butterfly, Question: where was there a vast swarm of butterflies, Answer: 130 in kyoto there was a vast swarm of butterflies
+Article : taipei, Question: is taipei in a valley, Answer: 663 taipei is in the valleys of the keelung and xindian rivers
+Article : berlin, Question: where is the berliner dom located, Answer: 99 the berliner dom is located on the spree island across from the site of the berliner stadtschloss and adjacent to the lustgarten
+Article : korean language, Question: what is the sino korean system of numbers based on, Answer: 372 the sino korean system is nearly entirely based on the chinese numerals
+Article : arabic language, Question: does modern standard arabic continue to evolve like other languages, Answer: 87 yes
+Article : melbourne, Question: what religion holds majority in melbourne, Answer: 458 christianity
+Article : jakarta, Question: is the most important river the ciliwung river, Answer: 330 yes
+Article : drum, Question: does every drumhead make the same sound, Answer: 214 no of course not dummy
+Article : michael faraday, Question: how many siblings did faraday have, Answer: 466 faraday had three siblings
+Article : blaise pascal, Question: crowds of believers came to see and kiss the thorn all of catholic where acclaimed a miracle, Answer: 121 paris
+Article : saint petersburg, Question: give an example of the longest most destructive and most lethal sieges of major cities in modern history, Answer: 614 the siege of leningrad
+Article : alessandro volta, Question: who became a professor of physics at the royal school in como, Answer: 20 volta
+Article : turkish language, Question: when was the turkish language association founded, Answer: 700 the turkish language association was founded in 1932
+Article : antwerp, Question: is antwerp a municipality, Answer: 71 yes
+Article : berlin, Question: where is the bust of queen nefertiti, Answer: 106 the bust of queen nefertiti is in the altes museum
+Article : guitar, Question: where is the headstock located, Answer: 270 end of the guitar neck furthest from the body
+Article : malay language, Question: what languages has malay borrowed words from, Answer: 435 arabic sanskrit tamil persian portuguese dutch certain chinese dialects and english
+Article : berlin, Question: what are the names of the two zoos in berlin, Answer: 102 the two zoos in berlin are the zoologischer garten berlin and the tierpark friedrichsfelde
