@@ -1,0 +1,1 @@
+https://github.com/gunthercox/chatterbot-corpus/tree/master/chatterbot_corpus/data/english
