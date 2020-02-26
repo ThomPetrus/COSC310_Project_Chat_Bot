@@ -2,27 +2,36 @@
 """
 Created on Sat Feb 22 20:18:02 2020
 
-    Prototype 3 - Needed to reformat and restructure the data set
+    Prototype 4 - New Data set!
         
-    It lives! Functions as expected with careful input of articles and questions.
+        Next up: 
     
-    Currently the answer's it predicts are actually just the indexes of the asners in 
-    the indexed list I've provided. For whatever reason I could not get  it to train on the 
-    full sentence answers -- constant errors with datatypes, so I opted for this route.
-    It is currently trained to about 75% accuracy and is actually pretty neat.
-    The wrong answers can be quite fun as well. There's just over 1100 Q and A's.
-    
-    Either we can change datasets and try something else or we can keep building this one.
-    In which case.
-    
-    Next up would be to add user friendliness:
-        Add the article list.
-        Ensure it does not crash when a word not in vocab is entered. ~ preeeetty big one.
-        GUI of course for project.
-        
+            incorproate the GUI.
+            figure out intent filter.
+            Potentially include Lemmatization / Named Entity Recognition etc (?)
+            
+            
+            Include some of the previous data set for variety?
+            There is a question intent ! 
+            If we can get the intent thing to work and it recognizes those
+            prompts like "Can I ask a question?" etc
+            It would be awesome to draw upon that second data set to answer questions!
+
+
+
+            
+
+
+
+
+
+
+
+
     
 @author: tpvan
 """
+
 """
 --------------------------------------------------------------------------------------------------
 Basic Imports:
@@ -33,14 +42,14 @@ Basic Imports:
     
     Pickle : Used for serializing and deserializing python objects.
     
-    Pandas : Library for reading in csv files or tsv files. -- Not used rn.
+    Pandas : Library for reading in csv files or tsv files.
     
     Numpy : Python Math library, contains functions for processing large matrices
             As well as other fancy pants mathematical functions.
             
 --------------------------------------------------------------------------------------------------
 """
-import tensorflow.keras
+
 import pickle
 import numpy as np
 import spacy
@@ -48,32 +57,35 @@ nlp = spacy.load('en_core_web_sm')
 
 """
 ------------------------------------------------------------------------------------------------
-Step 1: Load in the test and train data:
+Step 1: Load in all data, test data and train data:
     
     Train and Test data are both serialized objects created by the conversion script we wrote, 
-    included in the folder.
-    The format is [(int:idx, [article], [question], [answer])]
+    included in the folder. 
+    The format is [(int:idx, [intent], [question], [answer])]
     
 ------------------------------------------------------------------------------------------------
 """
+
+# full data frame
 with open('qa_df.txt', 'rb') as f:
     all_data = pickle.load(f)
 
+# train data if split performed in conversion script
 with open('qa_train_df_v2.txt', 'rb') as f:
     train_data = pickle.load(f)
 
-# Not actually used for the answers from Wiki.
+# test data if split performed in conversion script
 with open('qa_test_df_v2.txt', 'rb') as f:
     test_data = pickle.load(f)    
     
+# list of all indexed the answers used to print out answer at run time.
 with open('qa_indexed_ans_v2.txt', 'rb') as f:
     idx_ans_list = pickle.load(f)
     
 
-# For the wiki QA there's no point in having a train test split
-# Sklearn train test split should provide roughly 30/70 split :
+# For the current dialogu data set there is no real point in using a test / train split
 #print("Testing to Training Data ratio : " + str(len(test_data) / len(train_data)))
-    
+
 train_data = all_data
 
 """
@@ -83,11 +95,10 @@ Step 2: Create a vocabulary for our model to learn on
     Train and Test data are are both cleaned up and formatted as desired in the conversion script
     so essentially all that has to be done is create a giant unordered set. Meaning no duplicates.
     
-    For vectorizing 
 ------------------------------------------------------------------------------------------------
 """
 
-# Changed the vocab to only include the train data - as it is the only thing it knows how to answer.
+# Changed the vocab to only include the train data
 #all_data = test_data + train_data
 
 
@@ -101,6 +112,36 @@ for index, article, question, answer in all_data:
     
 # Added padding -- It seems internally a 0 get's appended a throughout the process.
 vocab_len = len(vocab) + 1
+
+
+"""
+
+
+
+
+
+
+
+I think I figured out why it appears the model is not loading properly.
+The vocab and indexes are recreated if you exit out of spyder and re run this script.
+Causing the answers to be wrong when looked up during the printing.
+
+If that is the issue which I will confirm later then I will create a new script that will serve as the 
+actual launching point for the conversation with gui and all that. This can be the training script for 
+the main data set. The new script should simply load the model, vocab and other required parts.
+
+
+
+
+
+
+
+
+
+"""
+
+
+#print(vocab)
 
 """
 ------------------------------------------------------------------------------------------------
@@ -117,11 +158,11 @@ Step 3: Vectorizing the data
 ------------------------------------------------------------------------------------------------
 """
 
-# longest Article Name
-all_article_lengths = [len(data[0]) for data in all_data]
+# longest intent Name
+all_intent_lengths = [len(data[0]) for data in all_data]
 
 # max length 
-max_article_len = max(all_article_lengths)
+max_intent_len = max(all_intent_lengths)
 
 # max question length
 max_question_len = max([len(data[1]) for data in all_data])
@@ -141,7 +182,7 @@ tokenizer.fit_on_texts(vocab)
 #print(tokenizer.word_index)
 
 # The following method actually performs the vectorization.
-def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max_article_len, max_question_len=max_question_len):
+def vectorize_data(data, word_index=tokenizer.word_index, max_intent_len=max_intent_len, max_question_len=max_question_len):
     
     # Articles
     X=[]    
@@ -151,12 +192,14 @@ def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max
     Y = []
     
     # Creating vectors of all the indexes created above
-    for index, article, question, answer in data:
-        # For each Article, Questoin and Answer find their corresponding index, 
+    for index, intent, question, answer in data:
+        
+        # For each intent, Question and Answer find their corresponding index, 
         # use list comprehension to create a vector of each index.
-        x = [word_index[word.lower()] for word in article]
+        x = [word_index[word.lower()] for word in intent]
         xq = [word_index[word.lower()] for word in question]
         
+        # create a vector of all 0's and 1 one at answers index
         y = np.zeros(len(word_index)+1)
         y[word_index[str(answer[0])]] = 1
        
@@ -166,10 +209,12 @@ def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max
         Y.append(y)
     
         # return a tuple that can be unpacked - and pad each of the sequences!
-    return (pad_sequences(X, maxlen=max_article_len), pad_sequences(Xq, maxlen=max_question_len), np.array(Y))
+    return (pad_sequences(X, maxlen=max_intent_len), pad_sequences(Xq, maxlen=max_question_len), np.array(Y))
 
 # Actual method call and unpacking of the tuples to set each respective variable below.
-articles_train, questions_train, answers_train = vectorize_stories(train_data)
+articles_train, questions_train, answers_train = vectorize_data(train_data)
+
+# As mentioned test data is currently not used.
 #articles_test, questions_test, answers_test = vectorize_stories(test_data)
 
 """
@@ -205,41 +250,41 @@ from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dr
 
 """
 
-    All dropouts currently commented out.
-    Will try with drop out next.
+    All dropouts currently not commented out.
+    Will try with out drop out next.
 
 """
 
 
 
-# Two sperate inputs - stories and questions - need a placeholder for now 
+# Two sperate inputs - intentss and questions - need a placeholder for now 
 # Input(shape(maxlenght, batch_size)) - tuple w empty spot
-input_sequence = Input((max_article_len, ))
+input_sequence = Input((max_intent_len, ))
 question = Input((max_question_len,))
 
 # ------------------------- A or m ------------------------------------
 # Input encoder M -- for all the inputs (M_i in paper) == {X1....Xi}
-# output dimension 64 - dim for matrix I suppose.
+# output dimension 64 - dim for matrix.
 input_encoder_m = Sequential()
 input_encoder_m.add(Embedding(input_dim=vocab_len, output_dim=64))
 
 # This randomly turns off 30% ( to 50%) of neurons off in this layer - this is supposed to help with overfitting.
 # overfitting is when a model is too trained on specific data and does not handle new data well.
-#input_encoder_m.add(Dropout(0.3))
-# output -> (samples, article_max_len, embedding_dim)
+input_encoder_m.add(Dropout(0.3))
+# output -> (samples, intent_max_len, embedding_dim)
 
 # ------------------------- C ----------------------------------------
 # Input encoder C - Each input vector x has a corresponding output vector c 
 input_encoder_c = Sequential()
 input_encoder_c.add(Embedding(input_dim=vocab_len, output_dim=max_question_len))
-#input_encoder_c.add(Dropout(0.3))
-# output -> (samples, article_max_len, max_question_len)
+input_encoder_c.add(Dropout(0.3))
+# output -> (samples, intent_max_len, max_question_len)
 
 # ------------------ Question Encoder (B) ----------------------------
 question_encoder = Sequential()
 question_encoder.add(Embedding(input_dim=vocab_len, output_dim=64, input_length=max_question_len))
-#question_encoder.add(Dropout(0.3))
-# output -> (samples, question_max_len, embedding_dim)
+question_encoder.add(Dropout(0.3))
+# output -> (samples, intent_max_len, embedding_dim)
 
 # ---------- pass inputs into the appropriate encoders ----------------
 input_encoded_m = input_encoder_m(input_sequence)
@@ -307,7 +352,7 @@ answer = concatenate([response, question_encoded])
 
 # Weighting
 answer = LSTM(64)(answer)
-#answer = Dropout(0.5)(answer)
+answer = Dropout(0.5)(answer)
 answer = Dense(vocab_len)(answer)
 answer = Activation('softmax')(answer)
 
@@ -325,14 +370,14 @@ model.summary()
 -----------------------------------------------------------------
 Step 6: Fit and Train network     
 
-    Currently set to validate on training data - current validating on training data.
+    Currently set to validate on training data - 
     Might try to do a 70/30 next out of curiosity -- due to the nature of this data set it might still work.
     
 -----------------------------------------------------------------
 """
 
 
-#history = model.fit([articles_train, questions_train], answers_train, batch_size=64, epochs=300, validation_data=([articles_train, questions_train], answers_train))
+#history = model.fit([articles_train, questions_train], answers_train, batch_size=128, epochs=1000, validation_data=([articles_train, questions_train], answers_train))
 
 
 
@@ -360,7 +405,7 @@ Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training d
 -----------------------------------------------------------------
 """
 
-#model.save('chat_bot_experiment_500_99_nodropout_limited_vocab_validated_on_train_v2.h5')
+#model.save('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
@@ -368,13 +413,13 @@ Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 from tensorflow.keras.models import load_model
-model = load_model('chat_bot_experiment_500_99_nodropout_limited_vocab_validated_on_train_v2.h5')
+model = load_model('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
-Step 10: Prediction - Based on test data -
+Step 10: Prediction - Based on test data - Not required for this data set.
 
-    This current model is trained on 99% of data set.
+    This current model is trained on all of data set.
     Considering the nature of the data set maybe I will try to 
     do a 70/30 split and see if it still does its thing.
     
@@ -407,17 +452,11 @@ print(k)
 
 """
 -----------------------------------------------------------------
-User Input : 
-    
-    TODO: 
-        Include some of the previous data set for variet.
-        Figure out the intent filter.
-        
-    
+User Input :
 -----------------------------------------------------------------
 """
 def seperate_punct_doc(doc):
-    return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--"#$%&()*+,-/:;<=>@[\\]^_`{|}~\t\n']
+    return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n']
 
 counter = 5
 while(counter > 0):
@@ -430,7 +469,7 @@ while(counter > 0):
     my_question = [word for word in my_question if word in vocab]
     
     my_data = [(['0'], my_article, my_question, ['work'])]
-    my_article, my_question, my_answer = vectorize_stories(my_data)
+    my_article, my_question, my_answer = vectorize_data(my_data)
     
     pred_results = model.predict(([my_article, my_question]))
     val_max = np.argmax(pred_results[0])
@@ -439,9 +478,17 @@ while(counter > 0):
         if val == val_max:
             k = key
 
+
+    """
+    Currently prints the k-1 and k -- just debuggin - harder to tell 
+    if there is still a off by one.
+    """
+
+    
     print(k)
     if(str(k).isdigit()):
         print(' '.join(idx_ans_list[int(k)-1][1]))
+        print(' '.join(idx_ans_list[int(k)][1]))
         print("Number of Questions left: " + str(counter))
         counter-=1
 

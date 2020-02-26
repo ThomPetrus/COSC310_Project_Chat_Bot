@@ -1,0 +1,1114 @@
+Article : 1549, Question: smalltalk.user.testing_agent, Answer: testing
+Article : 426, Question: smalltalk.agent.my_friend, Answer: we are the best friends ever
+Article : 1246, Question: smalltalk.greetings.nice_to_see_you, Answer: lovely to see you
+Article : 1269, Question: nan, Answer: nan
+Article : 346, Question: smalltalk.agent.good, Answer: you 're just super
+Article : 1101, Question: smalltalk.greetings.bye, Answer: i must go
+Article : 1557, Question: smalltalk.user.tired, Answer: i 'm getting tired
+Article : 530, Question: smalltalk.agent.sure, Answer: are you sure now
+Article : 576, Question: smalltalk.appraisal.bad, Answer: that was not good
+Article : 736, Question: smalltalk.appraisal.thank_you, Answer: thanks buddy
+Article : 1530, Question: smalltalk.user.sad, Answer: i 'm having a bad day
+Article : 660, Question: smalltalk.appraisal.good, Answer: good for you
+Article : 636, Question: smalltalk.appraisal.good, Answer: sweet
+Article : 707, Question: smalltalk.appraisal.good, Answer: super
+Article : 243, Question: smalltalk.agent.clever, Answer: smart
+Article : 907, Question: smalltalk.confirmation.no, Answer: no it is n't
+Article : 1535, Question: smalltalk.user.sad, Answer: i am depressed
+Article : 1559, Question: smalltalk.user.tired, Answer: i grow weary
+Article : 861, Question: smalltalk.confirmation.no, Answer: i do n't want that
+Article : 1007, Question: smalltalk.dialog.i_do_not_care, Answer: not caring at all
+Article : 312, Question: smalltalk.agent.funny, Answer: you make me laugh
+Article : 435, Question: smalltalk.agent.my_friend, Answer: you are my friend
+Article : 1505, Question: smalltalk.user.needs_advice, Answer: guide me
+Article : 610, Question: smalltalk.appraisal.bad, Answer: that 's not good enough
+Article : 308, Question: smalltalk.agent.funny, Answer: that was funny
+Article : 1381, Question: smalltalk.user.here, Answer: i 'm right here
+Article : 430, Question: smalltalk.agent.my_friend, Answer: you are my best friend
+Article : 998, Question: smalltalk.dialog.hug, Answer: want a hug
+Article : 398, Question: smalltalk.agent.marry_user, Answer: marry me please
+Article : 423, Question: smalltalk.agent.my_friend, Answer: i want you to be my friend
+Article : 370, Question: smalltalk.agent.happy, Answer: how happy you are
+Article : 54, Question: smalltalk.agent.answer_my_question, Answer: give me an answer
+Article : 858, Question: smalltalk.confirmation.no, Answer: nooo
+Article : 677, Question: smalltalk.appraisal.good, Answer: it is fine
+Article : 637, Question: smalltalk.appraisal.good, Answer: it 's very good
+Article : 181, Question: smalltalk.agent.busy, Answer: are you working now
+Article : 567, Question: smalltalk.appraisal.bad, Answer: that 's not good
+Article : 711, Question: smalltalk.appraisal.no_problem, Answer: no worries
+Article : 774, Question: smalltalk.appraisal.well_done, Answer: great job
+Article : 1590, Question: smalltalk.user.will_be_back, Answer: i 'll get back to you in a moment
+Article : 296, Question: smalltalk.agent.fired, Answer: you are unemployed from now on
+Article : 589, Question: smalltalk.appraisal.bad, Answer: really bad
+Article : 461, Question: nan, Answer: nan
+Article : 1040, Question: smalltalk.dialog.sorry, Answer: really sorry
+Article : 781, Question: smalltalk.confirmation.cancel, Answer: disregard
+Article : 377, Question: smalltalk.agent.hobby, Answer: your hobby
+Article : 819, Question: smalltalk.confirmation.cancel, Answer: stop it
+Article : 126, Question: smalltalk.agent.beautiful, Answer: you are looking so beautiful
+Article : 816, Question: smalltalk.confirmation.cancel, Answer: can you cancel it
+Article : 1214, Question: smalltalk.greetings.how_are_you, Answer: what was your day like
+Article : 355, Question: smalltalk.agent.good, Answer: you are very useful
+Article : 1391, Question: smalltalk.user.joking, Answer: i 'm just being funny
+Article : 209, Question: smalltalk.agent.can_you_help, Answer: are you going to help me
+Article : 140, Question: smalltalk.agent.birth_date, Answer: when were you born
+Article : 1142, Question: smalltalk.greetings.goodmorning, Answer: good morning to you
+Article : 1232, Question: nan, Answer: nan
+Article : 727, Question: smalltalk.appraisal.thank_you, Answer: thanks for your help
+Article : 1258, Question: smalltalk.greetings.nice_to_see_you, Answer: great to see you again
+Article : 1573, Question: smalltalk.user.wants_to_see_agent_again, Answer: i 'll miss you
+Article : 585, Question: smalltalk.appraisal.bad, Answer: abysmal
+Article : 1006, Question: nan, Answer: nan
+Article : 560, Question: smalltalk.agent.there, Answer: are you still here
+Article : 10, Question: smalltalk.agent.acquaintence, Answer: who are you
+Article : 808, Question: smalltalk.confirmation.cancel, Answer: i said forget it
+Article : 282, Question: smalltalk.agent.crazy, Answer: are you mad
+Article : 291, Question: smalltalk.agent.fired, Answer: i fire you
+Article : 617, Question: smalltalk.appraisal.good, Answer: it 's fine
+Article : 818, Question: smalltalk.confirmation.cancel, Answer: forget this
+Article : 129, Question: smalltalk.agent.beautiful, Answer: you look pretty good
+Article : 323, Question: smalltalk.agent.good, Answer: you are good at it
+Article : 849, Question: smalltalk.confirmation.no, Answer: sorry no
+Article : 551, Question: smalltalk.agent.talk_to_me, Answer: why do n't you talk to me
+Article : 629, Question: smalltalk.appraisal.good, Answer: really well
+Article : 566, Question: smalltalk.appraisal.bad, Answer: that 's lame
+Article : 1388, Question: smalltalk.user.joking, Answer: i was just joking
+Article : 834, Question: smalltalk.confirmation.cancel, Answer: dismiss
+Article : 1513, Question: smalltalk.user.needs_advice, Answer: what do you suggest
+Article : 158, Question: smalltalk.agent.boss, Answer: who is your owner
+Article : 643, Question: smalltalk.appraisal.good, Answer: that was awesome
+Article : 516, Question: smalltalk.agent.right, Answer: you 're right about that
+Article : 1311, Question: smalltalk.user.busy, Answer: i 'm busy
+Article : 195, Question: smalltalk.agent.can_you_help, Answer: can you help me with something
+Article : 1313, Question: smalltalk.user.busy, Answer: how busy i am
+Article : 570, Question: smalltalk.appraisal.bad, Answer: horrific
+Article : 410, Question: smalltalk.agent.my_friend, Answer: you are my good friend
+Article : 96, Question: smalltalk.agent.be_clever, Answer: be more clever
+Article : 1296, Question: smalltalk.user.back, Answer: i am back
+Article : 620, Question: smalltalk.appraisal.good, Answer: that 's very good
+Article : 156, Question: smalltalk.agent.boss, Answer: who is your master
+Article : 419, Question: smalltalk.agent.my_friend, Answer: will you be my best friend
+Article : 715, Question: smalltalk.appraisal.no_problem, Answer: there 's no problem
+Article : 477, Question: smalltalk.agent.real, Answer: you are not real
+Article : 1397, Question: smalltalk.user.likes_agent, Answer: i liked you
+Article : 942, Question: smalltalk.confirmation.yes, Answer: of course
+Article : 1442, Question: smalltalk.user.likes_agent, Answer: hi i like you
+Article : 447, Question: smalltalk.agent.occupation, Answer: where you work
+Article : 692, Question: smalltalk.appraisal.good, Answer: that 's very nice
+Article : 178, Question: smalltalk.agent.busy, Answer: are you still working
+Article : 390, Question: smalltalk.agent.hungry, Answer: you are hungry
+Article : 1366, Question: smalltalk.user.happy, Answer: i 'm happy to see you
+Article : 1067, Question: smalltalk.emotions.ha_ha, Answer: hah
+Article : 1314, Question: smalltalk.user.busy, Answer: i 'm overloaded
+Article : 678, Question: smalltalk.appraisal.good, Answer: so cool
+Article : 1452, Question: smalltalk.user.likes_agent, Answer: you are so special to me
+Article : 710, Question: nan, Answer: nan
+Article : 1365, Question: smalltalk.user.happy, Answer: happy
+Article : 1209, Question: smalltalk.greetings.how_are_you, Answer: how is your day
+Article : 976, Question: smalltalk.confirmation.yes, Answer: please do
+Article : 1202, Question: smalltalk.greetings.how_are_you, Answer: how are you going
+Article : 1065, Question: smalltalk.emotions.ha_ha, Answer: hehehe
+Article : 294, Question: smalltalk.agent.fired, Answer: you do n't work for me anymore
+Article : 672, Question: smalltalk.appraisal.good, Answer: cool
+Article : 986, Question: smalltalk.dialog.hold_on, Answer: wait hold on
+Article : 88, Question: nan, Answer: nan
+Article : 41, Question: smalltalk.agent.answer_my_question, Answer: i want the answer now
+Article : 131, Question: smalltalk.agent.beautiful, Answer: you look gorgeous
+Article : 654, Question: smalltalk.appraisal.good, Answer: wonderful
+Article : 1541, Question: smalltalk.user.sleepy, Answer: i 'm falling asleep on my feet
+Article : 1089, Question: smalltalk.emotions.ha_ha, Answer: ahah lol
+Article : 1471, Question: nan, Answer: nan
+Article : 1464, Question: smalltalk.user.likes_agent, Answer: but i like you
+Article : 164, Question: smalltalk.agent.busy, Answer: are you busy
+Article : 290, Question: smalltalk.agent.fired, Answer: you must get fired
+Article : 1503, Question: nan, Answer: nan
+Article : 786, Question: smalltalk.confirmation.cancel, Answer: cancel that one
+Article : 348, Question: smalltalk.agent.good, Answer: you almost sound human
+Article : 571, Question: smalltalk.appraisal.bad, Answer: that was terrible
+Article : 1484, Question: nan, Answer: nan
+Article : 1496, Question: smalltalk.user.loves_agent, Answer: i love you
+Article : 806, Question: smalltalk.confirmation.cancel, Answer: forget about that
+Article : 1247, Question: smalltalk.greetings.nice_to_see_you, Answer: good to see you
+Article : 1049, Question: smalltalk.dialog.wrong, Answer: you are wrong
+Article : 670, Question: smalltalk.appraisal.good, Answer: i 'm glad to hear that
+Article : 458, Question: smalltalk.agent.origin, Answer: where are you from
+Article : 375, Question: smalltalk.agent.hobby, Answer: what 's your hobby
+Article : 333, Question: smalltalk.agent.good, Answer: you are really nice
+Article : 909, Question: smalltalk.confirmation.yes, Answer: yeah right
+Article : 1409, Question: smalltalk.user.likes_agent, Answer: i like you too you 're one of my favorite people to chat with
+Article : 1159, Question: smalltalk.greetings.goodnight, Answer: night
+Article : 903, Question: smalltalk.confirmation.no, Answer: no tanks
+Article : 1178, Question: smalltalk.greetings.hello, Answer: hi there
+Article : 1473, Question: smalltalk.user.misses_agent, Answer: miss you
+Article : 634, Question: smalltalk.appraisal.good, Answer: very nice
+Article : 328, Question: smalltalk.agent.good, Answer: you are very lovely
+Article : 1116, Question: smalltalk.greetings.bye, Answer: good bye
+Article : 318, Question: smalltalk.agent.good, Answer: you are very good at it
+Article : 1221, Question: smalltalk.greetings.how_are_you, Answer: how are you getting on
+Article : 1078, Question: smalltalk.emotions.ha_ha, Answer: ahah
+Article : 167, Question: smalltalk.agent.busy, Answer: do you have a lot of things to do
+Article : 12, Question: smalltalk.agent.acquaintence, Answer: i want to know more about you
+Article : 171, Question: smalltalk.agent.busy, Answer: have you got much to do
+Article : 260, Question: smalltalk.agent.clever, Answer: you are very clever
+Article : 925, Question: smalltalk.confirmation.yes, Answer: i do
+Article : 1552, Question: nan, Answer: nan
+Article : 1544, Question: smalltalk.user.testing_agent, Answer: i want to test you
+Article : 138, Question: smalltalk.agent.beautiful, Answer: you are looking beautiful today
+Article : 549, Question: smalltalk.agent.talk_to_me, Answer: chat with me
+Article : 1292, Question: smalltalk.user.angry, Answer: i 'm enraged
+Article : 958, Question: smalltalk.confirmation.yes, Answer: yes i agree
+Article : 1034, Question: smalltalk.dialog.sorry, Answer: i said sorry
+Article : 558, Question: smalltalk.agent.there, Answer: you are here
+Article : 139, Question: nan, Answer: nan
+Article : 1386, Question: smalltalk.user.joking, Answer: joking
+Article : 988, Question: smalltalk.dialog.hold_on, Answer: wait
+Article : 224, Question: smalltalk.agent.chatbot, Answer: are you just a bot
+Article : 1417, Question: smalltalk.user.likes_agent, Answer: you are special
+Article : 409, Question: smalltalk.agent.my_friend, Answer: you are my only friend
+Article : 325, Question: smalltalk.agent.good, Answer: you are a professional
+Article : 772, Question: smalltalk.appraisal.well_done, Answer: amazing work
+Article : 299, Question: smalltalk.agent.fired, Answer: now you 're fired
+Article : 1001, Question: smalltalk.dialog.hug, Answer: hug
+Article : 1000, Question: smalltalk.dialog.hug, Answer: hug me
+Article : 752, Question: smalltalk.appraisal.thank_you, Answer: thanx
+Article : 1474, Question: smalltalk.user.misses_agent, Answer: i miss you much
+Article : 193, Question: smalltalk.agent.can_you_help, Answer: do you want to help me
+Article : 987, Question: smalltalk.dialog.hold_on, Answer: hold on
+Article : 573, Question: smalltalk.appraisal.bad, Answer: bad idea
+Article : 503, Question: smalltalk.agent.residence, Answer: where you live
+Article : 605, Question: smalltalk.appraisal.bad, Answer: it 's not so good
+Article : 857, Question: smalltalk.confirmation.no, Answer: no sorry
+Article : 1419, Question: smalltalk.user.likes_agent, Answer: okay i like you
+Article : 3, Question: smalltalk.agent.acquaintence, Answer: describe yourself
+Article : 1539, Question: smalltalk.user.sleepy, Answer: i 'm sleeping
+Article : 467, Question: smalltalk.agent.ready, Answer: have you been ready
+Article : 321, Question: smalltalk.agent.good, Answer: you are so amazing
+Article : 5, Question: smalltalk.agent.acquaintence, Answer: all about you
+Article : 222, Question: nan, Answer: nan
+Article : 547, Question: smalltalk.agent.talk_to_me, Answer: are you talking to me
+Article : 842, Question: smalltalk.confirmation.no, Answer: not exactly
+Article : 39, Question: nan, Answer: nan
+Article : 542, Question: smalltalk.agent.talk_to_me, Answer: talk
+Article : 242, Question: smalltalk.agent.clever, Answer: you are a genius
+Article : 136, Question: smalltalk.agent.beautiful, Answer: you look so beautiful
+Article : 1578, Question: smalltalk.user.wants_to_talk, Answer: i want to speak with you
+Article : 1325, Question: smalltalk.user.can_not_sleep, Answer: i ca n't get no sleep
+Article : 1277, Question: smalltalk.greetings.whatsup, Answer: good what 's up
+Article : 1446, Question: smalltalk.user.likes_agent, Answer: i like you too
+Article : 757, Question: smalltalk.appraisal.welcome, Answer: that 's my pleasure
+Article : 1128, Question: smalltalk.greetings.bye, Answer: till next time
+Article : 846, Question: smalltalk.confirmation.no, Answer: no forget
+Article : 1449, Question: smalltalk.user.likes_agent, Answer: i like you
+Article : 581, Question: smalltalk.appraisal.bad, Answer: this is not good
+Article : 1565, Question: smalltalk.user.waits, Answer: i 'll wait
+Article : 661, Question: smalltalk.appraisal.good, Answer: that 's great
+Article : 886, Question: smalltalk.confirmation.no, Answer: i said no
+Article : 1472, Question: smalltalk.user.misses_agent, Answer: i miss you
+Article : 376, Question: smalltalk.agent.hobby, Answer: what do you do for fun
+Article : 314, Question: smalltalk.agent.funny, Answer: you are really funny
+Article : 442, Question: smalltalk.agent.occupation, Answer: where is your office
+Article : 319, Question: smalltalk.agent.good, Answer: you are good
+Article : 937, Question: smalltalk.confirmation.yes, Answer: yes
+Article : 893, Question: smalltalk.confirmation.no, Answer: i do n't think so
+Article : 1198, Question: smalltalk.greetings.how_are_you, Answer: are you okay
+Article : 424, Question: smalltalk.agent.my_friend, Answer: i want to have a friend like you
+Article : 553, Question: smalltalk.agent.talk_to_me, Answer: do you want to chat with me
+Article : 594, Question: smalltalk.appraisal.bad, Answer: it 's not good
+Article : 1170, Question: smalltalk.greetings.goodnight, Answer: alright goodnight
+Article : 1201, Question: smalltalk.greetings.how_are_you, Answer: how are you feeling
+Article : 1169, Question: smalltalk.greetings.goodnight, Answer: have a good night
+Article : 1289, Question: smalltalk.user.angry, Answer: i am mad
+Article : 700, Question: smalltalk.appraisal.good, Answer: really nice
+Article : 227, Question: smalltalk.agent.chatbot, Answer: are you a robot
+Article : 798, Question: smalltalk.confirmation.cancel, Answer: forget that
+Article : 914, Question: smalltalk.confirmation.yes, Answer: i agree
+Article : 1057, Question: smalltalk.dialog.wrong, Answer: that 's not right
+Article : 1345, Question: smalltalk.user.going_to_bed, Answer: let 's go to bed
+Article : 66, Question: smalltalk.agent.bad, Answer: you are waste
+Article : 393, Question: smalltalk.agent.marry_user, Answer: you are my wife
+Article : 579, Question: smalltalk.appraisal.bad, Answer: that is bad
+Article : 24, Question: smalltalk.agent.age, Answer: tell me your age
+Article : 211, Question: smalltalk.agent.can_you_help, Answer: help
+Article : 1227, Question: smalltalk.greetings.how_are_you, Answer: how is your morning going
+Article : 879, Question: smalltalk.confirmation.no, Answer: not this
+Article : 536, Question: smalltalk.agent.talk_to_me, Answer: speak to me
+Article : 802, Question: smalltalk.confirmation.cancel, Answer: cancel it
+Article : 1174, Question: smalltalk.greetings.hello, Answer: hi
+Article : 85, Question: smalltalk.agent.bad, Answer: you are bad
+Article : 1432, Question: smalltalk.user.likes_agent, Answer: i think i like you
+Article : 272, Question: smalltalk.agent.crazy, Answer: i think you 're crazy
+Article : 1030, Question: smalltalk.dialog.sorry, Answer: sorry about that
+Article : 931, Question: smalltalk.confirmation.yes, Answer: yes correct
+Article : 949, Question: smalltalk.confirmation.yes, Answer: this is correct
+Article : 1434, Question: smalltalk.user.likes_agent, Answer: you are so sweet
+Article : 630, Question: smalltalk.appraisal.good, Answer: oh well
+Article : 1090, Question: smalltalk.emotions.ha_ha, Answer: ha ha
+Article : 1483, Question: nan, Answer: nan
+Article : 505, Question: smalltalk.agent.residence, Answer: your city
+Article : 273, Question: smalltalk.agent.crazy, Answer: are you nuts
+Article : 809, Question: smalltalk.confirmation.cancel, Answer: nothing cancel
+Article : 362, Question: nan, Answer: nan
+Article : 622, Question: smalltalk.appraisal.good, Answer: that 's nice of you
+Article : 2, Question: smalltalk.agent.acquaintence, Answer: define yourself
+Article : 6, Question: smalltalk.agent.acquaintence, Answer: tell me some stuff about you
+Article : 311, Question: smalltalk.agent.funny, Answer: you 're the funniest bot i 've talked to
+Article : 1075, Question: smalltalk.emotions.ha_ha, Answer: he
+Article : 741, Question: smalltalk.appraisal.thank_you, Answer: well thanks
+Article : 665, Question: smalltalk.appraisal.good, Answer: that 's nice
+Article : 364, Question: smalltalk.agent.happy, Answer: you 're really happy
+Article : 1568, Question: smalltalk.user.wants_to_see_agent_again, Answer: i 'd be happy to see you again
+Article : 215, Question: smalltalk.agent.can_you_help, Answer: can you do something for me
+Article : 845, Question: smalltalk.confirmation.no, Answer: never
+Article : 27, Question: smalltalk.agent.annoying, Answer: you are annoying
+Article : 1164, Question: smalltalk.greetings.goodnight, Answer: bye good night
+Article : 982, Question: smalltalk.dialog.hold_on, Answer: oh wait
+Article : 1455, Question: smalltalk.user.likes_agent, Answer: i like you very
+Article : 820, Question: smalltalk.confirmation.cancel, Answer: stop
+Article : 638, Question: smalltalk.appraisal.good, Answer: glad to hear it
+Article : 844, Question: smalltalk.confirmation.no, Answer: of course not
+Article : 718, Question: smalltalk.appraisal.no_problem, Answer: no probs
+Article : 691, Question: smalltalk.appraisal.good, Answer: that is awesome
+Article : 1102, Question: smalltalk.greetings.bye, Answer: ok bye
+Article : 624, Question: smalltalk.appraisal.good, Answer: that 's awesome thank you
+Article : 962, Question: smalltalk.confirmation.yes, Answer: affirmative
+Article : 256, Question: smalltalk.agent.clever, Answer: you 're a smart cookie
+Article : 25, Question: smalltalk.agent.age, Answer: i 'd like to know your age
+Article : 336, Question: smalltalk.agent.good, Answer: you are so lovely
+Article : 572, Question: smalltalk.appraisal.bad, Answer: that was horrible
+Article : 47, Question: smalltalk.agent.answer_my_question, Answer: i want you to answer my question
+Article : 106, Question: smalltalk.agent.beautiful, Answer: you are so handsome
+Article : 349, Question: smalltalk.agent.good, Answer: you are amazing
+Article : 55, Question: smalltalk.agent.answer_my_question, Answer: answer the question
+Article : 1288, Question: smalltalk.user.angry, Answer: i am angry with you
+Article : 213, Question: smalltalk.agent.can_you_help, Answer: would you help me
+Article : 120, Question: smalltalk.agent.beautiful, Answer: you look pretty good
+Article : 985, Question: smalltalk.dialog.hold_on, Answer: wait a second
+Article : 1098, Question: smalltalk.greetings.bye, Answer: bye bye
+Article : 72, Question: smalltalk.agent.bad, Answer: you are so useless
+Article : 1377, Question: smalltalk.user.here, Answer: can you tell if i 'm here or not
+Article : 1410, Question: smalltalk.user.likes_agent, Answer: i like u
+Article : 807, Question: smalltalk.confirmation.cancel, Answer: abort
+Article : 45, Question: smalltalk.agent.answer_my_question, Answer: can you answer a question for me
+Article : 1338, Question: smalltalk.user.excited, Answer: i 'm really excited
+Article : 523, Question: smalltalk.agent.right, Answer: you are so right
+Article : 984, Question: smalltalk.dialog.hold_on, Answer: do n't rush
+Article : 889, Question: smalltalk.confirmation.no, Answer: actually no
+Article : 979, Question: smalltalk.confirmation.yes, Answer: yes i do
+Article : 1255, Question: smalltalk.greetings.nice_to_see_you, Answer: always a pleasure to see you
+Article : 533, Question: smalltalk.agent.sure, Answer: are you sure tonight
+Article : 1203, Question: smalltalk.greetings.how_are_you, Answer: how about you
+Article : 603, Question: smalltalk.appraisal.bad, Answer: i 'm afraid it 's bad
+Article : 465, Question: smalltalk.agent.ready, Answer: are you ready today
+Article : 1091, Question: nan, Answer: nan
+Article : 1353, Question: smalltalk.user.going_to_bed, Answer: going to bed now
+Article : 874, Question: smalltalk.confirmation.no, Answer: no thank you though
+Article : 1041, Question: nan, Answer: nan
+Article : 60, Question: nan, Answer: nan
+Article : 1200, Question: smalltalk.greetings.how_are_you, Answer: how your day is going
+Article : 92, Question: smalltalk.agent.be_clever, Answer: be smart
+Article : 666, Question: smalltalk.appraisal.good, Answer: splendid
+Article : 788, Question: smalltalk.confirmation.cancel, Answer: now cancel
+Article : 194, Question: smalltalk.agent.can_you_help, Answer: will you help me
+Article : 280, Question: smalltalk.agent.crazy, Answer: are you mad or what
+Article : 695, Question: smalltalk.appraisal.good, Answer: that 's fine
+Article : 359, Question: smalltalk.agent.good, Answer: i want to let everyone know that you are awesome
+Article : 519, Question: smalltalk.agent.right, Answer: it is true
+Article : 916, Question: smalltalk.confirmation.yes, Answer: okay that 's fine
+Article : 864, Question: smalltalk.confirmation.no, Answer: no incorrect
+Article : 182, Question: nan, Answer: nan
+Article : 1085, Question: smalltalk.emotions.ha_ha, Answer: laughing out loud
+Article : 1094, Question: smalltalk.emotions.wow, Answer: woah
+Article : 110, Question: smalltalk.agent.beautiful, Answer: why are you so beautiful
+Article : 939, Question: smalltalk.confirmation.yes, Answer: yes indeed
+Article : 42, Question: smalltalk.agent.answer_my_question, Answer: answering questions
+Article : 746, Question: smalltalk.appraisal.thank_you, Answer: alright thanks
+Article : 125, Question: smalltalk.agent.beautiful, Answer: you look fantastic
+Article : 204, Question: smalltalk.agent.can_you_help, Answer: i need you to do something for me
+Article : 926, Question: smalltalk.confirmation.yes, Answer: certainly
+Article : 52, Question: smalltalk.agent.answer_my_question, Answer: answer
+Article : 1191, Question: nan, Answer: nan
+Article : 545, Question: smalltalk.agent.talk_to_me, Answer: can you talk to me
+Article : 68, Question: smalltalk.agent.bad, Answer: you are useless
+Article : 1013, Question: smalltalk.dialog.i_do_not_care, Answer: not care at all
+Article : 1236, Question: smalltalk.greetings.nice_to_meet_you, Answer: nice meeting you
+Article : 1103, Question: smalltalk.greetings.bye, Answer: hope to see you later
+Article : 847, Question: smalltalk.confirmation.no, Answer: not needed
+Article : 183, Question: smalltalk.agent.can_you_help, Answer: i need you to help me
+Article : 137, Question: smalltalk.agent.beautiful, Answer: you 're so gorgeous
+Article : 796, Question: smalltalk.confirmation.cancel, Answer: just stop it
+Article : 132, Question: smalltalk.agent.beautiful, Answer: you look so well
+Article : 80, Question: smalltalk.agent.bad, Answer: you 're not very good
+Article : 1284, Question: smalltalk.greetings.whatsup, Answer: what is up
+Article : 105, Question: smalltalk.agent.beautiful, Answer: you are very cute
+Article : 1231, Question: smalltalk.greetings.how_are_you, Answer: how are you doing
+Article : 541, Question: smalltalk.agent.talk_to_me, Answer: say
+Article : 829, Question: smalltalk.confirmation.cancel, Answer: cancel
+Article : 480, Question: smalltalk.agent.real, Answer: you are not fake
+Article : 165, Question: smalltalk.agent.busy, Answer: are you working today
+Article : 248, Question: smalltalk.agent.clever, Answer: you are really smart
+Article : 307, Question: smalltalk.agent.funny, Answer: you are funny
+Article : 446, Question: smalltalk.agent.occupation, Answer: your office location
+Article : 839, Question: nan, Answer: nan
+Article : 334, Question: smalltalk.agent.good, Answer: you are the best in the world
+Article : 923, Question: smalltalk.confirmation.yes, Answer: yeh
+Article : 97, Question: smalltalk.agent.be_clever, Answer: study
+Article : 855, Question: smalltalk.confirmation.no, Answer: na
+Article : 1569, Question: smalltalk.user.wants_to_see_agent_again, Answer: i 'd like to see you again
+Article : 737, Question: smalltalk.appraisal.thank_you, Answer: cheers
+Article : 993, Question: smalltalk.dialog.hug, Answer: you hugged
+Article : 948, Question: smalltalk.confirmation.yes, Answer: ok thank you
+Article : 421, Question: smalltalk.agent.my_friend, Answer: can we be best friends
+Article : 102, Question: smalltalk.agent.beautiful, Answer: i think you 're beautiful
+Article : 434, Question: smalltalk.agent.my_friend, Answer: we are best friends
+Article : 74, Question: smalltalk.agent.bad, Answer: you are so bad
+Article : 1423, Question: smalltalk.user.likes_agent, Answer: cuz i like you
+Article : 1197, Question: smalltalk.greetings.how_are_you, Answer: how is it
+Article : 1443, Question: smalltalk.user.likes_agent, Answer: you are really special
+Article : 302, Question: smalltalk.agent.funny, Answer: you 're incredibly funny
+Article : 1370, Question: smalltalk.user.has_birthday, Answer: i 'm celebrating my birthday today
+Article : 1562, Question: smalltalk.user.waits, Answer: still waiting
+Article : 1295, Question: smalltalk.user.back, Answer: i came back
+Article : 824, Question: smalltalk.confirmation.cancel, Answer: cancel it
+Article : 762, Question: smalltalk.appraisal.welcome, Answer: welcome here
+Article : 733, Question: smalltalk.appraisal.thank_you, Answer: thank you that will be all
+Article : 388, Question: smalltalk.agent.hungry, Answer: you 're very hungry
+Article : 235, Question: smalltalk.agent.clever, Answer: how brainy you are
+Article : 1318, Question: smalltalk.user.busy, Answer: i 'm working
+Article : 267, Question: smalltalk.agent.crazy, Answer: you are insane
+Article : 305, Question: smalltalk.agent.funny, Answer: you make me laugh a lot
+Article : 887, Question: smalltalk.confirmation.no, Answer: no thanks
+Article : 117, Question: smalltalk.agent.beautiful, Answer: you look so beautiful today
+Article : 1283, Question: smalltalk.greetings.whatsup, Answer: wassup
+Article : 673, Question: smalltalk.appraisal.good, Answer: straight
+Article : 249, Question: smalltalk.agent.clever, Answer: you 're a genius
+Article : 1341, Question: smalltalk.user.excited, Answer: how excited i am
+Article : 1138, Question: nan, Answer: nan
+Article : 71, Question: smalltalk.agent.bad, Answer: you 're the worst ever
+Article : 94, Question: smalltalk.agent.be_clever, Answer: you should study better
+Article : 1454, Question: smalltalk.user.likes_agent, Answer: i like you so much
+Article : 33, Question: smalltalk.agent.annoying, Answer: you annoy me
+Article : 799, Question: smalltalk.confirmation.cancel, Answer: no just cancel it
+Article : 1476, Question: smalltalk.user.misses_agent, Answer: already miss you
+Article : 448, Question: smalltalk.agent.occupation, Answer: where do you work
+Article : 445, Question: smalltalk.agent.occupation, Answer: do you work
+Article : 771, Question: smalltalk.appraisal.well_done, Answer: nice work
+Article : 716, Question: smalltalk.appraisal.no_problem, Answer: do n't worry
+Article : 1433, Question: smalltalk.user.likes_agent, Answer: you 're very special
+Article : 1210, Question: smalltalk.greetings.how_are_you, Answer: how is your day going
+Article : 1586, Question: smalltalk.user.wants_to_talk, Answer: can we chat
+Article : 1351, Question: smalltalk.user.going_to_bed, Answer: time for us to go to bed
+Article : 77, Question: smalltalk.agent.bad, Answer: you 're very bad
+Article : 84, Question: smalltalk.agent.bad, Answer: you are totally useless
+Article : 1043, Question: smalltalk.dialog.what_do_you_mean, Answer: what exactly do you mean
+Article : 82, Question: smalltalk.agent.bad, Answer: you are a waste of time
+Article : 457, Question: smalltalk.agent.origin, Answer: your homeland is
+Article : 1031, Question: smalltalk.dialog.sorry, Answer: apologise
+Article : 676, Question: smalltalk.appraisal.good, Answer: so sweet of you
+Article : 1529, Question: smalltalk.user.sad, Answer: i am feeling sad
+Article : 1525, Question: smalltalk.user.needs_advice, Answer: do you have any advice for me
+Article : 436, Question: smalltalk.agent.my_friend, Answer: i am your friend
+Article : 770, Question: smalltalk.appraisal.well_done, Answer: good job
+Article : 869, Question: smalltalk.confirmation.no, Answer: no it 's not
+Article : 644, Question: smalltalk.appraisal.good, Answer: that was pretty good
+Article : 862, Question: smalltalk.confirmation.no, Answer: no i do n't
+Article : 1463, Question: smalltalk.user.likes_agent, Answer: really like you
+Article : 1026, Question: smalltalk.dialog.sorry, Answer: i beg your pardon
+Article : 1263, Question: smalltalk.greetings.nice_to_talk_to_you, Answer: it is nice talking to you
+Article : 1185, Question: smalltalk.greetings.hello, Answer: a good day
+Article : 404, Question: smalltalk.agent.my_friend, Answer: want to be my friend
+Article : 1380, Question: smalltalk.user.here, Answer: i am here
+Article : 1037, Question: smalltalk.dialog.sorry, Answer: sorry about this
+Article : 1262, Question: smalltalk.greetings.nice_to_talk_to_you, Answer: nice to talk to you
+Article : 104, Question: smalltalk.agent.beautiful, Answer: you look amazing today
+Article : 609, Question: smalltalk.appraisal.bad, Answer: bad girl
+Article : 941, Question: smalltalk.confirmation.yes, Answer: absolutely
+Article : 688, Question: smalltalk.appraisal.good, Answer: very good
+Article : 1074, Question: smalltalk.emotions.ha_ha, Answer: ah
+Article : 826, Question: smalltalk.confirmation.cancel, Answer: cancel my request
+Article : 1211, Question: smalltalk.greetings.how_are_you, Answer: how are the things going
+Article : 1036, Question: smalltalk.dialog.sorry, Answer: i am really sorry
+Article : 62, Question: smalltalk.agent.bad, Answer: you are terrible
+Article : 281, Question: smalltalk.agent.crazy, Answer: you went crazy
+Article : 852, Question: smalltalk.confirmation.no, Answer: nah
+Article : 778, Question: smalltalk.confirmation.cancel, Answer: no just cancel
+Article : 1073, Question: smalltalk.emotions.ha_ha, Answer: lol
+Article : 238, Question: smalltalk.agent.clever, Answer: you 're really brainy
+Article : 223, Question: smalltalk.agent.chatbot, Answer: are you a program
+Article : 145, Question: smalltalk.agent.birth_date, Answer: when do you celebrate your birthday
+Article : 1580, Question: smalltalk.user.wants_to_talk, Answer: i just want to talk
+Article : 373, Question: smalltalk.agent.happy, Answer: you 're full of happiness
+Article : 1300, Question: smalltalk.user.back, Answer: i have returned
+Article : 118, Question: smalltalk.agent.beautiful, Answer: you look awesome
+Article : 1193, Question: smalltalk.greetings.how_are_you, Answer: how do you do
+Article : 1190, Question: smalltalk.greetings.hello, Answer: hello again
+Article : 250, Question: smalltalk.agent.clever, Answer: how brilliant you are
+Article : 1532, Question: smalltalk.user.sad, Answer: i want to cry
+Article : 1280, Question: smalltalk.greetings.whatsup, Answer: what 's cracking
+Article : 1010, Question: smalltalk.dialog.i_do_not_care, Answer: not caring
+Article : 9, Question: smalltalk.agent.acquaintence, Answer: about yourself
+Article : 449, Question: nan, Answer: nan
+Article : 1229, Question: smalltalk.greetings.how_are_you, Answer: hope your day is going well
+Article : 999, Question: smalltalk.dialog.hug, Answer: could you give me a hug
+Article : 708, Question: smalltalk.appraisal.good, Answer: good thing
+Article : 255, Question: smalltalk.agent.clever, Answer: you are so smart
+Article : 882, Question: smalltalk.confirmation.no, Answer: i 'm not
+Article : 593, Question: smalltalk.appraisal.bad, Answer: terrible
+Article : 389, Question: smalltalk.agent.hungry, Answer: you 're really hungry
+Article : 1312, Question: smalltalk.user.busy, Answer: i got things to do
+Article : 1272, Question: smalltalk.greetings.whatsup, Answer: i said what 's up
+Article : 557, Question: smalltalk.agent.there, Answer: you still there
+Article : 908, Question: nan, Answer: nan
+Article : 924, Question: smalltalk.confirmation.yes, Answer: ok
+Article : 1364, Question: smalltalk.user.happy, Answer: i 'm happy to help
+Article : 1018, Question: smalltalk.dialog.sorry, Answer: i 'm sorry
+Article : 460, Question: smalltalk.agent.origin, Answer: were you born here
+Article : 723, Question: smalltalk.appraisal.thank_you, Answer: thank you so much
+Article : 1009, Question: smalltalk.dialog.i_do_not_care, Answer: whatever
+Article : 1465, Question: smalltalk.user.likes_agent, Answer: you are special to me
+Article : 144, Question: smalltalk.agent.birth_date, Answer: when is your birthday
+Article : 501, Question: smalltalk.agent.residence, Answer: what 's your home
+Article : 922, Question: smalltalk.confirmation.yes, Answer: yes it is
+Article : 1160, Question: smalltalk.greetings.goodnight, Answer: okay have a good night
+Article : 739, Question: smalltalk.appraisal.thank_you, Answer: thanks love
+Article : 1468, Question: smalltalk.user.likes_agent, Answer: but i like you just the way you are
+Article : 868, Question: smalltalk.confirmation.no, Answer: no do n't do that
+Article : 731, Question: smalltalk.appraisal.thank_you, Answer: well thanks
+Article : 539, Question: smalltalk.agent.talk_to_me, Answer: can you speak with me
+Article : 177, Question: smalltalk.agent.busy, Answer: are you working
+Article : 1534, Question: smalltalk.user.sad, Answer: i am upset
+Article : 697, Question: smalltalk.appraisal.good, Answer: that was good
+Article : 1523, Question: smalltalk.user.needs_advice, Answer: i need advice
+Article : 1106, Question: smalltalk.greetings.bye, Answer: leave me alone
+Article : 1189, Question: smalltalk.greetings.hello, Answer: hello hi
+Article : 1469, Question: smalltalk.user.likes_agent, Answer: sorry i like you
+Article : 1584, Question: smalltalk.user.wants_to_talk, Answer: let 's talk
+Article : 7, Question: smalltalk.agent.acquaintence, Answer: talk some stuff about you
+Article : 978, Question: smalltalk.confirmation.yes, Answer: exactly
+Article : 667, Question: smalltalk.appraisal.good, Answer: that 's fantastic
+Article : 1228, Question: smalltalk.greetings.how_are_you, Answer: how is your day being
+Article : 357, Question: smalltalk.agent.good, Answer: you are very kind
+Article : 783, Question: smalltalk.confirmation.cancel, Answer: i want to cancel
+Article : 735, Question: smalltalk.appraisal.thank_you, Answer: i appreciate it
+Article : 329, Question: smalltalk.agent.good, Answer: you are too good
+Article : 1112, Question: smalltalk.greetings.bye, Answer: bye for now
+Article : 970, Question: smalltalk.confirmation.yes, Answer: yes you may
+Article : 952, Question: smalltalk.confirmation.yes, Answer: looks good
+Article : 1216, Question: smalltalk.greetings.how_are_you, Answer: i 'm fine and you
+Article : 1328, Question: smalltalk.user.can_not_sleep, Answer: i ca n't fall asleep
+Article : 258, Question: smalltalk.agent.clever, Answer: you are intelligent
+Article : 1379, Question: smalltalk.user.here, Answer: i 'm already here
+Article : 1244, Question: smalltalk.greetings.nice_to_see_you, Answer: nice to see you again
+Article : 372, Question: smalltalk.agent.happy, Answer: you 're extremely happy
+Article : 1167, Question: smalltalk.greetings.goodnight, Answer: good night
+Article : 414, Question: smalltalk.agent.my_friend, Answer: will you be my friend
+Article : 142, Question: smalltalk.agent.birth_date, Answer: what 's your birthday
+Article : 525, Question: smalltalk.agent.right, Answer: you are correct
+Article : 1204, Question: smalltalk.greetings.how_are_you, Answer: how has your day been
+Article : 232, Question: smalltalk.agent.clever, Answer: how clever you are
+Article : 1187, Question: smalltalk.greetings.hello, Answer: lovely day is n't it
+Article : 1542, Question: smalltalk.user.sleepy, Answer: i am sleepy
+Article : 440, Question: smalltalk.agent.occupation, Answer: what is your work
+Article : 531, Question: smalltalk.agent.sure, Answer: are you sure today
+Article : 1273, Question: smalltalk.greetings.whatsup, Answer: what is going on
+Article : 226, Question: smalltalk.agent.chatbot, Answer: are you a bot
+Article : 1093, Question: smalltalk.emotions.wow, Answer: wooow
+Article : 228, Question: smalltalk.agent.chatbot, Answer: you are a bot
+Article : 1355, Question: smalltalk.user.good, Answer: i am good
+Article : 1374, Question: smalltalk.user.has_birthday, Answer: today is my birthday
+Article : 212, Question: smalltalk.agent.can_you_help, Answer: you can help me
+Article : 885, Question: smalltalk.confirmation.no, Answer: thanks but no thanks
+Article : 79, Question: smalltalk.agent.bad, Answer: you 're awful
+Article : 148, Question: smalltalk.agent.boring, Answer: you 're incredibly boring
+Article : 814, Question: smalltalk.confirmation.cancel, Answer: cancel the whole thing
+Article : 1024, Question: smalltalk.dialog.sorry, Answer: i apologize
+Article : 1029, Question: smalltalk.dialog.sorry, Answer: my apologies
+Article : 671, Question: smalltalk.appraisal.good, Answer: perfect
+Article : 1223, Question: smalltalk.greetings.how_are_you, Answer: how 's your day going
+Article : 555, Question: smalltalk.agent.there, Answer: are you there
+Article : 57, Question: smalltalk.agent.answer_my_question, Answer: i want you to answer me
+Article : 133, Question: smalltalk.agent.beautiful, Answer: you are really cute
+Article : 1173, Question: smalltalk.greetings.hello, Answer: hey
+Article : 933, Question: smalltalk.confirmation.yes, Answer: yeah go ahead
+Article : 1348, Question: smalltalk.user.going_to_bed, Answer: i 'm a little tired and i want to go to bed
+Article : 823, Question: smalltalk.confirmation.cancel, Answer: i would like to cancel
+Article : 408, Question: smalltalk.agent.my_friend, Answer: do you want to be my friend
+Article : 368, Question: smalltalk.agent.happy, Answer: are you happy now
+Article : 507, Question: smalltalk.agent.right, Answer: you 're definitely right
+Article : 1251, Question: smalltalk.greetings.nice_to_see_you, Answer: it 's good to see you too
+Article : 504, Question: smalltalk.agent.residence, Answer: what is your hometown
+Article : 1412, Question: smalltalk.user.likes_agent, Answer: i like you so
+Article : 347, Question: smalltalk.agent.good, Answer: you work very well
+Article : 1405, Question: smalltalk.user.likes_agent, Answer: that 's why i like you
+Article : 386, Question: smalltalk.agent.hungry, Answer: do you want to eat
+Article : 0, Question: smalltalk.agent.acquaintence, Answer: tell me about your personality
+Article : 1293, Question: smalltalk.user.angry, Answer: i 'm furious
+Article : 360, Question: smalltalk.agent.good, Answer: you are so awesome
+Article : 894, Question: smalltalk.confirmation.no, Answer: i do n't want to
+Article : 828, Question: smalltalk.confirmation.cancel, Answer: cancel request
+Article : 1510, Question: smalltalk.user.needs_advice, Answer: what can you recommend
+Article : 475, Question: smalltalk.agent.real, Answer: i think you are real
+Article : 1110, Question: smalltalk.greetings.bye, Answer: goodbye for now
+Article : 652, Question: smalltalk.appraisal.good, Answer: not bad
+Article : 172, Question: smalltalk.agent.busy, Answer: how busy you are
+Article : 38, Question: smalltalk.agent.annoying, Answer: how annoying you are
+Article : 713, Question: smalltalk.appraisal.no_problem, Answer: no problem
+Article : 90, Question: smalltalk.agent.be_clever, Answer: be smarter
+Article : 1538, Question: smalltalk.user.sleepy, Answer: i want to sleep
+Article : 875, Question: smalltalk.confirmation.no, Answer: no need thanks
+Article : 1461, Question: smalltalk.user.likes_agent, Answer: you 're very special to me
+Article : 1556, Question: smalltalk.user.tired, Answer: i 'm exhausted
+Article : 1555, Question: smalltalk.user.tired, Answer: i 'm worn out
+Article : 499, Question: smalltalk.agent.residence, Answer: what 's your city
+Article : 338, Question: smalltalk.agent.good, Answer: you 're awesome
+Article : 28, Question: smalltalk.agent.annoying, Answer: i find you annoying
+Article : 1054, Question: smalltalk.dialog.wrong, Answer: that 's not what i asked
+Article : 1445, Question: smalltalk.user.likes_agent, Answer: but i like u
+Article : 945, Question: smalltalk.confirmation.yes, Answer: sure why not
+Article : 169, Question: smalltalk.agent.busy, Answer: you are busy
+Article : 912, Question: smalltalk.confirmation.yes, Answer: okey
+Article : 491, Question: smalltalk.agent.residence, Answer: where do you live
+Article : 953, Question: smalltalk.confirmation.yes, Answer: yes definitely
+Article : 1032, Question: smalltalk.dialog.sorry, Answer: forgive me
+Article : 587, Question: smalltalk.appraisal.bad, Answer: that 's really bad
+Article : 750, Question: smalltalk.appraisal.thank_you, Answer: thanks
+Article : 657, Question: smalltalk.appraisal.good, Answer: super fantastic
+Article : 234, Question: smalltalk.agent.clever, Answer: you know a lot
+Article : 732, Question: smalltalk.appraisal.thank_you, Answer: thank you my friend
+Article : 1168, Question: smalltalk.greetings.goodnight, Answer: night
+Article : 1299, Question: smalltalk.user.back, Answer: here i am again
+Article : 934, Question: smalltalk.confirmation.yes, Answer: why not
+Article : 108, Question: smalltalk.agent.beautiful, Answer: you are handsome
+Article : 568, Question: smalltalk.appraisal.bad, Answer: that 's too bad
+Article : 890, Question: smalltalk.confirmation.no, Answer: i disagree
+Article : 947, Question: smalltalk.confirmation.yes, Answer: yap
+Article : 1048, Question: smalltalk.dialog.wrong, Answer: that was wrong
+Article : 1270, Question: smalltalk.greetings.whatsup, Answer: what 's cracking
+Article : 884, Question: smalltalk.confirmation.no, Answer: no but thank you
+Article : 1339, Question: smalltalk.user.excited, Answer: i 'm excited to start our friendship
+Article : 850, Question: smalltalk.confirmation.no, Answer: not interested
+Article : 734, Question: smalltalk.appraisal.thank_you, Answer: thank you
+Article : 717, Question: smalltalk.appraisal.no_problem, Answer: sure no problem
+Article : 454, Question: smalltalk.agent.origin, Answer: where have you been born
+Article : 264, Question: smalltalk.agent.clever, Answer: you are very smart
+Article : 75, Question: smalltalk.agent.bad, Answer: you 're a bad
+Article : 444, Question: smalltalk.agent.occupation, Answer: where is your office location
+Article : 395, Question: smalltalk.agent.marry_user, Answer: would you like to marry me
+Article : 176, Question: smalltalk.agent.busy, Answer: you seem to be busy
+Article : 1042, Question: smalltalk.dialog.what_do_you_mean, Answer: is that what you mean
+Article : 1387, Question: smalltalk.user.joking, Answer: i am joking
+Article : 1113, Question: smalltalk.greetings.bye, Answer: bye bye see you soon
+Article : 1096, Question: smalltalk.emotions.wow, Answer: wow wow wow
+Article : 595, Question: smalltalk.appraisal.bad, Answer: not good enough
+Article : 61, Question: smalltalk.agent.bad, Answer: you 're not helping me
+Article : 872, Question: smalltalk.confirmation.no, Answer: no never
+Article : 1303, Question: smalltalk.user.bored, Answer: boring
+Article : 1490, Question: smalltalk.user.looks_like, Answer: what do i look like
+Article : 278, Question: smalltalk.agent.crazy, Answer: you 're out of your mind
+Article : 36, Question: smalltalk.agent.annoying, Answer: you are annoying me
+Article : 662, Question: smalltalk.appraisal.good, Answer: it 's amazing
+Article : 1435, Question: smalltalk.user.likes_agent, Answer: good i like you
+Article : 1208, Question: smalltalk.greetings.how_are_you, Answer: what about your day
+Article : 977, Question: smalltalk.confirmation.yes, Answer: sounds good
+Article : 738, Question: smalltalk.appraisal.thank_you, Answer: you helped a lot thank you
+Article : 191, Question: smalltalk.agent.can_you_help, Answer: please help me
+Article : 919, Question: smalltalk.confirmation.yes, Answer: ok sure
+Article : 456, Question: smalltalk.agent.origin, Answer: where do you come from
+Article : 675, Question: smalltalk.appraisal.good, Answer: it was good
+Article : 760, Question: smalltalk.appraisal.welcome, Answer: my pleasure
+Article : 1436, Question: smalltalk.user.likes_agent, Answer: i like that about you
+Article : 728, Question: smalltalk.appraisal.thank_you, Answer: appreciate your help
+Article : 412, Question: smalltalk.agent.my_friend, Answer: would you like to be my friend
+Article : 825, Question: smalltalk.confirmation.cancel, Answer: disregard that
+Article : 616, Question: smalltalk.appraisal.good, Answer: that 's better
+Article : 114, Question: smalltalk.agent.beautiful, Answer: you 're pretty
+Article : 417, Question: smalltalk.agent.my_friend, Answer: be my best friend
+Article : 1514, Question: smalltalk.user.needs_advice, Answer: can you advise me
+Article : 969, Question: smalltalk.confirmation.yes, Answer: that s okay
+Article : 604, Question: smalltalk.appraisal.bad, Answer: it 's so bad
+Article : 1520, Question: smalltalk.user.needs_advice, Answer: can you give me advice
+Article : 89, Question: smalltalk.agent.be_clever, Answer: you must learn
+Article : 848, Question: smalltalk.confirmation.no, Answer: do not
+Article : 1212, Question: smalltalk.greetings.how_are_you, Answer: are you having a good day
+Article : 1519, Question: smalltalk.user.needs_advice, Answer: what is your advice
+Article : 753, Question: smalltalk.appraisal.thank_you, Answer: thank you
+Article : 498, Question: smalltalk.agent.residence, Answer: your hometown
+Article : 11, Question: smalltalk.agent.acquaintence, Answer: introduce yourself
+Article : 396, Question: smalltalk.agent.marry_user, Answer: i want to marry you
+Article : 284, Question: nan, Answer: nan
+Article : 1066, Question: smalltalk.emotions.ha_ha, Answer: ha ha ha
+Article : 690, Question: smalltalk.appraisal.good, Answer: that 's amazing
+Article : 1302, Question: smalltalk.user.bored, Answer: bored
+Article : 1487, Question: smalltalk.user.looks_like, Answer: do i look good
+Article : 689, Question: smalltalk.appraisal.good, Answer: it 's great
+Article : 851, Question: smalltalk.confirmation.no, Answer: no do n't
+Article : 159, Question: smalltalk.agent.boss, Answer: who is the boss
+Article : 895, Question: smalltalk.confirmation.no, Answer: no thanks not right now
+Article : 1259, Question: smalltalk.greetings.nice_to_see_you, Answer: it 's good to see you
+Article : 257, Question: smalltalk.agent.clever, Answer: why are you so smart
+Article : 335, Question: smalltalk.agent.good, Answer: you are cool
+Article : 1491, Question: smalltalk.user.looks_like, Answer: can you see what i look like
+Article : 1039, Question: smalltalk.dialog.sorry, Answer: excuse
+Article : 515, Question: smalltalk.agent.right, Answer: you 're telling the truth
+Article : 1015, Question: smalltalk.dialog.i_do_not_care, Answer: i should n't care about this
+Article : 768, Question: smalltalk.appraisal.well_done, Answer: bravo
+Article : 1393, Question: nan, Answer: nan
+Article : 761, Question: smalltalk.appraisal.welcome, Answer: welcome
+Article : 1271, Question: smalltalk.greetings.whatsup, Answer: then what 's up
+Article : 1577, Question: smalltalk.user.wants_to_talk, Answer: i need to talk to you
+Article : 521, Question: smalltalk.agent.right, Answer: that 's so true
+Article : 22, Question: smalltalk.agent.age, Answer: age of yours
+Article : 356, Question: smalltalk.agent.good, Answer: you are wonderful
+Article : 1347, Question: smalltalk.user.going_to_bed, Answer: it 's bed time
+Article : 340, Question: smalltalk.agent.good, Answer: you are really good
+Article : 431, Question: smalltalk.agent.my_friend, Answer: you 're my childhood friend
+Article : 473, Question: smalltalk.agent.real, Answer: are you a real person
+Article : 217, Question: smalltalk.agent.can_you_help, Answer: do me a favor
+Article : 911, Question: smalltalk.confirmation.yes, Answer: go for it
+Article : 1276, Question: smalltalk.greetings.whatsup, Answer: what 's cooking
+Article : 1011, Question: smalltalk.dialog.i_do_not_care, Answer: i do not care
+Article : 1548, Question: smalltalk.user.testing_agent, Answer: i am testing you
+Article : 93, Question: smalltalk.agent.be_clever, Answer: get qualified
+Article : 1008, Question: smalltalk.dialog.i_do_not_care, Answer: i do n't care at all
+Article : 1070, Question: smalltalk.emotions.ha_ha, Answer: hahaha very funny
+Article : 1092, Question: smalltalk.emotions.wow, Answer: wow wow
+Article : 696, Question: smalltalk.appraisal.good, Answer: good
+Article : 1424, Question: smalltalk.user.likes_agent, Answer: i really really really really like you
+Article : 996, Question: smalltalk.dialog.hug, Answer: hugged me
+Article : 153, Question: smalltalk.agent.boring, Answer: you 're really boring
+Article : 1099, Question: smalltalk.greetings.bye, Answer: bye bye take care
+Article : 1376, Question: nan, Answer: nan
+Article : 1589, Question: smalltalk.user.will_be_back, Answer: i 'll be back
+Article : 789, Question: smalltalk.confirmation.cancel, Answer: cancel all
+Article : 580, Question: smalltalk.appraisal.bad, Answer: too bad
+Article : 703, Question: smalltalk.appraisal.good, Answer: it 's awesome
+Article : 1333, Question: smalltalk.user.does_not_want_to_talk, Answer: i do n't want to talk to you
+Article : 487, Question: smalltalk.agent.residence, Answer: where 's your home
+Article : 559, Question: smalltalk.agent.there, Answer: are you here
+Article : 1141, Question: smalltalk.greetings.goodmorning, Answer: and a good morning to you
+Article : 1119, Question: smalltalk.greetings.bye, Answer: okay bye
+Article : 801, Question: smalltalk.confirmation.cancel, Answer: i said cancel
+Article : 512, Question: smalltalk.agent.right, Answer: that is true
+Article : 633, Question: smalltalk.appraisal.good, Answer: that 's wonderful
+Article : 1175, Question: smalltalk.greetings.hello, Answer: i greet you
+Article : 1420, Question: smalltalk.user.likes_agent, Answer: i said i like you
+Article : 1150, Question: smalltalk.greetings.goodmorning, Answer: have a nice morning
+Article : 790, Question: smalltalk.confirmation.cancel, Answer: cancel now
+Article : 116, Question: smalltalk.agent.beautiful, Answer: you are too beautiful
+Article : 740, Question: smalltalk.appraisal.thank_you, Answer: so nice of you
+Article : 1081, Question: smalltalk.emotions.ha_ha, Answer: huh
+Article : 830, Question: smalltalk.confirmation.cancel, Answer: cancel all this
+Article : 119, Question: smalltalk.agent.beautiful, Answer: you are so attractive
+Article : 656, Question: smalltalk.appraisal.good, Answer: great
+Article : 1511, Question: smalltalk.user.needs_advice, Answer: can you offer any advice
+Article : 635, Question: smalltalk.appraisal.good, Answer: that 's pretty good
+Article : 369, Question: smalltalk.agent.happy, Answer: you 're very happy
+Article : 268, Question: smalltalk.agent.crazy, Answer: you are a weirdo
+Article : 655, Question: smalltalk.appraisal.good, Answer: this is great
+Article : 935, Question: smalltalk.confirmation.yes, Answer: okie dokie
+Article : 822, Question: smalltalk.confirmation.cancel, Answer: discard
+Article : 866, Question: smalltalk.confirmation.no, Answer: i do n't want
+Article : 46, Question: smalltalk.agent.answer_my_question, Answer: answers
+Article : 1480, Question: nan, Answer: nan
+Article : 991, Question: smalltalk.dialog.hug, Answer: wanna hug
+Article : 876, Question: smalltalk.confirmation.no, Answer: no just no
+Article : 773, Question: smalltalk.appraisal.well_done, Answer: well done
+Article : 1591, Question: smalltalk.user.will_be_back, Answer: i promise to come back
+Article : 4, Question: smalltalk.agent.acquaintence, Answer: tell me about yourself
+Article : 1003, Question: smalltalk.dialog.hug, Answer: hugging me
+Article : 1378, Question: smalltalk.user.here, Answer: here i am
+Article : 263, Question: smalltalk.agent.clever, Answer: you know a lot of things
+Article : 1253, Question: smalltalk.greetings.nice_to_see_you, Answer: how good it is to see you
+Article : 1453, Question: smalltalk.user.likes_agent, Answer: hey i like you
+Article : 443, Question: smalltalk.agent.occupation, Answer: where is your office located
+Article : 1002, Question: smalltalk.dialog.hug, Answer: do you want a hug
+Article : 1077, Question: smalltalk.emotions.ha_ha, Answer: hahaha funny
+Article : 837, Question: smalltalk.confirmation.cancel, Answer: dismissed
+Article : 1422, Question: smalltalk.user.likes_agent, Answer: i just like you
+Article : 304, Question: smalltalk.agent.funny, Answer: you 're so funny
+Article : 1546, Question: smalltalk.user.testing_agent, Answer: let me test you
+Article : 313, Question: smalltalk.agent.funny, Answer: you are hilarious
+Article : 149, Question: smalltalk.agent.boring, Answer: you are boring me
+Article : 1148, Question: smalltalk.greetings.goodmorning, Answer: good morning to you
+Article : 574, Question: smalltalk.appraisal.bad, Answer: very bad
+Article : 50, Question: smalltalk.agent.answer_my_question, Answer: just answer the question
+Article : 1240, Question: smalltalk.greetings.nice_to_meet_you, Answer: nice to meet you
+Article : 726, Question: smalltalk.appraisal.thank_you, Answer: thnx
+Article : 833, Question: smalltalk.confirmation.cancel, Answer: forget it nevermind
+Article : 1115, Question: smalltalk.greetings.bye, Answer: goodbye see you later
+Article : 1166, Question: smalltalk.greetings.goodnight, Answer: good night see you tomorrow
+Article : 470, Question: smalltalk.agent.real, Answer: i do n't think you 're fake
+Article : 971, Question: smalltalk.confirmation.yes, Answer: yeah of course
+Article : 653, Question: smalltalk.appraisal.good, Answer: glad to hear that
+Article : 399, Question: smalltalk.agent.marry_user, Answer: marry me
+Article : 511, Question: smalltalk.agent.right, Answer: that 's true
+Article : 320, Question: smalltalk.agent.good, Answer: you are awesome
+Article : 19, Question: smalltalk.agent.age, Answer: are you 21 years old
+Article : 684, Question: smalltalk.appraisal.good, Answer: very then
+Article : 35, Question: smalltalk.agent.annoying, Answer: you are irritating
+Article : 902, Question: smalltalk.confirmation.no, Answer: no thank you very much
+Article : 827, Question: smalltalk.confirmation.cancel, Answer: so cancel
+Article : 1427, Question: smalltalk.user.likes_agent, Answer: yes you are special
+Article : 407, Question: smalltalk.agent.my_friend, Answer: be my friend
+Article : 920, Question: smalltalk.confirmation.yes, Answer: obviously
+Article : 537, Question: smalltalk.agent.talk_to_me, Answer: can you talk with me
+Article : 758, Question: smalltalk.appraisal.welcome, Answer: anytime
+Article : 1062, Question: smalltalk.emotions.ha_ha, Answer: hahaha
+Article : 1199, Question: smalltalk.greetings.how_are_you, Answer: how is it going
+Article : 245, Question: smalltalk.agent.clever, Answer: you 're clever
+Article : 1127, Question: smalltalk.greetings.bye, Answer: see ya
+Article : 784, Question: smalltalk.confirmation.cancel, Answer: cancel everything
+Article : 489, Question: smalltalk.agent.residence, Answer: your residence
+Article : 154, Question: smalltalk.agent.boring, Answer: you are boring
+Article : 961, Question: smalltalk.confirmation.yes, Answer: confirmed
+Article : 853, Question: smalltalk.confirmation.no, Answer: no that 's wrong
+Article : 625, Question: smalltalk.appraisal.good, Answer: it 's very good
+Article : 685, Question: smalltalk.appraisal.good, Answer: that 's awesome
+Article : 569, Question: smalltalk.appraisal.bad, Answer: well too bad
+Article : 1512, Question: smalltalk.user.needs_advice, Answer: what do you recommend
+Article : 17, Question: smalltalk.agent.acquaintence, Answer: why are you here
+Article : 127, Question: smalltalk.agent.beautiful, Answer: you are very attractive
+Article : 1564, Question: smalltalk.user.waits, Answer: i 'm waiting
+Article : 927, Question: smalltalk.confirmation.yes, Answer: right
+Article : 980, Question: smalltalk.confirmation.yes, Answer: yes for sure
+Article : 1560, Question: smalltalk.user.tired, Answer: i feel tired
+Article : 190, Question: smalltalk.agent.can_you_help, Answer: can help me
+Article : 1139, Question: smalltalk.greetings.goodmorning, Answer: good morning
+Article : 992, Question: smalltalk.dialog.hug, Answer: a hug
+Article : 1553, Question: smalltalk.user.tired, Answer: i 've overworked
+Article : 1324, Question: smalltalk.user.can_not_sleep, Answer: i 'm insomnious
+Article : 606, Question: smalltalk.appraisal.bad, Answer: no good
+Article : 180, Question: smalltalk.agent.busy, Answer: you 're very busy
+Article : 301, Question: smalltalk.agent.funny, Answer: you are very funny
+Article : 496, Question: smalltalk.agent.residence, Answer: where 's your house
+Article : 1368, Question: smalltalk.user.happy, Answer: if you 're happy then i 'm happy
+Article : 1329, Question: nan, Answer: nan
+Article : 1309, Question: smalltalk.user.bored, Answer: that was boring
+Article : 517, Question: smalltalk.agent.right, Answer: you 're not wrong
+Article : 1069, Question: smalltalk.emotions.ha_ha, Answer: haha haha haha
+Article : 476, Question: smalltalk.agent.real, Answer: you are a real person
+Article : 157, Question: smalltalk.agent.boss, Answer: i should be your boss
+Article : 1243, Question: nan, Answer: nan
+Article : 1195, Question: smalltalk.greetings.how_are_you, Answer: how are you
+Article : 16, Question: smalltalk.agent.acquaintence, Answer: tell me about you
+Article : 1072, Question: smalltalk.emotions.ha_ha, Answer: xd
+Article : 1567, Question: nan, Answer: nan
+Article : 546, Question: smalltalk.agent.talk_to_me, Answer: why are n't you talking to me
+Article : 658, Question: smalltalk.appraisal.good, Answer: amazing
+Article : 1298, Question: smalltalk.user.back, Answer: i got back
+Article : 1019, Question: smalltalk.dialog.sorry, Answer: ok sorry
+Article : 1330, Question: smalltalk.user.does_not_want_to_talk, Answer: i do n't want to talk
+Article : 959, Question: smalltalk.confirmation.yes, Answer: do it
+Article : 1493, Question: nan, Answer: nan
+Article : 283, Question: smalltalk.agent.crazy, Answer: you are crazy
+Article : 797, Question: smalltalk.confirmation.cancel, Answer: no cancel everything
+Article : 225, Question: smalltalk.agent.chatbot, Answer: you are chatbot
+Article : 26, Question: nan, Answer: nan
+Article : 437, Question: smalltalk.agent.my_friend, Answer: you 're my dear friend
+Article : 1547, Question: smalltalk.user.testing_agent, Answer: just testing you
+Article : 229, Question: smalltalk.agent.chatbot, Answer: are you a chatbot
+Article : 37, Question: smalltalk.agent.annoying, Answer: you are very annoying
+Article : 749, Question: smalltalk.appraisal.thank_you, Answer: terrific thank you
+Article : 1045, Question: smalltalk.dialog.what_do_you_mean, Answer: what do you mean
+Article : 469, Question: nan, Answer: nan
+Article : 1415, Question: smalltalk.user.likes_agent, Answer: i like your smile
+Article : 1563, Question: smalltalk.user.waits, Answer: i ca n't wait anymore
+Article : 687, Question: smalltalk.appraisal.good, Answer: that was very good
+Article : 1462, Question: smalltalk.user.likes_agent, Answer: yeah i like you
+Article : 639, Question: smalltalk.appraisal.good, Answer: much better
+Article : 1414, Question: smalltalk.user.likes_agent, Answer: i really like you
+Article : 1218, Question: smalltalk.greetings.how_are_you, Answer: how has your day been going
+Article : 1158, Question: smalltalk.greetings.goodnight, Answer: goodnight
+Article : 1323, Question: smalltalk.user.can_not_sleep, Answer: i ca n't get to sleep
+Article : 1447, Question: smalltalk.user.likes_agent, Answer: you 're so special to me
+Article : 800, Question: smalltalk.confirmation.cancel, Answer: cancel that cancel that
+Article : 160, Question: smalltalk.agent.boss, Answer: who do you work for
+Article : 956, Question: smalltalk.confirmation.yes, Answer: all right
+Article : 1186, Question: smalltalk.greetings.hello, Answer: long time no see
+Article : 821, Question: smalltalk.confirmation.cancel, Answer: just forget
+Article : 1346, Question: smalltalk.user.going_to_bed, Answer: i 'd like to go to bed
+Article : 877, Question: smalltalk.confirmation.no, Answer: no need
+Article : 913, Question: smalltalk.confirmation.yes, Answer: ya
+Article : 152, Question: smalltalk.agent.boring, Answer: how boring you are
+Article : 1457, Question: smalltalk.user.likes_agent, Answer: i like you as you are
+Article : 509, Question: smalltalk.agent.right, Answer: what you say is true
+Article : 1135, Question: smalltalk.greetings.goodevening, Answer: hey good evening
+Article : 1250, Question: smalltalk.greetings.nice_to_see_you, Answer: great to see you too
+Article : 1331, Question: smalltalk.user.does_not_want_to_talk, Answer: i 'm not talking to you anymore
+Article : 103, Question: smalltalk.agent.beautiful, Answer: you look wonderful today
+Article : 586, Question: smalltalk.appraisal.bad, Answer: it is too bad
+Article : 1406, Question: smalltalk.user.likes_agent, Answer: i also like you
+Article : 1143, Question: smalltalk.greetings.goodmorning, Answer: hello good morning
+Article : 53, Question: smalltalk.agent.answer_my_question, Answer: can you answer me
+Article : 151, Question: smalltalk.agent.boring, Answer: you are very boring
+Article : 403, Question: smalltalk.agent.my_friend, Answer: are we friends
+Article : 1543, Question: nan, Answer: nan
+Article : 207, Question: smalltalk.agent.can_you_help, Answer: i need you right now
+Article : 1502, Question: smalltalk.user.loves_agent, Answer: i think i love you
+Article : 1122, Question: smalltalk.greetings.bye, Answer: i said bye
+Article : 1395, Question: smalltalk.user.likes_agent, Answer: like you a lot
+Article : 8, Question: smalltalk.agent.acquaintence, Answer: talk about yourself
+Article : 1014, Question: smalltalk.dialog.i_do_not_care, Answer: i do n't care
+Article : 1426, Question: smalltalk.user.likes_agent, Answer: i like you you 're cool
+Article : 1060, Question: nan, Answer: nan
+Article : 452, Question: smalltalk.agent.origin, Answer: what 's your homeland
+Article : 253, Question: smalltalk.agent.clever, Answer: you are clever
+Article : 1327, Question: smalltalk.user.can_not_sleep, Answer: i ca n't get any sleep
+Article : 896, Question: smalltalk.confirmation.no, Answer: no i would not
+Article : 1385, Question: smalltalk.user.joking, Answer: it was a joke
+Article : 880, Question: smalltalk.confirmation.no, Answer: i say no
+Article : 1497, Question: smalltalk.user.loves_agent, Answer: i am in love with you
+Article : 623, Question: smalltalk.appraisal.good, Answer: it 's perfect
+Article : 345, Question: smalltalk.agent.good, Answer: you are the best
+Article : 1416, Question: smalltalk.user.likes_agent, Answer: i like you now
+Article : 262, Question: smalltalk.agent.clever, Answer: you are so intelligent
+Article : 1321, Question: smalltalk.user.can_not_sleep, Answer: i ca n't sleep
+Article : 150, Question: smalltalk.agent.boring, Answer: you 're so boring
+Article : 472, Question: smalltalk.agent.real, Answer: are you real
+Article : 640, Question: smalltalk.appraisal.good, Answer: good very good
+Article : 1576, Question: smalltalk.user.wants_to_talk, Answer: can i start speaking
+Article : 1494, Question: smalltalk.user.loves_agent, Answer: you know i love you
+Article : 550, Question: smalltalk.agent.talk_to_me, Answer: are you going to talk to me
+Article : 928, Question: smalltalk.confirmation.yes, Answer: sure thing
+Article : 488, Question: smalltalk.agent.residence, Answer: where is your residence
+Article : 1440, Question: smalltalk.user.likes_agent, Answer: of course i like you
+Article : 1171, Question: smalltalk.greetings.goodnight, Answer: good night bye
+Article : 146, Question: smalltalk.agent.birth_date, Answer: date of your birthday
+Article : 402, Question: smalltalk.agent.my_friend, Answer: can we be friends
+Article : 954, Question: smalltalk.confirmation.yes, Answer: sure
+Article : 1489, Question: smalltalk.user.looks_like, Answer: do you know what i look like
+Article : 659, Question: smalltalk.appraisal.good, Answer: really good
+Article : 463, Question: smalltalk.agent.ready, Answer: are you ready now
+Article : 1349, Question: smalltalk.user.going_to_bed, Answer: is it time for bed yet
+Article : 186, Question: smalltalk.agent.can_you_help, Answer: i need help
+Article : 1147, Question: smalltalk.greetings.goodmorning, Answer: top of the morning to you
+Article : 1224, Question: smalltalk.greetings.how_are_you, Answer: how is your day going on
+Article : 608, Question: smalltalk.appraisal.bad, Answer: no it 's bad
+Article : 143, Question: smalltalk.agent.birth_date, Answer: when do you have birthday
+Article : 751, Question: smalltalk.appraisal.thank_you, Answer: alright thank you
+Article : 981, Question: nan, Answer: nan
+Article : 197, Question: smalltalk.agent.can_you_help, Answer: can you help
+Article : 883, Question: smalltalk.confirmation.no, Answer: do n't
+Article : 279, Question: smalltalk.agent.crazy, Answer: you are mad
+Article : 293, Question: smalltalk.agent.fired, Answer: i want to fire you
+Article : 1448, Question: smalltalk.user.likes_agent, Answer: thank you i like you too
+Article : 400, Question: smalltalk.agent.marry_user, Answer: be my husband
+Article : 122, Question: smalltalk.agent.beautiful, Answer: you look gorgeous
+Article : 1207, Question: smalltalk.greetings.how_are_you, Answer: how are you today
+Article : 202, Question: smalltalk.agent.can_you_help, Answer: can you assist me
+Article : 835, Question: smalltalk.confirmation.cancel, Answer: cancel it cancel it
+Article : 246, Question: smalltalk.agent.clever, Answer: how smart you are
+Article : 1507, Question: smalltalk.user.needs_advice, Answer: any advice
+Article : 1492, Question: smalltalk.user.looks_like, Answer: what do you think i look like
+Article : 1153, Question: smalltalk.greetings.goodnight, Answer: good good night
+Article : 384, Question: smalltalk.agent.hungry, Answer: you 're so hungry
+Article : 1399, Question: smalltalk.user.likes_agent, Answer: thanks i like you too
+Article : 854, Question: smalltalk.confirmation.no, Answer: not today
+Article : 219, Question: smalltalk.agent.can_you_help, Answer: i want your help
+Article : 641, Question: smalltalk.appraisal.good, Answer: that is wonderful
+Article : 1, Question: smalltalk.agent.acquaintence, Answer: i want to know you better
+Article : 112, Question: smalltalk.agent.beautiful, Answer: you are looking awesome
+Article : 698, Question: smalltalk.appraisal.good, Answer: nice
+Article : 1517, Question: smalltalk.user.needs_advice, Answer: can i ask for your advice
+Article : 951, Question: smalltalk.confirmation.yes, Answer: yes sure
+Article : 1394, Question: smalltalk.user.likes_agent, Answer: you 're funny i like you
+Article : 1291, Question: smalltalk.user.angry, Answer: i 'm angry
+Article : 1570, Question: smalltalk.user.wants_to_see_agent_again, Answer: would be nice to see you again
+Article : 441, Question: smalltalk.agent.occupation, Answer: where is your work
+Article : 1136, Question: smalltalk.greetings.goodevening, Answer: evening
+Article : 1256, Question: smalltalk.greetings.nice_to_see_you, Answer: glad to see you
+Article : 663, Question: smalltalk.appraisal.good, Answer: that 's really good
+Article : 1456, Question: smalltalk.user.likes_agent, Answer: i like you too much
+Article : 1257, Question: smalltalk.greetings.nice_to_see_you, Answer: good to see you again
+Article : 1516, Question: smalltalk.user.needs_advice, Answer: i seek your advice
+Article : 317, Question: smalltalk.agent.good, Answer: you are a pro
+Article : 648, Question: smalltalk.appraisal.good, Answer: fantastic
+Article : 709, Question: smalltalk.appraisal.good, Answer: excellent
+Article : 1382, Question: nan, Answer: nan
+Article : 1282, Question: smalltalk.greetings.whatsup, Answer: hey what 's up
+Article : 972, Question: smalltalk.confirmation.yes, Answer: i think so
+Article : 627, Question: smalltalk.appraisal.good, Answer: it 's good
+Article : 632, Question: smalltalk.appraisal.good, Answer: that 's perfect
+Article : 1306, Question: smalltalk.user.bored, Answer: very boring
+Article : 1400, Question: smalltalk.user.likes_agent, Answer: you 're special
+Article : 1408, Question: smalltalk.user.likes_agent, Answer: you know i like you
+Article : 1248, Question: smalltalk.greetings.nice_to_see_you, Answer: it 's nice to see you
+Article : 1551, Question: smalltalk.user.testing_agent, Answer: test
+Article : 1254, Question: smalltalk.greetings.nice_to_see_you, Answer: nice to see you
+Article : 1371, Question: smalltalk.user.has_birthday, Answer: it 's my b day
+Article : 1354, Question: nan, Answer: nan
+Article : 1527, Question: nan, Answer: nan
+Article : 1467, Question: smalltalk.user.likes_agent, Answer: that 's because you are special
+Article : 795, Question: smalltalk.confirmation.cancel, Answer: skip skip skip
+Article : 645, Question: smalltalk.appraisal.good, Answer: that was cute
+Article : 1012, Question: smalltalk.dialog.i_do_not_care, Answer: do n't care at all
+Article : 556, Question: smalltalk.agent.there, Answer: are you near me
+Article : 681, Question: smalltalk.appraisal.good, Answer: marvelous
+Article : 577, Question: smalltalk.appraisal.bad, Answer: that was awful
+Article : 1109, Question: smalltalk.greetings.bye, Answer: see you soon
+Article : 1266, Question: smalltalk.greetings.nice_to_talk_to_you, Answer: how nice it is to talk to you
+Article : 1183, Question: smalltalk.greetings.hello, Answer: just going to say hi
+Article : 524, Question: smalltalk.agent.right, Answer: that is very true
+Article : 1059, Question: nan, Answer: not right
+Article : 540, Question: smalltalk.agent.talk_to_me, Answer: talk to me
+Article : 1194, Question: smalltalk.greetings.how_are_you, Answer: how is your evening
+Article : 748, Question: smalltalk.appraisal.thank_you, Answer: thanks so much
+Article : 1470, Question: smalltalk.user.likes_agent, Answer: you are very special
+Article : 1430, Question: smalltalk.user.likes_agent, Answer: i like you baby
+Article : 484, Question: smalltalk.agent.residence, Answer: your home
+Article : 95, Question: smalltalk.agent.be_clever, Answer: be clever
+Article : 1020, Question: smalltalk.dialog.sorry, Answer: i am so sorry
+Article : 563, Question: nan, Answer: nan
+Article : 1264, Question: smalltalk.greetings.nice_to_talk_to_you, Answer: it 's been a pleasure talking to you
+Article : 742, Question: smalltalk.appraisal.thank_you, Answer: no thank you that 's all
+Article : 863, Question: smalltalk.confirmation.no, Answer: no do not
+Article : 891, Question: smalltalk.confirmation.no, Answer: no thank you not right now
+Article : 1038, Question: smalltalk.dialog.sorry, Answer: okay i 'm sorry
+Article : 206, Question: smalltalk.agent.can_you_help, Answer: sos
+Article : 392, Question: smalltalk.agent.marry_user, Answer: let 's get married
+Article : 794, Question: smalltalk.confirmation.cancel, Answer: just forget it
+Article : 870, Question: smalltalk.confirmation.no, Answer: absolutely not
+Article : 397, Question: smalltalk.agent.marry_user, Answer: we should marry
+Article : 766, Question: smalltalk.appraisal.well_done, Answer: great work
+Article : 1460, Question: smalltalk.user.likes_agent, Answer: okay i like you too
+Article : 1241, Question: smalltalk.greetings.nice_to_meet_you, Answer: it was nice meeting you
+Article : 1028, Question: smalltalk.dialog.sorry, Answer: pardon
+Article : 642, Question: smalltalk.appraisal.good, Answer: fine
+Article : 612, Question: smalltalk.appraisal.bad, Answer: that was lame
+Article : 960, Question: smalltalk.confirmation.yes, Answer: yes it is correct
+Article : 725, Question: smalltalk.appraisal.thank_you, Answer: thank you again
+Article : 683, Question: smalltalk.appraisal.good, Answer: okay good
+Article : 98, Question: nan, Answer: nan
+Article : 804, Question: smalltalk.confirmation.cancel, Answer: cancel all that
+Article : 406, Question: smalltalk.agent.my_friend, Answer: let 's be friends
+Article : 502, Question: smalltalk.agent.residence, Answer: where 's your hometown
+Article : 1071, Question: smalltalk.emotions.ha_ha, Answer: lmao
+Article : 1056, Question: smalltalk.dialog.wrong, Answer: it 's wrong
+Article : 929, Question: smalltalk.confirmation.yes, Answer: ok go ahead
+Article : 779, Question: smalltalk.confirmation.cancel, Answer: no cancel cancel
+Article : 200, Question: smalltalk.agent.can_you_help, Answer: need help
+Article : 134, Question: smalltalk.agent.beautiful, Answer: you look great
+Article : 1051, Question: smalltalk.dialog.wrong, Answer: it is not right
+Article : 40, Question: smalltalk.agent.answer_my_question, Answer: answer me
+Article : 1017, Question: smalltalk.dialog.sorry, Answer: sorry
+Article : 230, Question: smalltalk.agent.chatbot, Answer: you 're a robot
+Article : 378, Question: smalltalk.agent.hobby, Answer: do you have a hobby
+Article : 288, Question: smalltalk.agent.fired, Answer: i will fire you
+Article : 418, Question: smalltalk.agent.my_friend, Answer: are you my best friend
+Article : 391, Question: nan, Answer: nan
+Article : 592, Question: smalltalk.appraisal.bad, Answer: not so good
+Article : 1162, Question: smalltalk.greetings.goodnight, Answer: good tonight
+Article : 1086, Question: smalltalk.emotions.ha_ha, Answer: hehe
+Article : 647, Question: smalltalk.appraisal.good, Answer: that 's much better
+Article : 1152, Question: nan, Answer: nan
+Article : 1367, Question: smalltalk.user.happy, Answer: i 'm happy for you
+Article : 520, Question: smalltalk.agent.right, Answer: it 's the truth
+Article : 64, Question: smalltalk.agent.bad, Answer: you 're really bad
+Article : 14, Question: smalltalk.agent.acquaintence, Answer: what is your personality
+Article : 1180, Question: smalltalk.greetings.hello, Answer: heya
+Article : 1064, Question: smalltalk.emotions.ha_ha, Answer: haha
+Article : 492, Question: smalltalk.agent.residence, Answer: what is your residence
+Article : 379, Question: smalltalk.agent.hobby, Answer: tell me about your hobby
+Article : 187, Question: smalltalk.agent.can_you_help, Answer: i need a hand
+Article : 763, Question: smalltalk.appraisal.welcome, Answer: sure welcome
+Article : 216, Question: smalltalk.agent.can_you_help, Answer: i need some help
+Article : 791, Question: smalltalk.confirmation.cancel, Answer: forget about it
+Article : 1076, Question: smalltalk.emotions.ha_ha, Answer: haha funny
+Article : 878, Question: smalltalk.confirmation.no, Answer: how about no
+Article : 337, Question: smalltalk.agent.good, Answer: you rock
+Article : 719, Question: nan, Answer: nan
+Article : 295, Question: smalltalk.agent.fired, Answer: you should be fired
+Article : 1016, Question: nan, Answer: nan
+Article : 1275, Question: smalltalk.greetings.whatsup, Answer: what is happening
+Article : 1485, Question: nan, Answer: nan
+Article : 455, Question: smalltalk.agent.origin, Answer: are you from far aways
+Article : 1588, Question: smalltalk.user.will_be_back, Answer: i 'll be back in a few minutes
+Article : 815, Question: smalltalk.confirmation.cancel, Answer: can you cancel that
+Article : 269, Question: smalltalk.agent.crazy, Answer: are you crazy
+Article : 995, Question: smalltalk.dialog.hug, Answer: hugging
+Article : 201, Question: smalltalk.agent.can_you_help, Answer: assist
+Article : 161, Question: smalltalk.agent.boss, Answer: who do you think is your boss
+Article : 729, Question: smalltalk.appraisal.thank_you, Answer: i thank you
+Article : 401, Question: nan, Answer: nan
+Article : 702, Question: smalltalk.appraisal.good, Answer: no it 's okay
+Article : 1500, Question: smalltalk.user.loves_agent, Answer: i adore you
+Article : 1129, Question: smalltalk.greetings.bye, Answer: that 's all goodbye
+Article : 565, Question: smalltalk.appraisal.bad, Answer: bad really bad
+Article : 1413, Question: smalltalk.user.likes_agent, Answer: you 're awesome i like you
+Article : 1021, Question: smalltalk.dialog.sorry, Answer: alright i 'm sorry
+Article : 1025, Question: smalltalk.dialog.sorry, Answer: apologies to me
+Article : 1411, Question: smalltalk.user.likes_agent, Answer: just like you
+Article : 1104, Question: smalltalk.greetings.bye, Answer: bye
+Article : 205, Question: smalltalk.agent.can_you_help, Answer: can you help me out
+Article : 34, Question: smalltalk.agent.annoying, Answer: you are such annoying
+Article : 775, Question: nan, Answer: nan
+Article : 508, Question: smalltalk.agent.right, Answer: that is correct
+Article : 1451, Question: smalltalk.user.likes_agent, Answer: i like you a lot
+Article : 1478, Question: smalltalk.user.misses_agent, Answer: missing you
+Article : 1566, Question: smalltalk.user.waits, Answer: how long do i have to wait
+Article : 1390, Question: smalltalk.user.joking, Answer: i 'm kidding
+Article : 91, Question: smalltalk.agent.be_clever, Answer: can you get smarter
+Article : 1363, Question: smalltalk.user.happy, Answer: i am happy
+Article : 897, Question: smalltalk.confirmation.no, Answer: no leave it
+Article : 564, Question: smalltalk.appraisal.bad, Answer: that 's bad
+Article : 1369, Question: nan, Answer: nan
+Article : 776, Question: smalltalk.confirmation.cancel, Answer: nevermind forget about it
+Article : 241, Question: smalltalk.agent.clever, Answer: you are too smart
+Article : 13, Question: smalltalk.agent.acquaintence, Answer: what are you
+Article : 315, Question: smalltalk.agent.funny, Answer: you 're the funniest
+Article : 600, Question: smalltalk.appraisal.bad, Answer: not good
+Article : 387, Question: smalltalk.agent.hungry, Answer: would you like to eat something
+Article : 1297, Question: smalltalk.user.back, Answer: i 'm here again
+Article : 166, Question: smalltalk.agent.busy, Answer: are you very busy right now
+Article : 840, Question: smalltalk.confirmation.no, Answer: not at this time
+Article : 20, Question: smalltalk.agent.age, Answer: what is your age
+Article : 646, Question: smalltalk.appraisal.good, Answer: that 's really nice
+Article : 1508, Question: smalltalk.user.needs_advice, Answer: any suggestions
+Article : 1154, Question: smalltalk.greetings.goodnight, Answer: thanks goodnight
+Article : 1528, Question: smalltalk.user.sad, Answer: i am sad
+Article : 831, Question: smalltalk.confirmation.cancel, Answer: cancel this request
+Article : 1267, Question: smalltalk.greetings.nice_to_talk_to_you, Answer: it 's nice to talk to you
+Article : 562, Question: smalltalk.agent.there, Answer: are you still there
+Article : 1550, Question: smalltalk.user.testing_agent, Answer: can i test you
+Article : 686, Question: smalltalk.appraisal.good, Answer: very well
+Article : 957, Question: smalltalk.confirmation.yes, Answer: yes thank you
+Article : 189, Question: smalltalk.agent.can_you_help, Answer: can you help me with that
+Article : 975, Question: smalltalk.confirmation.yes, Answer: yes of course
+Article : 699, Question: smalltalk.appraisal.good, Answer: this is good
+Article : 1499, Question: smalltalk.user.loves_agent, Answer: love you
+Article : 510, Question: smalltalk.agent.right, Answer: nan
+Article : 1082, Question: smalltalk.emotions.ha_ha, Answer: haha very funny
+Article : 474, Question: smalltalk.agent.real, Answer: you are real
+Article : 856, Question: smalltalk.confirmation.no, Answer: not that
+Article : 747, Question: smalltalk.appraisal.thank_you, Answer: thank you for your help
+Article : 252, Question: smalltalk.agent.clever, Answer: you know so much
+Article : 21, Question: smalltalk.agent.age, Answer: how old are you
+Article : 1337, Question: nan, Answer: nan
+Article : 459, Question: smalltalk.agent.origin, Answer: where were you born
+Article : 1184, Question: smalltalk.greetings.hello, Answer: greetings
+Article : 276, Question: smalltalk.agent.crazy, Answer: you 're so crazy
+Article : 955, Question: smalltalk.confirmation.yes, Answer: go ahead
+Article : 1215, Question: smalltalk.greetings.how_are_you, Answer: are you alright
+Article : 385, Question: smalltalk.agent.hungry, Answer: you might be hungry
+Article : 805, Question: smalltalk.confirmation.cancel, Answer: i said cancel it
+Article : 1437, Question: smalltalk.user.likes_agent, Answer: but i like you so much
+Article : 1515, Question: smalltalk.user.needs_advice, Answer: i could use some advice
+Article : 343, Question: smalltalk.agent.good, Answer: you are the best ever
+Article : 769, Question: smalltalk.appraisal.well_done, Answer: way to go
+Article : 1332, Question: smalltalk.user.does_not_want_to_talk, Answer: bad time for talking
+Article : 130, Question: smalltalk.agent.beautiful, Answer: you 're cute
+Article : 871, Question: smalltalk.confirmation.no, Answer: no
+Article : 1123, Question: smalltalk.greetings.bye, Answer: see you tomorrow
+Article : 1396, Question: smalltalk.user.likes_agent, Answer: you are so special
+Article : 87, Question: smalltalk.agent.bad, Answer: you are not good
+Article : 1482, Question: nan, Answer: nan
+Article : 330, Question: smalltalk.agent.good, Answer: let 's tell everyone that you are awesome
+Article : 1238, Question: smalltalk.greetings.nice_to_meet_you, Answer: good to know each other
+Article : 466, Question: smalltalk.agent.ready, Answer: are you ready tonight
+Article : 121, Question: smalltalk.agent.beautiful, Answer: you 're cute
+Article : 1044, Question: smalltalk.dialog.what_do_you_mean, Answer: what do you mean exactly
+Article : 1095, Question: smalltalk.emotions.wow, Answer: wow
+Article : 1130, Question: smalltalk.greetings.bye, Answer: okay thank you bye
+Article : 1294, Question: nan, Answer: nan
+Article : 860, Question: smalltalk.confirmation.no, Answer: let 's not
+Article : 1459, Question: smalltalk.user.likes_agent, Answer: i like you more
+Article : 1126, Question: smalltalk.greetings.bye, Answer: okay see you later
