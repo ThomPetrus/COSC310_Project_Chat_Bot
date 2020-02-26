@@ -6,7 +6,6 @@ Created on Sat Feb 22 20:18:02 2020
         
         Next up: 
     
-            incorproate the GUI.
             figure out intent filter.
             Potentially include Lemmatization / Named Entity Recognition etc (?)
             
@@ -49,7 +48,8 @@ Basic Imports:
             
 --------------------------------------------------------------------------------------------------
 """
-
+from tkinter import *
+from tkinter import scrolledtext
 import pickle
 import numpy as np
 import spacy
@@ -458,6 +458,97 @@ User Input :
 def seperate_punct_doc(doc):
     return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n']
 
+"""
+-----------------------------------------------------------------
+Initializing the main GUI window
+-----------------------------------------------------------------
+"""
+window = Tk()
+window.title("Chatbot")
+
+#Instead of setting the values linearly, I'm leaving them blank and initializing them inside of a function call
+my_article_text = ""
+my_article = ""
+my_question_text = ""
+my_question = ""
+
+"""
+-----------------------------------------------------------------
+Adding widgets to the main GUI window
+-----------------------------------------------------------------
+"""
+#response will display all answers and prompts from the chatbot
+response = Label(window, text = "Pick the intent:")
+response.grid(column = 0, row = 0)
+
+#txt is where the user will query the chatbot
+txt = Entry(window, width = 30)
+txt.grid(column = 0, row = 1)
+
+#hst is a scrollable history of the conversation between the user and the chatbot
+hst = scrolledtext.ScrolledText(window, width = 100, height = 10)
+hst.insert(INSERT,"Chatbot: Pick the intent: \n")
+hst.grid(column = 0, row = 4)
+
+"""
+-----------------------------------------------------------------
+Adding intent selection and question responses to functions
+-----------------------------------------------------------------
+"""
+def intentSelect():
+    global my_article
+    my_article_text = txt.get()
+    my_article = seperate_punct_doc(nlp(my_article_text))
+    my_article = [word for word in my_article if word in vocab]
+    hst.insert(INSERT, "User: " + my_article_text + "\n")
+    response.configure(text = "Say something related to " + my_article_text + " : \n")
+    hst.insert(INSERT, "Chat-bot: Say something related to " + my_article_text + " : \n")
+    txt.delete(0, END)
+    
+def questionSelect():
+    global my_article
+    my_question_text = txt.get()
+    my_question = seperate_punct_doc(nlp(my_question_text))
+    my_question = [word for word in my_question if word in vocab]
+    hst.insert(INSERT, "User: " + my_question_text + "\n")
+    
+    my_data = [(['0'], my_article, my_question, ['work'])]
+    my_article, my_question, my_answer = vectorize_data(my_data)
+    
+    pred_results = model.predict(([my_article, my_question]))
+    val_max = np.argmax(pred_results[0])
+    
+    for key, val in tokenizer.word_index.items():
+        if val == val_max:
+            k = key
+            
+    response.configure(text = "Chatbot: " + k + "\n")
+    hst.insert(INSERT, "Chatbot: " + k + "\n")
+    
+    if(str(k).isdigit()):
+        response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
+        hst.insert(INSERT, "Chatbot: " + k + "\n")
+        response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
+        hst.insert(INSERT, "Chatbot: " + k + "\n")
+        
+    txt.delete(0, END)
+    response.configure(text = "Pick the intent:")
+    
+"""
+-----------------------------------------------------------------
+Add button widgets to main GUI window and attach functions to them
+-----------------------------------------------------------------
+"""
+
+btn1 = Button(window, text = "Pick Intent", command = intentSelect)
+btn1.grid(column = 0, row = 2)
+
+btn2 = Button(window, text = "Ask Question", command = questionSelect)
+btn2.grid(column = 0, row = 3)
+
+window.mainloop()
+
+"""
 counter = 5
 while(counter > 0):
     # possibly change this to remove punctuation and lower case it after printing the next message... 
@@ -479,10 +570,10 @@ while(counter > 0):
             k = key
 
 
-    """
+    
     Currently prints the k-1 and k -- just debuggin - harder to tell 
     if there is still a off by one.
-    """
+    
 
     
     print(k)
@@ -491,5 +582,5 @@ while(counter > 0):
         print(' '.join(idx_ans_list[int(k)][1]))
         print("Number of Questions left: " + str(counter))
         counter-=1
-
+"""
 
