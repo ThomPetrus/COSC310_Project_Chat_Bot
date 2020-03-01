@@ -101,23 +101,29 @@ Step 2: Create a vocabulary for our model to learn on
 # Changed the vocab to only include the train data
 #all_data = test_data + train_data
 
-
 vocab = set()
 
-for index, article, question, answer in all_data:
-    vocab = vocab.union(set(str(index)))
-    vocab = vocab.union(set(article))
-    vocab = vocab.union(set(question))
-    vocab = vocab.union(set(answer))
+if input("Create new vocab ? (Y / N)").lower() in "yes":
     
-# Added padding -- It seems internally a 0 get's appended a throughout the process.
+    for index, article, question, answer in all_data:
+        vocab = vocab.union(set(str(index)))
+        vocab = vocab.union(set(article))
+        vocab = vocab.union(set(question))
+        vocab = vocab.union(set(answer))
+    # Added padding -- It seems internally a 0 get's appended a throughout the process.
+   
+    with open('dialogue_vocab_v1.txt', 'wb') as fp:
+            pickle.dump(vocab, fp, protocol=4)        
+else :
+    print("Loading Vocab ...")
+    with open('dialogue_vocab_v1.txt', 'rb') as fp:
+            vocab = pickle.load(fp)
+    
+
 vocab_len = len(vocab) + 1
 
 
 """
-
-
-
 
 
 
@@ -129,10 +135,6 @@ Causing the answers to be wrong when looked up during the printing.
 If that is the issue which I will confirm later then I will create a new script that will serve as the 
 actual launching point for the conversation with gui and all that. This can be the training script for 
 the main data set. The new script should simply load the model, vocab and other required parts.
-
-
-
-
 
 
 
@@ -243,6 +245,7 @@ Step 4 - Building the network:
     
 -----------------------------------------------------------------
 """
+
 from tensorflow.python.keras.models import Sequential, Model
 from tensorflow.python.keras.layers.embeddings import Embedding
 from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dropout, add, dot, concatenate, LSTM
@@ -368,36 +371,28 @@ model.summary()
 
 """
 -----------------------------------------------------------------
-Step 6: Fit and Train network     
+Step 6: Fit and Train network     / Step 7 : Plot Accuracy
 
     Currently set to validate on training data - 
     Might try to do a 70/30 next out of curiosity -- due to the nature of this data set it might still work.
     
 -----------------------------------------------------------------
 """
-
-
-#history = model.fit([articles_train, questions_train], answers_train, batch_size=128, epochs=1000, validation_data=([articles_train, questions_train], answers_train))
-
-
-
-"""
------------------------------------------------------------------
-Step 7: Plotting model accuracy - only works after training.
------------------------------------------------------------------
-"""
-
-"""
 import matplotlib.pyplot as plt
-print(history.history.keys())
-plt.plot(history.history['accuracy'])
-plt.plot(history.history['val_accuracy'])
-plt.title('Accuracy')
-plt.ylabel('Accuracy')
-plt.xlabel('Epoch')
-plt.legend(['train', 'Test'], loc='lower left')
-plt.show()
-"""
+
+if input("Train model? (Y/N)").lower() in "yes":
+    history = model.fit([articles_train, questions_train], answers_train, batch_size=128, epochs=250, validation_data=([articles_train, questions_train], answers_train))
+    
+    print(history.history.keys())
+    plt.plot(history.history['accuracy'])
+    plt.plot(history.history['val_accuracy'])
+    plt.title('Accuracy')
+    plt.ylabel('Accuracy')
+    plt.xlabel('Epoch')
+    plt.legend(['train', 'Test'], loc='lower left')
+    plt.show()
+
+    model.save('chat_bot_experiment_500_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
@@ -405,7 +400,7 @@ Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training d
 -----------------------------------------------------------------
 """
 
-#model.save('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
+    
 
 """
 -----------------------------------------------------------------
@@ -413,7 +408,10 @@ Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 from tensorflow.keras.models import load_model
-model = load_model('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
+
+if input("Load model? (Y/N)").lower() in "yes":
+    print("Loading Model ...")
+    model = load_model('chat_bot_experiment_500_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------

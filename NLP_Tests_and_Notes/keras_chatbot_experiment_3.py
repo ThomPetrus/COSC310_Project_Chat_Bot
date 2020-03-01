@@ -102,6 +102,8 @@ for index, article, question, answer in all_data:
 # Added padding -- It seems internally a 0 get's appended a throughout the process.
 vocab_len = len(vocab) + 1
 
+
+
 """
 ------------------------------------------------------------------------------------------------
 Step 3: Vectorizing the data
@@ -138,7 +140,7 @@ tokenizer = Tokenizer(filters=[])
 tokenizer.fit_on_texts(vocab)
 
 # all the indexes -- if you're curious.
-#print(tokenizer.word_index)
+print(tokenizer.word_index)
 
 # The following method actually performs the vectorization.
 def vectorize_stories(data, word_index=tokenizer.word_index, max_article_len=max_article_len, max_question_len=max_question_len):
