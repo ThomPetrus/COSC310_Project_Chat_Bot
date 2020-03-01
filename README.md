@@ -1,6 +1,25 @@
 # COSC310_Project_Chat_Bot
  COSC 310 Python Chat Bot
+
+Required Libraries:
+This Python Chat bot was built in the Spyder IDE. More importantly it requires the Spacy library as well as the Keras library to run properly. These should be installed using pip or anaconda prompt depending on preference and what environment used.
+
+The current chat bot iteration requires entry of the particular intent as well as the question. The qa_train_indexed_ans_text_v2 text file contains all the intents, question and associated answers for testing. Once you run the program simply say no to the prompts askign to create new vocab / new model and the GUI will run.
+
+Repository Structure:
+The Repository consists of a NLP notes folder containing a variety of experiments mainly using Spacy, NLTK, Keras and SciKit used primarily to understand the platform better.
+
+There is also a data sets folder containing the data sets used during development.
+The primary dataset currently used is the chat_data.tsv. It is a dialogue dataset from DialogueFlow. 
+
+The prototypes folder contains the first 4 iterations of the chat bot as well as the two papers referenced. In particular the paper 'End-To-End Memory Networks' by Sainbayar Sukhbaata from Dept. of Computer Science Courant Institute, New York University and Arthur Szlam, Jason Weston and Rob Fergus from Facebook AI Research New York. 
+
+ChatBot Structure:
+Provided the libraries are installed properly the only thing required to run it is the actual keras_chatbot_prototype_# python file. The other main file is a data set conversion script which takes in the tsv or csv files and formats it in such a way the program can use it. The other files store the datasets processed in various ways including indexed answers as well as train and test data split by the conversion file.
+
+
  
+Edit History :
 Project Documentation
 Feb 4:
 - Set up the repository and created a test file using the Python NLTK.
@@ -8,8 +27,7 @@ Feb 4:
   https://www.nltk.org/howto/
 
 Feb 17-19:
--Exploring other libraries and online course material on Udemy.
-Updated notes on Spacy, Scikit-Learn, and NLTK. 
+Completed 
 Credits to supplementary material and information goes to Pierian Data and their Udemy Course on NLP, code and annotations produced by Thomas Van De Crommenacker based on said material.
 No copyright infringement intended and all used for educational purposes.
 -Not all the info is relevant to the creation of the chatbot, though all is related to NLP in some form or another. Simply used to get familiar with the material, platforms and frameworks we want to use for the project.
@@ -47,5 +65,8 @@ Considering our use case if the network I get the highest degree of accuracy wit
 Obvs Andy's idea with making the bot determine the topic rather than the list.
 having it print the list regardless if asked?
 Asking whether it was the right answer?
-Apologize if wrong -- storing and writing correct answers to a file?
+Apologize if wrong? Store and write correct answers to a file?
+
+Feb 29 : 
+Prototype 4 uploaded - incorporates Ians GUI and refactored the main script to be legible. Some functions could require further refactoring.
 
