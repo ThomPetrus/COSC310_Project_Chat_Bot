@@ -40,7 +40,7 @@ Basic Imports:
 --------------------------------------------------------------------------------------------------
 """
 from tkinter import *
-from tkinter import scrolledtext
+from tkinter import scrolledtext, END, INSERT, Label, Entry, Tk, Button
 import pickle
 import numpy as np
 import spacy
@@ -464,19 +464,61 @@ if __name__ == '__main__':
     model, vocab, tokenizer, idx_ans_list, all_data= setup()
     all_intent_lengths, max_intent_len, max_question_len, max_answer_len = determine_max_lengths(all_data)
     
-
-"""
-    # debug 
-    counter = 5
     
-    while(counter > 0):
-        # possibly change this to remove punctuation and lower case it after printing the next message... 
-        my_intent_text = input('Pick the intent : \n')
+    """
+    -----------------------------------------------------------------
+    Step 10: GUI
+    -----------------------------------------------------------------
+    """
+    
+    window = Tk()
+    window.title("Chatbot")
+    
+    #Instead of setting the values linearly, I'm leaving them blank and initializing them inside of a function call
+    my_intent_text = ""
+    my_intent = ""
+    my_question_text = ""
+    my_question = ""
+    
+    """
+    -----------------------------------------------------------------
+    Adding widgets to the main GUI window
+    -----------------------------------------------------------------
+    """
+    #response will display all answers and prompts from the chatbot
+    response = Label(window, text = "Pick the intent:")
+    response.grid(column = 0, row = 0)
+    
+    #txt is where the user will query the chatbot
+    txt = Entry(window, width = 30)
+    txt.grid(column = 0, row = 1)
+    
+    #hst is a scrollable history of the conversation between the user and the chatbot
+    hst = scrolledtext.ScrolledText(window, width = 100, height = 10)
+    hst.insert(INSERT,"Chatbot: Pick the intent: \n")
+    hst.grid(column = 0, row = 4)
+    
+    """
+    -----------------------------------------------------------------
+    Adding intent selection and question responses to functions
+    -----------------------------------------------------------------
+    """
+    def intentSelect():
+        global my_intent
+        my_intent_text = txt.get()
         my_intent = seperate_punct_doc(nlp(my_intent_text))
         my_intent = [word for word in my_intent if word in vocab]
-        my_question_text = input('Say Something related to ' + my_intent_text + ' : \n')
+        hst.insert(INSERT, "User: " + my_intent_text + "\n")
+        response.configure(text = "Say something related to " + my_intent_text + " : \n")
+        hst.insert(INSERT, "Chat-bot: Say something related to " + my_intent_text + " : \n")
+        txt.delete(0, END)
+        
+    def questionSelect():
+        global my_intent
+        my_question_text = txt.get()
         my_question = seperate_punct_doc(nlp(my_question_text))
         my_question = [word for word in my_question if word in vocab]
+        hst.insert(INSERT, "User: " + my_question_text + "\n")
         
         my_data = [(['0'], my_intent, my_question, ['work'])]
         my_intent, my_question, my_answer = vectorize_data(my_data, tokenizer.word_index, max_intent_len, max_question_len)
@@ -487,103 +529,28 @@ if __name__ == '__main__':
         for key, val in tokenizer.word_index.items():
             if val == val_max:
                 k = key
-    
-        
-        print(k)
+                
         if(str(k).isdigit()):
-            print(' '.join(idx_ans_list[int(k)-1][1]))
-            print(' '.join(idx_ans_list[int(k)][1]))
-            print("Number of Questions left: " + str(counter))
-            counter-=1
-
-"""
-
-"""
------------------------------------------------------------------
-Step 10: GUI
------------------------------------------------------------------
-"""
-
-window = Tk()
-window.title("Chatbot")
-
-#Instead of setting the values linearly, I'm leaving them blank and initializing them inside of a function call
-my_article_text = ""
-my_article = ""
-my_question_text = ""
-my_question = ""
-
-"""
------------------------------------------------------------------
-Adding widgets to the main GUI window
------------------------------------------------------------------
-"""
-#response will display all answers and prompts from the chatbot
-response = Label(window, text = "Pick the intent:")
-response.grid(column = 0, row = 0)
-
-#txt is where the user will query the chatbot
-txt = Entry(window, width = 30)
-txt.grid(column = 0, row = 1)
-
-#hst is a scrollable history of the conversation between the user and the chatbot
-hst = scrolledtext.ScrolledText(window, width = 100, height = 10)
-hst.insert(INSERT,"Chatbot: Pick the intent: \n")
-hst.grid(column = 0, row = 4)
-
-"""
------------------------------------------------------------------
-Adding intent selection and question responses to functions
------------------------------------------------------------------
-"""
-def intentSelect():
-    global my_intent
-    my_intent_text = txt.get()
-    my_intent = seperate_punct_doc(nlp(my_intent_text))
-    my_intent = [word for word in my_intent if word in vocab]
-    hst.insert(INSERT, "User: " + my_intent_text + "\n")
-    response.configure(text = "Say something related to " + my_intent_text + " : \n")
-    hst.insert(INSERT, "Chat-bot: Say something related to " + my_intent_text + " : \n")
-    txt.delete(0, END)
-    
-def questionSelect():
-    global my_intent
-    my_question_text = txt.get()
-    my_question = seperate_punct_doc(nlp(my_question_text))
-    my_question = [word for word in my_question if word in vocab]
-    hst.insert(INSERT, "User: " + my_question_text + "\n")
-    
-    my_data = [(['0'], my_intent, my_question, ['work'])]
-    my_intent, my_question, my_answer = vectorize_data(my_data, tokenizer.word_index, max_intent_len, max_question_len)
-    
-    pred_results = model.predict(([my_intent, my_question]))
-    val_max = np.argmax(pred_results[0])
-    
-    for key, val in tokenizer.word_index.items():
-        if val == val_max:
-            k = key
+            response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
+            hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)-1][1]) + "\n")
+            response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
+            hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)][1]) + "\n")
             
-    if(str(k).isdigit()):
-        response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
-        hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)-1][1]) + "\n")
-        response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
-        hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)][1]) + "\n")
+        txt.delete(0, END)
+        response.configure(text = "Pick the intent:")
         
-    txt.delete(0, END)
-    response.configure(text = "Pick the intent:")
+    """
+    -----------------------------------------------------------------
+    Add button widgets to main GUI window and attach functions to them
+    -----------------------------------------------------------------
+    """
     
-"""
------------------------------------------------------------------
-Add button widgets to main GUI window and attach functions to them
------------------------------------------------------------------
-"""
-
-btn1 = Button(window, text = "Pick Intent", command = intentSelect)
-btn1.grid(column = 0, row = 2)
-
-btn2 = Button(window, text = "Ask Question", command = questionSelect)
-btn2.grid(column = 0, row = 3)
-
-window.mainloop()
-
+    btn1 = Button(window, text = "Pick Intent", command = intentSelect)
+    btn1.grid(column = 0, row = 2)
+    
+    btn2 = Button(window, text = "Ask Question", command = questionSelect)
+    btn2.grid(column = 0, row = 3)
+    
+    window.mainloop()
+    
 
