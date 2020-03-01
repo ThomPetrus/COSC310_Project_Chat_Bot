@@ -100,7 +100,7 @@ for i in range(len(df_list)):
     df_list[i][3] = [str(idx)] + [word.lower() for word in seperate_punct_doc(nlp(str(df_list[i][3])))]
           
    
-# Convert the lists consisting of [Article, Question, Asnwer] to a tuple
+# Convert the lists consisting of [Intent, Question, Asnwer] to a tuple
 df_tuple = [tuple(x) for x in df_list]
 
 # Serialize object.

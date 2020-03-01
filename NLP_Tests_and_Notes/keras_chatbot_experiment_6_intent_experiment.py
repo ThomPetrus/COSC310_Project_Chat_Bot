@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """
+Created on Sun Mar  1 00:58:07 2020
+
+@author: tpvan
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Sat Feb 22 20:18:02 2020
 
-    Prototype 5 - New Data set!
+    Prototype 6 - Attempt at intent recognition
         
-        Next up: 
-    
-            Incorproate the GUI.
-            
+        Next up
             Figure out intent filter.
             Potentially include Lemmatization / Named Entity Recognition etc (?)
             
@@ -449,7 +453,7 @@ def setup():
     # Actual method call and unpacking of the tuples to set each respective variable below.
     intents_train, questions_train, answers_train = vectorize_data(train_data, tokenizer.word_index, max_intent_len, max_question_len)
     
-    if input("Create New Model? (Y/N)") in "yes":
+    if input("Create New Model? (Y/N)").lower() in "yes":
         model = build_model(max_intent_len, max_question_len, vocab_length)
         model = train_model(model, intents_train, questions_train, answers_train)
     else:
