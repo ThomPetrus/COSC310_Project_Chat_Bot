@@ -534,7 +534,6 @@ if __name__ == '__main__':
         if(str(k).isdigit()):
             #response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
             #hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)-1][1]) + "\n")
-
             response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
             hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)][1]) + "\n")
             
