@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 """
 Created on Sat Feb 22 20:18:02 2020
@@ -6,7 +7,6 @@ Created on Sat Feb 22 20:18:02 2020
         
         Next up: 
     
-            incorproate the GUI.
             figure out intent filter.
             Potentially include Lemmatization / Named Entity Recognition etc (?)
             
@@ -49,7 +49,8 @@ Basic Imports:
             
 --------------------------------------------------------------------------------------------------
 """
-
+from tkinter import *
+from tkinter import scrolledtext
 import pickle
 import numpy as np
 import spacy
@@ -101,29 +102,23 @@ Step 2: Create a vocabulary for our model to learn on
 # Changed the vocab to only include the train data
 #all_data = test_data + train_data
 
+
 vocab = set()
 
-if input("Create new vocab ? (Y / N)").lower() in "yes":
+for index, article, question, answer in all_data:
+    vocab = vocab.union(set(str(index)))
+    vocab = vocab.union(set(article))
+    vocab = vocab.union(set(question))
+    vocab = vocab.union(set(answer))
     
-    for index, article, question, answer in all_data:
-        vocab = vocab.union(set(str(index)))
-        vocab = vocab.union(set(article))
-        vocab = vocab.union(set(question))
-        vocab = vocab.union(set(answer))
-    # Added padding -- It seems internally a 0 get's appended a throughout the process.
-   
-    with open('dialogue_vocab_v1.txt', 'wb') as fp:
-            pickle.dump(vocab, fp, protocol=4)        
-else :
-    print("Loading Vocab ...")
-    with open('dialogue_vocab_v1.txt', 'rb') as fp:
-            vocab = pickle.load(fp)
-    
-
+# Added padding -- It seems internally a 0 get's appended a throughout the process.
 vocab_len = len(vocab) + 1
 
 
 """
+
+
+
 
 
 
@@ -135,6 +130,10 @@ Causing the answers to be wrong when looked up during the printing.
 If that is the issue which I will confirm later then I will create a new script that will serve as the 
 actual launching point for the conversation with gui and all that. This can be the training script for 
 the main data set. The new script should simply load the model, vocab and other required parts.
+
+
+
+
 
 
 
@@ -245,7 +244,6 @@ Step 4 - Building the network:
     
 -----------------------------------------------------------------
 """
-
 from tensorflow.python.keras.models import Sequential, Model
 from tensorflow.python.keras.layers.embeddings import Embedding
 from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dropout, add, dot, concatenate, LSTM
@@ -371,28 +369,36 @@ model.summary()
 
 """
 -----------------------------------------------------------------
-Step 6: Fit and Train network     / Step 7 : Plot Accuracy
+Step 6: Fit and Train network     
 
     Currently set to validate on training data - 
     Might try to do a 70/30 next out of curiosity -- due to the nature of this data set it might still work.
     
 -----------------------------------------------------------------
 """
+
+
+#history = model.fit([articles_train, questions_train], answers_train, batch_size=128, epochs=1000, validation_data=([articles_train, questions_train], answers_train))
+
+
+
+"""
+-----------------------------------------------------------------
+Step 7: Plotting model accuracy - only works after training.
+-----------------------------------------------------------------
+"""
+
+"""
 import matplotlib.pyplot as plt
-
-if input("Train model? (Y/N)").lower() in "yes":
-    history = model.fit([articles_train, questions_train], answers_train, batch_size=128, epochs=250, validation_data=([articles_train, questions_train], answers_train))
-    
-    print(history.history.keys())
-    plt.plot(history.history['accuracy'])
-    plt.plot(history.history['val_accuracy'])
-    plt.title('Accuracy')
-    plt.ylabel('Accuracy')
-    plt.xlabel('Epoch')
-    plt.legend(['train', 'Test'], loc='lower left')
-    plt.show()
-
-    model.save('chat_bot_experiment_500_128_dialogue_dropout_validated_on_train_v1.h5')
+print(history.history.keys())
+plt.plot(history.history['accuracy'])
+plt.plot(history.history['val_accuracy'])
+plt.title('Accuracy')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend(['train', 'Test'], loc='lower left')
+plt.show()
+"""
 
 """
 -----------------------------------------------------------------
@@ -400,7 +406,7 @@ Step 8 (opt): Saving model -- Not currently saving -- Overwrites prev training d
 -----------------------------------------------------------------
 """
 
-    
+#model.save('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
@@ -408,10 +414,7 @@ Step 9 (opt): Loading Model
 -----------------------------------------------------------------
 """
 from tensorflow.keras.models import load_model
-
-if input("Load model? (Y/N)").lower() in "yes":
-    print("Loading Model ...")
-    model = load_model('chat_bot_experiment_500_128_dialogue_dropout_validated_on_train_v1.h5')
+model = load_model('chat_bot_experiment_1000_128_dialogue_dropout_validated_on_train_v1.h5')
 
 """
 -----------------------------------------------------------------
@@ -456,6 +459,97 @@ User Input :
 def seperate_punct_doc(doc):
     return [token.text.lower() for token in doc if token.text not in '\n\n \n\n\n--!"#$%&()*+,-./:;<=>?@[\\]^_`{|}~\t\n']
 
+"""
+-----------------------------------------------------------------
+Initializing the main GUI window
+-----------------------------------------------------------------
+"""
+window = Tk()
+window.title("Chatbot")
+
+#Instead of setting the values linearly, I'm leaving them blank and initializing them inside of a function call
+my_article_text = ""
+my_article = ""
+my_question_text = ""
+my_question = ""
+
+"""
+-----------------------------------------------------------------
+Adding widgets to the main GUI window
+-----------------------------------------------------------------
+"""
+#response will display all answers and prompts from the chatbot
+response = Label(window, text = "Pick the intent:")
+response.grid(column = 0, row = 0)
+
+#txt is where the user will query the chatbot
+txt = Entry(window, width = 30)
+txt.grid(column = 0, row = 1)
+
+#hst is a scrollable history of the conversation between the user and the chatbot
+hst = scrolledtext.ScrolledText(window, width = 100, height = 10)
+hst.insert(INSERT,"Chatbot: Pick the intent: \n")
+hst.grid(column = 0, row = 4)
+
+"""
+-----------------------------------------------------------------
+Adding intent selection and question responses to functions
+-----------------------------------------------------------------
+"""
+def intentSelect():
+    global my_article
+    my_article_text = txt.get()
+    my_article = seperate_punct_doc(nlp(my_article_text))
+    my_article = [word for word in my_article if word in vocab]
+    hst.insert(INSERT, "User: " + my_article_text + "\n")
+    response.configure(text = "Say something related to " + my_article_text + " : \n")
+    hst.insert(INSERT, "Chat-bot: Say something related to " + my_article_text + " : \n")
+    txt.delete(0, END)
+    
+def questionSelect():
+    global my_article
+    my_question_text = txt.get()
+    my_question = seperate_punct_doc(nlp(my_question_text))
+    my_question = [word for word in my_question if word in vocab]
+    hst.insert(INSERT, "User: " + my_question_text + "\n")
+    
+    my_data = [(['0'], my_article, my_question, ['work'])]
+    my_article, my_question, my_answer = vectorize_data(my_data)
+    
+    pred_results = model.predict(([my_article, my_question]))
+    val_max = np.argmax(pred_results[0])
+    
+    for key, val in tokenizer.word_index.items():
+        if val == val_max:
+            k = key
+            
+    response.configure(text = "Chatbot: " + k + "\n")
+    hst.insert(INSERT, "Chatbot: " + k + "\n")
+    
+    if(str(k).isdigit()):
+        response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
+        hst.insert(INSERT, "Chatbot: " + k + "\n")
+        response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
+        hst.insert(INSERT, "Chatbot: " + k + "\n")
+        
+    txt.delete(0, END)
+    response.configure(text = "Pick the intent:")
+    
+"""
+-----------------------------------------------------------------
+Add button widgets to main GUI window and attach functions to them
+-----------------------------------------------------------------
+"""
+
+btn1 = Button(window, text = "Pick Intent", command = intentSelect)
+btn1.grid(column = 0, row = 2)
+
+btn2 = Button(window, text = "Ask Question", command = questionSelect)
+btn2.grid(column = 0, row = 3)
+
+window.mainloop()
+
+"""
 counter = 5
 while(counter > 0):
     # possibly change this to remove punctuation and lower case it after printing the next message... 
@@ -477,10 +571,10 @@ while(counter > 0):
             k = key
 
 
-    """
+    
     Currently prints the k-1 and k -- just debuggin - harder to tell 
     if there is still a off by one.
-    """
+    
 
     
     print(k)
@@ -489,5 +583,6 @@ while(counter > 0):
         print(' '.join(idx_ans_list[int(k)][1]))
         print("Number of Questions left: " + str(counter))
         counter-=1
+"""
 
 
