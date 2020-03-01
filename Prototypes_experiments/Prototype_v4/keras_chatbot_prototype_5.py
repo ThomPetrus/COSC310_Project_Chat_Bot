@@ -40,7 +40,7 @@ Basic Imports:
 --------------------------------------------------------------------------------------------------
 """
 from tkinter import *
-from tkinter import scrolledtext, END, INSERT, Label, Entry, Tk, Button
+from tkinter import scrolledtext, INSERT, Button, Label, Entry, END, Tk
 import pickle
 import numpy as np
 import spacy
@@ -463,8 +463,7 @@ if __name__ == '__main__':
    
     model, vocab, tokenizer, idx_ans_list, all_data= setup()
     all_intent_lengths, max_intent_len, max_question_len, max_answer_len = determine_max_lengths(all_data)
-    
-    
+        
     """
     -----------------------------------------------------------------
     Step 10: GUI
@@ -498,11 +497,13 @@ if __name__ == '__main__':
     hst.insert(INSERT,"Chatbot: Pick the intent: \n")
     hst.grid(column = 0, row = 4)
     
+    
     """
     -----------------------------------------------------------------
     Adding intent selection and question responses to functions
     -----------------------------------------------------------------
     """
+    
     def intentSelect():
         global my_intent
         my_intent_text = txt.get()
@@ -531,8 +532,9 @@ if __name__ == '__main__':
                 k = key
                 
         if(str(k).isdigit()):
-            response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
-            hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)-1][1]) + "\n")
+            #response.configure(text = ' '.join(idx_ans_list[int(k)-1][1]))
+            #hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)-1][1]) + "\n")
+
             response.configure(text = ' '.join(idx_ans_list[int(k)][1]))
             hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(k)][1]) + "\n")
             
@@ -552,5 +554,3 @@ if __name__ == '__main__':
     btn2.grid(column = 0, row = 3)
     
     window.mainloop()
-    
-
