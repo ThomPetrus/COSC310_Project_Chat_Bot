@@ -40,6 +40,8 @@ Basic Imports:
     
     Numpy : Python Math library, contains functions for processing large matrices
             As well as other fancy pants mathematical functions.
+    
+    Tkinter : GUI
             
 --------------------------------------------------------------------------------------------------
 """

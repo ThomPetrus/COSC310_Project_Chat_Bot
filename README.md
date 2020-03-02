@@ -13,6 +13,9 @@ https://anaconda.org/conda-forge/keras
 
 https://spacy.io/
 
+It also uses Pickle for serializing and deserializing objects, Pandas for reading csv and tsv files, Numpy the math libraby and Tkinter for the GUI. If you don't have any of these for whatever reason they will also need to be installed.
+
+
 Bot Description:
 
 The current chat bot iteration interprets the intent and answers questions based on the dialogueFlow dataset. The qa_train_indexed_ans_text_v2 text file contains all the intents, question and associated answers for testing. The current prototype has not been fully refactored into its own script.
