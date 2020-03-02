@@ -2,7 +2,9 @@
  COSC 310 Python Chat Bot
 
 Required Libraries:
-IMPORTANT for compilation and running the chatbot.
+
+IMPORTANT - For compilation and running the chatbot.
+
 This Python Chat bot was built in the Spyder IDE. More importantly it requires the Spacy library as well as the Keras library to run properly. These should be installed using pip or anaconda prompt depending on preference and what environment used.
 
 Links to both:
