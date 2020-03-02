@@ -455,7 +455,7 @@ def setup():
     else:
         model = load_prev_model(model_load_name)
        
-        return model, vocab, tokenizer, idx_ans_list, all_data
+    return model, vocab, tokenizer, idx_ans_list, all_data
 
 
 if __name__ == '__main__':
