@@ -285,7 +285,7 @@ from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dr
 
 # Possibly could be refactored into smaller functions but considering our use case of the model I think this is fine - it builds the model. concise.
 def build_model(max_intent_len, max_question_len, vocab_len):
-    # Two sperate inputs - intentss and questions - need a placeholder for now 
+    # Two separate inputs - intents and questions - need a placeholder for now:
     # Input(shape(maxlenght, batch_size)) - tuple w empty spot
     input_sequence = Input((max_intent_len, ))
     question = Input((max_question_len,))
@@ -629,6 +629,7 @@ def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, 
     The program does not break - the index out of bounds is handled by the GUI, it simply does not say anything back rn
     for example try saying "sassy" to the bot.
     """
+    
     # Remove words not currently in vocab -
     my_question = [word for word in my_question if word in vocab]
      
