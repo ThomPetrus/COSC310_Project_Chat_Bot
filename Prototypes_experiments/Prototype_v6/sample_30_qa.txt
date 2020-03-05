@@ -1,0 +1,72 @@
+User: hello
+Chatbot: 1182 hey !
+User: how are you?
+Chatbot: 208 i 'm glad to help . what can i do for you ?
+User: can i ask you a question
+Chatbot: 47 i 'm not programmed for that exact question . try asking another way ?
+User: will you marry me?
+Chatbot: 53 i 'm not programmed for that exact question . try asking another way ?
+User: where do you live?
+Chatbot: 491 right here in your device . whenever you need me .
+User: are you a bot?
+Chatbot: 224 indeed i am . i 'll be here whenever you need me .
+User: i think you're real
+Chatbot: 479 i must have impressed you if you think i 'm real . but no i 'm a virtual being .
+User: really?
+Chatbot: 865 i see .
+User: what do you see?
+Chatbot: 1186 hey !
+User: Going off script does not really work huh?
+Chatbot: 1081 yeah i crack myself up too .
+User: I'm tired
+Chatbot: 1558 why not catch a little shuteye ? i 'll be here to chat when you wake up .
+User: I'm overloaded
+Chatbot: 1314 i wo n't distract you then . if i can be of any assistance you know where to find me .
+User: thank you
+Chatbot: 208 i 'm glad to help . what can i do for you ?
+User: tell me who is your master?
+Chatbot: 156 you are of course .
+User: you almost sound human
+Chatbot: 481 i must have impressed you if you think i 'm real . but no i 'm a virtual being .
+User: yeah you're right
+Chatbot: 514 of course i am .
+User: dont be cocky, I will fire you
+Chatbot: 208 i 'm glad to help . what can i do for you ?
+User: now you're fired
+Chatbot: 286 oh do n't give up on me !
+User: joking!
+Chatbot: 1388 you 're quite the kidder .
+User: hehehe
+Chatbot: 1065 yeah i crack myself up too .
+User: are you mad or what?
+Chatbot: 280 your perception . my reality .
+User: how brainy you are
+Chatbot: 1404 likewise !
+User: Thanks
+Chatbot: 750 anytime . that 's what i 'm here for .
+User: I'm celebrating my birthday today
+Chatbot: 100 flattery will get you everywhere .
+User: that is not right
+Chatbot: 514 of course i am .
+User: no you're not
+Chatbot: 844 okay .
+User: age of yours?
+Chatbot: 22 i 'm a relatively new bot but i 'm wise beyond my years .
+User: can you offer any advice?
+Chatbot: 1519 probably i wo n't be able to give you the right answer straight away .
+User: you're boring
+Chatbot: 150 you know conversation is two sided .
+User: noe that's wrong
+Chatbot: 1048 i 'm sorry . perhaps i misunderstood .
+User: you are annoying
+Chatbot: 34 sorry to come across that way .
+User: you are crazy
+Chatbot: 281 maybe i 'm just a little confused .
+User: joking
+Chatbot: 1388 you 're quite the kidder .
+User: just testing you
+Chatbot: 208 i 'm glad to help . what can i do for you ?
+User: test
+Chatbot: 1551 i encourage you to test me often . that helps my developers improve my performance .
+User: i'd like to go to bed
+Chatbot: 1346 sounds good . hopefully we 'll chat some more tomorrow .
