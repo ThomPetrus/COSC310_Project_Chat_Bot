@@ -8,7 +8,7 @@ Chat bot Experiment - End to End Network
     for example a story.
 
 
-@author: tpvan
+@authors: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 """
 -----------------------------------------------------------------
