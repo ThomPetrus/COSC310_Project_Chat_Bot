@@ -19,7 +19,7 @@ Created on Mon Mar  2 21:22:46 2020
             prompts like "Can I ask a question?" etc
             It would be awesome to draw upon that second data set to answer questions!
 
-@author: tpvan
+@authors: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 
 """
