@@ -518,7 +518,7 @@ def retrieve_qa_model(max_intent_len, max_question_len, vocab_length, intents_tr
 # Either builds and trains a new intents model or loads previous model - model name at top of script
 def retrieve_intents_model(max_questions_len, vocab_length, intents_model_questions_train, intents_model_intents_train):
     if input("Create New Intents Model? (Y/N)").lower() in "yes":
-        intents_model = build_model(max_question_len, max_question_len, vocab_length)
+        intents_model = build_model(max_questions_len, max_questions_len, vocab_length)
         intents_model = train_intents_model(intents_model, intents_model_questions_train, intents_model_intents_train)
     else:
         intents_model = load_prev_model(intents_model_load_name)
