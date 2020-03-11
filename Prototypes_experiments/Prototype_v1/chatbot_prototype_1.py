@@ -4,7 +4,7 @@ Created on Tue Feb 18 19:21:17 2020
 
 ChatBot Prototype 1 
 
-@author: tpvan
+@author: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 # main imports - nltk currently unused.
 import nltk

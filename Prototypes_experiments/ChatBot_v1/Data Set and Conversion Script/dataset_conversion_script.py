@@ -14,7 +14,7 @@ Created on Sat Feb 22 18:37:17 2020
     and saves each relevant piece of data in files. Including all data, test data, train data,
     indexed answers and text versions of each for reference.
 
-@author: tpvan
+@authors: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 """
 --------------------------------------------------------------------------------------------------------
