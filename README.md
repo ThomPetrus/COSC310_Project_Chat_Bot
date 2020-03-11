@@ -1,6 +1,19 @@
 # COSC310_Project_Chat_Bot
  COSC 310 Python Chat Bot
 
+A2 - Actual Chat Bot is in :
+/Prototypes_experiments/ChatBot_v2_A2_DELIVERABLE/Bot and Training Script/
+The .py File called:
+"keras_chatbot_experiment_6_intent_experiment_refactored_only_bot" in :
+
+All possible question and answer combinations can be found in:
+Prototypes_experiments/ChatBot_v2_A2_DELIVERABLE/Data/
+The text file called:
+"qa_train_indexed_ans_text_v3.txt"
+
+All other files and directory structure explained below.
+
+
 Required Libraries:
 
 IMPORTANT - For compilation and running the chatbot.
@@ -18,7 +31,7 @@ It also uses Pickle for serializing and deserializing objects, Pandas for readin
 
 Bot Description:
 
-The current chat bot iteration interprets the intent and answers questions based on the dialogueFlow dataset. The qa_train_indexed_ans_text_v2 text file contains all the intents, question and associated answers for testing. The current prototype has not been fully refactored into its own script.
+The current chat bot iteration interprets the intent and answers questions based on the dialogueFlow dataset. The qa_train_indexed_ans_text_v3 text file contains all the intents, question and associated answers for testing. The current prototype has not been fully refactored into its own script.
 Therefore, once you run the program simply say no to the prompts asking to create new vocab / new model and the GUI will run. The model trained is a single layer of the End to End network from the paper by by Sainbayar Sukhbaata from Dept. of Computer Science Courant Institute, New York University and Arthur Szlam, Jason Weston and Rob Fergus from Facebook AI Research New York. This paper was referenced in an online course on NLP and Python by Pierian data, which was used as reference during the early stages of development.
 
 Repository Structure:
