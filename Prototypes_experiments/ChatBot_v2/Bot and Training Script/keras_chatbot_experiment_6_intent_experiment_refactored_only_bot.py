@@ -46,18 +46,32 @@ from tkinter import scrolledtext, INSERT, Button, Label, Entry, END, Tk
 import pickle
 import numpy as np
 import spacy
+import os
+import string
+import random
 nlp = spacy.load('en_core_web_sm')
 
 
+# Get previous directory
+this_dir = os.path.dirname(os.path.dirname(__file__))
+print(this_dir)
+split_dir = this_dir.split('\\')
+prev_dir = ""
+for i in range(len(split_dir)):
+    prev_dir = prev_dir + split_dir[i] + '/'
+    if split_dir[i] == 'ChatBot_v2':
+        break
+
+
 # Global Variables for convenience
-model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_v3.h5'
-intents_model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_INTENTS_v3.h5'
-data_frame_load_name = '../data/qa_df.txt' 
-train_data_frame_load_name = '../data/qa_train_df_v3.txt'
-test_data_frame_load_name = '../data/qa_test_df_v3.txt'
-indexed_ans_list_load_name = '../data/qa_indexed_ans_v3.txt'
-tokenizer_load_name = '../data/dialogue_tokenizer_v3.txt'
-vocab_load_name = '../data/dialogue_vocab_v3.txt'
+model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
+intents_model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
+data_frame_load_name = prev_dir + 'data/qa_df.txt'
+train_data_frame_load_name = prev_dir + 'data/qa_train_df_v2.txt'
+test_data_frame_load_name = prev_dir + 'data/qa_test_df_v2.txt'
+indexed_ans_list_load_name = prev_dir + 'data/qa_indexed_ans_v2.txt'
+tokenizer_load_name = prev_dir + 'data/dialogue_tokenizer_v2.txt'
+vocab_load_name = prev_dir + 'data/dialogue_vocab_v2.txt'
 
 
 
@@ -341,33 +355,53 @@ def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, 
     my_question = seperate_punct_doc(nlp(my_question_text))
             
     
+    
     """
     The following line works as advertised but in the case that the final question contains 0 words in vocab 
-    an index out of bounds error is thrown in vectorizing the data - b/c question / intent will be empty lists.
+    an index out of bounds error is thrown in vectorizing the data - b/c question / intent will be empty list.
     This is a prime spot to implement either an intent to print "Can't answer that question" or straight up print it.
     The program does not break - the index out of bounds is handled by the GUI, it simply does not say anything back rn
     for example try saying "sassy" to the bot.
     """
+    
     # Remove words not currently in vocab -
     my_question = [word for word in my_question if word in vocab]
-     
+
     # Insert user's original question text in chat window.
     hst.insert(INSERT, "User: " + my_question_text + "\n")
-            
-    # Predict the Intent based on the question
-    my_intent = get_intent_prediction(intents_model, my_question, tokenizer, max_question_len)
+
+    # If no vocab is found
+    if not my_question:
+
+        unknown_answers = ["Don't know.",  "What??", "I don't understand what you're trying to say.", "Let's talk about something else.", "Was that English?", "Can you try wording that differently?", "I'm not sure what that means."]
+
+        random_index = random.randint(0, len(unknown_answers) - 1)
+
+        hst.insert(INSERT, "Chatbot: " + unknown_answers[random_index] + "\n")
+    
+    else:
+    
+        # Predict the Intent based on the question
+        my_intent = get_intent_prediction(intents_model, my_question, tokenizer, max_question_len)
          
-    # Predict the Answer based on predicted intent and question / prompt
-    bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
+        # Predict the Answer based on predicted intent and question / prompt
+        bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
            
-    print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
-            
+        print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
+           
+#Enter key event
+def enter_hit(event):
+    process_input()
+
 
 def init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len):
       
     # Initialize window
     window = Tk()
     window.title("Chatbot")
+
+    #Bind the enter key with pressing the send button
+    window.bind('<Return>', enter_hit)
     
     # Adding widgets to the main GUI window  
     # Response will display all answers and prompts from the chatbot
