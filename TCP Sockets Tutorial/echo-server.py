@@ -1,8 +1,8 @@
 import socket
 
-HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
+HOST = socket.gethostname()  # Standard loopback interface address (localhost)
 # Only processes on the host will be able to connect to the server
-PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
+PORT = 12345       # Port to listen on (non-privileged ports are > 1023)
 
 '''
 socket.socket() creates a socket object that supports the context manager type.
@@ -22,4 +22,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             data = conn.recv(1024)
             if not data:
                 break
-            conn.sendall(data)
+            print(data)
