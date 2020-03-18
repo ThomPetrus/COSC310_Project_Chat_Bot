@@ -49,6 +49,7 @@ import spacy
 import os
 import string
 import random
+import socket
 nlp = spacy.load('en_core_web_sm')
 
 
@@ -420,6 +421,12 @@ def init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_le
     btn = Button(window, text = "Send", command = process_input)
     
     btn.grid(column = 0, row = 3)
+    
+    # Create the server socket.
+    s = socket.socket()
+    
+    #IP of the localhost, port number is arbitrary but should be out of the low 1000s
+    s.bind(('localhost', 9999))
     
   
     return window, txt, hst, response
