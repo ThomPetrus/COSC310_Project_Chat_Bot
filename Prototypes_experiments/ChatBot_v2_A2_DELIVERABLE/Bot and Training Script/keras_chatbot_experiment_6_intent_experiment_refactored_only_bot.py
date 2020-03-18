@@ -428,6 +428,9 @@ def init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_le
     #IP of the localhost, port number is arbitrary but should be out of the low 1000s
     s.bind(('localhost', 9999))
     
+    #Wait for a connection
+    s.listen()
+    
   
     return window, txt, hst, response
          
