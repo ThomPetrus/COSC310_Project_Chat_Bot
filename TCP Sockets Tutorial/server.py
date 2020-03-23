@@ -13,5 +13,5 @@ print('waiting for connections')
 while True:
     c, addr = s.accept() #Returns client socket and address, accepts connection
     print("Connected with ", addr)  
-    c.send(bytes('Welcome to Telusko', 'utf-8'))
+    c.send(bytes('Welcome to Telusko', encoding='utf8'))
     c.close()
