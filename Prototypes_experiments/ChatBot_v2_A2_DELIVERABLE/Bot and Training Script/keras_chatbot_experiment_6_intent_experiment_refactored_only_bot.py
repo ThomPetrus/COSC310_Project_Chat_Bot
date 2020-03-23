@@ -447,6 +447,8 @@ if __name__ == '__main__':
     # Create the server socket.
     s = socket.socket()
     
+    print('Created server socket!')
+    
     #IP of the localhost, port number is arbitrary but should be out of the low 1000s
     s.bind(('localhost', 9999))
     
@@ -455,14 +457,17 @@ if __name__ == '__main__':
     #Wait for a connection
     s.listen()
     
-    while True:
-        global my_intent
+    c, addr = s.accept() #Returns client socket and address, accepts connection
         
-        c, addr = s.accept() #Returns client socket and address, accepts connection
-        
-        print("Connected with " + str(addr))
+    print("Connected with " + str(addr))
 
+    while True:
+        #Turns the returned byte object 'query' into a decoded string
         query = c.recv(1024).decode()
+        
+        if (query == 'stop'):
+            c.send(bytes('stop', encoding = 'utf8'))
+            break
         
         my_question_text = query
                 
@@ -472,9 +477,6 @@ if __name__ == '__main__':
         # Remove words not currently in vocab -
         my_question = [word for word in my_question if word in vocab]
 
-        # Insert user's original question text in chat window.
-        hst.insert(INSERT, "User: " + my_question_text + "\n")
-
         # If no vocab is found
         if not my_question:
 
@@ -482,7 +484,7 @@ if __name__ == '__main__':
             
             random_index = random.randint(0, len(unknown_answers) - 1)
 
-            c.send("Chatbot: " + unknown_answers[random_index] + "\n", 'utf-8')
+            c.send(bytes("Chatbot: " + unknown_answers[random_index] + "\n", encoding = 'utf8'))
     
         else:
     
@@ -496,8 +498,8 @@ if __name__ == '__main__':
                 #response.configure(text = ' '.join(idx_ans_list[int(bot_answer)-1][1]))
                 #hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)-1][1]) + "\n")
                 response.configure(text = ' '.join(idx_ans_list[int(bot_answer)][1][1:]))
-                c.send(bytes("Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)][1][1:]) + "\n", 'utf-8'))
+                c.send(bytes("Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)][1][1:]) + "\n", encoding = 'utf8'))
     
-        c.close()
-    
+    c.close()
+    s.close()
     
