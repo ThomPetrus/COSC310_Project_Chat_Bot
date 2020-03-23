@@ -420,17 +420,7 @@ def init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_le
     # Add button widgets to main GUI window and attach functions to them.
     btn = Button(window, text = "Send", command = process_input)
     
-    btn.grid(column = 0, row = 3)
-    
-    # Create the server socket.
-    s = socket.socket()
-    
-    #IP of the localhost, port number is arbitrary but should be out of the low 1000s
-    s.bind(('localhost', 9999))
-    
-    #Wait for a connection
-    s.listen()
-    
+    btn.grid(column = 0, row = 3)    
   
     return window, txt, hst, response
          
@@ -452,6 +442,62 @@ if __name__ == '__main__':
     # Initialize model and GUI
     model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len = setup()  
     window, txt, hst, response = init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len)
-    window.mainloop()
+    #window.mainloop()
+    
+    # Create the server socket.
+    s = socket.socket()
+    
+    #IP of the localhost, port number is arbitrary but should be out of the low 1000s
+    s.bind(('localhost', 9999))
+    
+    print('Waiting...')
+    
+    #Wait for a connection
+    s.listen()
+    
+    while True:
+        global my_intent
+        
+        c, addr = s.accept() #Returns client socket and address, accepts connection
+        
+        print("Connected with " + str(addr))
+
+        query = c.recv(1024).decode()
+        
+        my_question_text = query
+                
+        # Tokenize and remove punctuation
+        my_question = seperate_punct_doc(nlp(my_question_text))
+    
+        # Remove words not currently in vocab -
+        my_question = [word for word in my_question if word in vocab]
+
+        # Insert user's original question text in chat window.
+        hst.insert(INSERT, "User: " + my_question_text + "\n")
+
+        # If no vocab is found
+        if not my_question:
+
+            unknown_answers = ["Don't know.",  "What??", "I don't understand what you're trying to say.", "Let's talk about something else.", "Was that English?", "Can you try wording that differently?", "I'm not sure what that means."]
+            
+            random_index = random.randint(0, len(unknown_answers) - 1)
+
+            c.send("Chatbot: " + unknown_answers[random_index] + "\n", 'utf-8')
+    
+        else:
+    
+            # Predict the Intent based on the question
+            my_intent = get_intent_prediction(intents_model, my_question, tokenizer, max_question_len)
+         
+            # Predict the Answer based on predicted intent and question / prompt
+            bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
+           
+            if(str(bot_answer).isdigit()):
+                #response.configure(text = ' '.join(idx_ans_list[int(bot_answer)-1][1]))
+                #hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)-1][1]) + "\n")
+                response.configure(text = ' '.join(idx_ans_list[int(bot_answer)][1][1:]))
+                c.send(bytes("Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)][1][1:]) + "\n", 'utf-8'))
+    
+        c.close()
     
     

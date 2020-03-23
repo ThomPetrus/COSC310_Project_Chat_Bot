@@ -12,7 +12,8 @@ c = socket.socket() #Creating a client socket
 
 c.connect(('localhost', 9999))
 
-while True:
-    query = input("Ask a question: ")
-    c.send(bytes(query, 'utf-8'))
-    print(c.recv(1024).decode())
+query = input("Ask a question: ")
+
+c.send(bytes(query, 'utf-8'))
+
+print(c.recv(1024).decode())
