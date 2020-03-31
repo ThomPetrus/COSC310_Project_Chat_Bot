@@ -43,7 +43,8 @@ Basic Imports:
             
 --------------------------------------------------------------------------------------------------
 """ 
-from tkinter import scrolledtext, INSERT, Button, Label, Entry, END, Tk
+from tkinter import scrolledtext, INSERT, Button, Label, Entry, END, Tk, Canvas, Frame
+from multiprocessing.connection import Client
 import pickle
 import numpy as np
 import spacy
@@ -335,21 +336,20 @@ def get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max
     
     return k
 
-def print_bot_answer(bot_answer, hst, txt, response, idx_ans_list):
+def print_bot_answer(response, idx_ans_list):
     if(str(bot_answer).isdigit()):
-        #response.configure(text = ' '.join(idx_ans_list[int(bot_answer)-1][1]))
-        #hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)-1][1]) + "\n")
         response.configure(text = ' '.join(idx_ans_list[int(bot_answer)][1][1:]))
         hst.insert(INSERT, "Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)][1][1:]) + "\n")
+        conn.send("Chatbot: " + ' '.join(idx_ans_list[int(bot_answer)][1][1:]) + "\n")
             
     txt.delete(0, END)
        
 # Similar to set up function this function servers as a collection point for the other method calls.
-def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len):
-                
+def generate_answer(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len):
+    
     # Retrieve text from text box
     global my_intent
-    my_question_text = txt.get()
+    my_question_text = conn.recv()
                 
     # Tokenize and remove punctuation
     my_question = seperate_punct_doc(nlp(my_question_text))
@@ -378,6 +378,8 @@ def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, 
         random_index = random.randint(0, len(unknown_answers) - 1)
 
         hst.insert(INSERT, "Chatbot: " + unknown_answers[random_index] + "\n")
+        
+        conn.send("Chatbot: " + unknown_answers[random_index] + "\n")
     
     else:
     
@@ -387,7 +389,7 @@ def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, 
         # Predict the Answer based on predicted intent and question / prompt
         bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
            
-        print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
+        print_bot_answer(bot_answer, idx_ans_list)
            
 #Enter key event
 def enter_hit(event):
@@ -397,36 +399,33 @@ def enter_hit(event):
 def init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len):
       
     # Initialize window
-    window = Tk()
-    window.title("Chatbot")
-
-    #Bind the enter key with pressing the send button
-    window.bind('<Return>', enter_hit)
+    root = Tk()
+    root.title("Chatbot")
     
     # Adding widgets to the main GUI window  
     # Response will display all answers and prompts from the chatbot
-    response = Label(window, text = "Enter Message:")
+    response = Label(root, text = "Enter Message:")
     response.grid(column = 0, row = 0)
     
     # txt is where the user will query the chatbot
-    txt = Entry(window, width = 30)
+    txt = Entry(root, width = 30)
     txt.grid(column = 0, row = 1)
     
     # hst is a scrollable history of the conversation between the user and the chatbot
-    hst = scrolledtext.ScrolledText(window, width = 100, height = 10)
+    hst = scrolledtext.ScrolledText(root, width = 100, height = 10)
     hst.grid(column = 0, row = 4)
     
     # Add button widgets to main GUI window and attach functions to them.
-    btn = Button(window, text = "Send", command = process_input)
+    btn = Button(root, text = "Send", command = process_input)
     
     btn.grid(column = 0, row = 3)
     
   
-    return window, txt, hst, response
+    return root, txt, hst, response
          
 
 def process_input():
-        generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len)
+        generate_answer(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len)
         
 """
 ---------------------------------------------------------------------------------
@@ -441,7 +440,33 @@ if __name__ == '__main__':
    
     # Initialize model and GUI
     model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len = setup()  
-    window, txt, hst, response = init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len)
-    window.mainloop()
+    #root, txt, hst, response = init_GUI(model, intents_model, vocab, tokenizer, idx_ans_list, max_intent_len, max_question_len)
+    
+    '''
+    This new GUI for the client chatbot is meant to act
+    as a scrolling history of the chat, so the buttons are removed
+    '''
+    
+    
+    #Create a connection
+    address = ('localhost', 6000)
+
+    # Initialize window
+    root = Tk()
+    root.title("Chatbot")
+    
+    #Create a canvas to set the size of a frame
+    canvas = Canvas(root, height=700, width=700, bg="#263D42")
+    
+    #Attach the canvas to the root frame                   
+    canvas.pack()
+    
+    frame = Frame(root, bg="white")
+    #Attach the new frame to the root frame and set its size relative to the parent frame 
+    #Sort of like CSS
+    frame.place(relwidth = 0.8, relheight = 0.8, relx = 0.1, rely = 0.1)
+    
+    with Client(address) as conn:
+        root.mainloop()
     
     

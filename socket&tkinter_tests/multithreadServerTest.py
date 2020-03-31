@@ -17,12 +17,18 @@ with Listener(address) as listener:
     with listener.accept() as conn:
         print('connection accepted from', listener.last_accepted)
         
-        while 1:
-            conn.send('Wahoo')
+        try:
+            while 1:
+                
+                query = input('Server: ')
+                
+                conn.send(query)
             
-            rst = conn.recv()
+                rst = conn.recv()
             
-            if (rst == 'stop'):
-                conn.send('stop')
-                break
-            print(rst)
+                if (rst == 'stop'):
+                    conn.send('stop')
+                    break
+                print(rst)
+        except ConnectionResetError:
+            print('Connection to the client was closed.')
