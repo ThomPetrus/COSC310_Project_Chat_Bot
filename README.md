@@ -106,3 +106,6 @@ Added some more universal dirrectory handling so that it will work if you are no
 
 Mar 10 :
 Created a dataset conversion py script to convert some yaml files to csv files so that we can add them to our current data set. The script puts them into the same format as how we want them (with intent, question, and answer).
+
+Mar 17 :
+Finished the client and server prototypes.
