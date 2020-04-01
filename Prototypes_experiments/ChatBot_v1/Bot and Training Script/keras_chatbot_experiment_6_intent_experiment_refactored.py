@@ -19,7 +19,7 @@ Created on Mon Mar  2 21:22:46 2020
             prompts like "Can I ask a question?" etc
             It would be awesome to draw upon that second data set to answer questions!
 
-@author: tpvan
+@authors: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 
 """
@@ -52,22 +52,22 @@ nlp = spacy.load('en_core_web_sm')
 
 
 # Global Variables for convenience
-model_load_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-model_save_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-intents_model_load_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
-intents_model_save_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
+model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_v3.h5'
+model_save_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_v3.h5'
+intents_model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_INTENTS_v3.h5'
+intents_model_save_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_INTENTS_v3.h5'
 
 
 data_frame_load_name = '../data/qa_df.txt' 
-train_data_frame_load_name = '../data/qa_train_df_v2.txt'
-test_data_frame_load_name = '../data/qa_test_df_v2.txt'
+train_data_frame_load_name = '../data/qa_train_df_v3.txt'
+test_data_frame_load_name = '../data/qa_test_df_v3.txt'
 
-indexed_ans_list_load_name = '../data/qa_indexed_ans_v2.txt'
+indexed_ans_list_load_name = '../data/qa_indexed_ans_v3.txt'
 
-vocab_save_name = '../data/dialogue_vocab_v2.txt'
-vocab_load_name = '../data/dialogue_vocab_v2.txt'
-tokenizer_save_name = '../data/dialogue_tokenizer_v2.txt'
-tokenizer_load_name = '../data/dialogue_tokenizer_v2.txt'
+vocab_save_name = '../data/dialogue_vocab_v3.txt'
+vocab_load_name = '../data/dialogue_vocab_v3.txt'
+tokenizer_save_name = '../data/dialogue_tokenizer_v3.txt'
+tokenizer_load_name = '../data/dialogue_tokenizer_v3.txt'
 
 """
 ------------------------------------------------------------------------------------------------
@@ -285,7 +285,7 @@ from tensorflow.python.keras.layers import Input, Activation, Dense, Permute, Dr
 
 # Possibly could be refactored into smaller functions but considering our use case of the model I think this is fine - it builds the model. concise.
 def build_model(max_intent_len, max_question_len, vocab_len):
-    # Two sperate inputs - intentss and questions - need a placeholder for now 
+    # Two separate inputs - intents and questions - need a placeholder for now:
     # Input(shape(maxlenght, batch_size)) - tuple w empty spot
     input_sequence = Input((max_intent_len, ))
     question = Input((max_question_len,))
@@ -629,6 +629,7 @@ def generate_answer(txt, hst, response, model, intents_model, vocab, tokenizer, 
     The program does not break - the index out of bounds is handled by the GUI, it simply does not say anything back rn
     for example try saying "sassy" to the bot.
     """
+    
     # Remove words not currently in vocab -
     my_question = [word for word in my_question if word in vocab]
      

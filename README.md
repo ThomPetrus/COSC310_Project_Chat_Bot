@@ -81,3 +81,12 @@ Prototype 4 uploaded - incorporated Ians GUI and refactored the main script to b
 
 Mar 1 - Intent Filter - Needs refactoring now : 
 Trained the model on sctrictly the questions in the data set with the intents as answers. Bot now uses that model to identify intents and based on the intent produces an answer. Works well with the questions in the dataset, considering our use case of the model it can not predict what to say based on new input. Refactoring next for legibility. Likely write seperate script for model, no point in keeping it in the script that trains models.
+
+Mar 4 - No vocab checking :
+Added the functionality of generating a randomized answer from a list stating that the chat bot didn't know how to respond. This is called whenever the user enters vocab which is not in our data set at all.
+
+Mar 7 :
+Added some more universal dirrectory handling so that it will work if you are not in exactly the right directory and it should also work on a server. Added a key binding to the enter key so you can press enter to send your message.
+
+Mar 10 :
+Created a dataset conversion py script to convert some yaml files to csv files so that we can add them to our current data set. The script puts them into the same format as how we want them (with intent, question, and answer).
