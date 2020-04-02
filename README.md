@@ -117,3 +117,5 @@ This allows for our chatbot to 'talk' with itself, with one instance being a cli
 April 2nd: 
 Created the client chatbot. I might have to change the GUI for it later, but for now it works perfectly. The user has a choice when they 
 run the chatbot program to run it in 'client-mode,' since I have to load in the GUI differently.
+# COSC310_Features
+***************************************************************************
