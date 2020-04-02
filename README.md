@@ -110,6 +110,12 @@ Created a dataset conversion py script to convert some yaml files to csv files s
 Mar 17 :
 Finished the client and server prototypes.
 
+Mar 27:
+Updated the GUI so that the input text box is at the bottom and there is space for the chat bot picture representing its emotions.
+
+Mar 30:
+Incorporated the bot picture which changes according to which intent is output. 
+
 April 1st : 
 Created the server chatbot. This chatbot does away with the GUI in favor of simply running inside of a 'while True' loop.
 This allows for our chatbot to 'talk' with itself, with one instance being a client and another being a server.
@@ -117,5 +123,8 @@ This allows for our chatbot to 'talk' with itself, with one instance being a cli
 April 2nd: 
 Created the client chatbot. I might have to change the GUI for it later, but for now it works perfectly. The user has a choice when they 
 run the chatbot program to run it in 'client-mode,' since I have to load in the GUI differently.
+
+April 2nd:
+Added some chatterbot datasets to our dataset.
 # COSC310_Features
 ***************************************************************************
