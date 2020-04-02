@@ -1,14 +1,16 @@
 import pandas as pd
 import csv
 
-f = open("literature.txt", "r")
+filName = "Trivia"
+
+f = open(filName + ".txt", "r")
 
 counter = 0
 input = ""
 output = ""
 
 #open original file
-with open('literature.csv', 'w', newline = '\n') as lit:
+with open(filName + '.tsv', 'w', newline = '\n') as lit:
     
     #write to the csv file
     writer = csv.writer(lit, delimiter = '\t')
@@ -27,4 +29,4 @@ with open('literature.csv', 'w', newline = '\n') as lit:
             output = line.strip()[2:]
 
         if(counter % 2 == 0):
-            writer.writerow(["literature", input, output])
+            writer.writerow([filName, input, output])
