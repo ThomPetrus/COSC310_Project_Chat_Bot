@@ -458,6 +458,8 @@ def generate_answer(txt, hst, response, img_panel, model, intents_model, vocab, 
         bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
            
         print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
+
+    hst.see("end")
            
 #Enter key event
 def enter_hit(event):
