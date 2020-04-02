@@ -109,3 +109,8 @@ Created a dataset conversion py script to convert some yaml files to csv files s
 
 Mar 17 :
 Finished the client and server prototypes.
+
+April 1st : ADD CONVERSATION EXAMPLE LATER
+-Ian
+Created the server chatbot. This chatbot does away with the GUI in favor of simply running inside of a 'while True' loop.
+This allows for our chatbot to 'talk' with itself, with one instance being a client and another being a server.
