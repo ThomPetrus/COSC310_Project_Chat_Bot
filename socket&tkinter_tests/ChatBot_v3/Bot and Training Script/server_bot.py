@@ -436,17 +436,28 @@ if __name__ == '__main__':
         with listener.accept() as conn:
             print('Connection accepted from', listener.last_accepted)
             
+            #This will hold the last recieved query.
+            lastRst = ''
+            
             try:
                 conn.send(random.choice(randGreeting))
                 while True:       
                     
                     rst = conn.recv()
                     
+                    #This will handle conversational loops
+                    if (rst == lastRst):
+                        random_prompt = ["What was your day like?",  "How is your day?", "How are you going?", "Let's talk about something else.", "Good to see you", "How are you getting on?", "Good, what's up?"]
+                        random_index = random.randint(0, len(random_prompt) - 1)
+                        conn.send(random_prompt[random_index])
+                        continue
+                    
                     if (rst == 'stop'):
                         conn.send('stop')
                         print('Closed connection with client chatbot')
                         break
                     
+                    lastRst = rst
                     process_input(rst)
                     
             except (ConnectionResetError, ConnectionAbortedError):
