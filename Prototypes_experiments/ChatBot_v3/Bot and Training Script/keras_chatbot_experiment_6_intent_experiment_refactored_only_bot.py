@@ -80,7 +80,7 @@ images_path = prev_dir + 'Images/'
 ------------------------------------------------------------------------------------------------
 Step 1: Load in all data
     
-    The data frame's format is [([int:idx], [intent], [question], [answer])]
+    The data frame's format is [  (  [int:idx], [intent], [question], [answer]  ) ]
     The indexed answers list is just [(int:idx, [answer])] - Used to print answers at run time.
 ------------------------------------------------------------------------------------------------
 """
@@ -416,6 +416,7 @@ def generate_answer(txt, hst, response, img_panel, model, intents_model, vocab, 
                 
     # Retrieve text from text box
     global my_intent
+    done = False
     
     my_question_text = txt.get()
                 
@@ -428,41 +429,145 @@ def generate_answer(txt, hst, response, img_panel, model, intents_model, vocab, 
     # Insert user's original question text in chat window.
     hst.insert(INSERT, "User: " + my_question_text + "\n")
 
-
-    """
-    Look into refactoring this -- Turned into a pretty dirty ifelseifelse
-    """
-
+          
     # If no vocab is found
     if not my_question:
-    
         processEmptyInput()
+        txt.delete(0, END)
         
+            
     else:
-        
         # Predict the Intent based on the question
         my_intent = get_intent_prediction(intents_model, my_question, tokenizer, max_question_len)
-    
+        
         # Update the bot image according to the intent
         set_bot_img(my_intent, img_panel)
-         
+             
         # Predict the Answer based on predicted intent and question / prompt
         bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
-               
+                   
         print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
-
+    
+    
+    # Check if user has added the pos or ner tag on any words
+    if '&' in my_question_text:
+        processNER(my_question_text)
+        txt.delete(0, END)
+              
+    elif '*' in my_question_text:
+        processPOS(my_question_text)
+        txt.delete(0, END)
+            
+        
     hst.see("end")
            
-# Ignore this -- wip
-def processPOS(question_text):
-    spacy_question_text = nlp(question_text)
-    return [token for token in spacy_question_text if '&' not in token.text]    
 
+    
+# can ask the bot what part of speech a word is with the * pointer
+def processPOS(question_text):
+    
+    word_list = question_text.split()
+    word = ''
+      
+    # space between word and *
+    if '*' in word_list:
+        
+        # if * only character in response .. 
+        if (word_list[0] == '*' and len(word_list)==1):
+            hst.insert(INSERT, "Chatbot: You have only entered '*'\n")
+            return
+        
+        word = word_list[word_list.index('*')+1]
+    
+    # prefix *
+    if not word:
+        word_temp = [word for word in word_list if '*' in word][0]
+        word = word_temp[1:]
+            
+        # postfix *
+        if '*' in word:
+            word = word_temp[:-1]
+            
+    word_doc = nlp(word)
+        
+    for token in word_doc:
+        response = randomized_response_pos(word)
+        explanation = spacy.explain(token.tag_)
+        hst.insert(INSERT, "Chatbot: Oh btw, " + response + explanation + "\n")
+
+# can ask the bot what entity a particular word is with the '&' pointer
 def processNER(question_text):
-    return 0
+    word_list = question_text.split()
+    word = ''
+    
+    # space between word and &
+    if '&' in word_list:
+        
+        # if * only character in response .. 
+        if (word_list[0] == '&' and len(word_list)==1):
+            hst.insert(INSERT, "Chatbot: You have only entered '&' \n")
+            return
+            
+        word = word_list[word_list.index('&')+1]
+        
+    # prefix &
+    if not word:
+        word_temp = [word for word in word_list if '&' in word][0]
+        word = word_temp[1:]
+            
+        # postfix &
+        if '&' in word:
+            word = word_temp[:-1]
+        
+    word_doc = nlp(word)
+    
+    
+    if len(word_doc.ents)>0:
+        # for all entitities in the spaCy doc
+        for ent in word_doc.ents:
+            response = randomized_response_ner(word)
+            explanation = spacy.explain(ent.label_)
+            hst.insert(INSERT, "Chatbot: Oh btw, " + response + explanation+"\n")
+    else:
+            hst.insert(INSERT, "Chatbot: Oh btw, " + randomized_null_response(word) +"\n")
+
+def randomized_response_pos(word):
+    response = ["I noticed the Part of Speech pointer on \""+word+"\", "+word+" is a ",
+                "You placed a Part of Speech Pointer on \""+word+"\", "+word+" is a ",
+                "The Part of Speech for \""+word+"\" is : ",
+                "POS TAG DETECTED. lol jk, but \""+word+"\" is a "
+            ]
+    
+    return response[random.randint(0, len(response) - 1)]
+
+
+def randomized_response_ner(word):
+    response = ["I noticed the Named Entity Recognition pointer on \""+word+"\", "+word+" is a ",
+                "You placed a Named Entity Recognition pointer on \""+word+"\", "+word+" is a ",
+                "Uhm... \""+word+"\" is a : ",
+                "NAMED ENTITY DETECTED. lol jk, but \""+word+"\" is a "
+            ]
+    
+    return response[random.randint(0, len(response) - 1)]
+
+# if something is not a named entity
+def randomized_null_response(word):
+    response = ["I noticed the Named Entity Recognition pointer on \""+word+"\", but I have no clue man.",
+                "You placed a Named Entity Recognition pointer on \""+word+"\", its certainly something but I don't know what it is",
+                "Uhm... "+word+"\" is a ... IDK dude, leave me alone. ",
+                "NAMED ENTITY DETECTED. lol jk, but I have no idea what \""+word+"\" is."
+            ]
+    
+    return response[random.randint(0, len(response) - 1)]
+
 
 def processEmptyInput():
-    unknown_answers = ["Don't know.",  "What??", "I don't understand what you're trying to say.", "Let's talk about something else.", "Was that English?", "Can you try wording that differently?", "I'm not sure what that means."]
+    unknown_answers = ["Don't know.",  
+                       "What??", 
+                       "I don't understand what you're trying to say.", 
+                       "Let's talk about something else.", "Was that English?", 
+                       "Can you try wording that differently?", 
+                       "I'm not sure what that means."]
     random_index = random.randint(0, len(unknown_answers) - 1)
     hst.insert(INSERT, "Chatbot: " + unknown_answers[random_index] + "\n")
             
