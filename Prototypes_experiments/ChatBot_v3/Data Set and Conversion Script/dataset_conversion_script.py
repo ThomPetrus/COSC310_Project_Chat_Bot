@@ -39,7 +39,7 @@ def read_file(filepath):
     return text
 
 # Returns pandas DataFrame
-data_frame = pd.read_csv('chat_data.tsv', sep='\t')
+data_frame = pd.read_csv('chat_data_with_chatterbot.tsv', sep='\t')
 
 """
 --------------------------------------------------------------------------------------------------
@@ -175,34 +175,34 @@ print(df_train)
 
 # Serialize objects / write actual text to file.
 # training data
-with open('qa_train_df_v2.txt', 'wb') as fp:
+with open('qa_train_df_chatterbot_v3.txt', 'wb') as fp:
             pickle.dump(df_train, fp, protocol=4) 
 
 # print to Ensure output is as desired.
-with open('qa_train_df_v2.txt', 'rb') as f:
+with open('qa_train_df_chatterbot_v3.txt', 'rb') as f:
     df_train_loaded = pickle.load(f)
     
 # test data
-with open('qa_test_df_v2.txt', 'wb') as fp:
+with open('qa_test_df_chatterbot_v3.txt', 'wb') as fp:
             pickle.dump(df_test, fp, protocol=4) 
 
-with open('qa_test_df_v2.txt', 'rb') as f:
+with open('qa_test_df_chatterbot_v3.txt', 'rb') as f:
     df_test_loaded = pickle.load(f)
 
 
 # indexed answers
-with open('qa_indexed_ans_v2.txt', 'wb') as fp:
+with open('qa_indexed_ans_chatterbot_v3.txt', 'wb') as fp:
             pickle.dump(indexed_answers, fp, protocol=4)
 
-with open('qa_indexed_ans_v2.txt', 'rb') as f:
+with open('qa_indexed_ans_chatterbot_v3.txt', 'rb') as f:
     df_idx_ans = pickle.load(f)
             
 # indexed answers - train data
-with open('qa_train_indexed_ans_v2.txt', 'wb') as fp:
+with open('qa_train_indexed_ans_chatterbot_v3.txt', 'wb') as fp:
             pickle.dump(indexed_train_answers, fp, protocol=4)
 
 # indexed train answers text representation            
-with open('qa_train_indexed_ans_text_v2.txt', 'w') as f:
+with open('qa_train_indexed_ans_chatterbot_v3.txt', 'w') as f:
     for i in range(len(indexed_train_answers)):
             f.write("index : " + ' '.join(df_train[i][0]) +", Intent: "+ ' '.join(df_train[i][1]) + ", Question: " + ' '.join(df_train[i][2]) + ", Answer: " + ' '.join(df_train[i][3]) + '\n')
             

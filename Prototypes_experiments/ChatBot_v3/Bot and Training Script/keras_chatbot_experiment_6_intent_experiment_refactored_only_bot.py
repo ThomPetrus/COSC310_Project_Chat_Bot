@@ -65,14 +65,14 @@ for i in range(len(split_dir)):
 
 
 # Global Variables for convenience
-model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-intents_model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
+model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_chatterbot_v3.h5'
+intents_model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS_chatterbot.h5'
 data_frame_load_name = prev_dir + 'data/qa_df.txt'
-train_data_frame_load_name = prev_dir + 'data/qa_train_df_v2.txt'
-test_data_frame_load_name = prev_dir + 'data/qa_test_df_v2.txt'
-indexed_ans_list_load_name = prev_dir + 'data/qa_indexed_ans_v2.txt'
-tokenizer_load_name = prev_dir + 'data/dialogue_tokenizer_v2.txt'
-vocab_load_name = prev_dir + 'data/dialogue_vocab_v2.txt'
+train_data_frame_load_name = prev_dir + 'data/qa_train_df_chatterbot_v3.txt'
+test_data_frame_load_name = prev_dir + 'data/qa_test_df_chatterbot_v3.txt'
+indexed_ans_list_load_name = prev_dir + 'data/qa_indexed_ans_chatterbot_v3.txt'
+tokenizer_load_name = prev_dir + 'data/dialogue_tokenizer_chatterbot_v3.txt'
+vocab_load_name = prev_dir + 'data/dialogue_vocab_chatterbot_v3.txt'
 images_path = prev_dir + 'Images/'
 
 
@@ -416,51 +416,57 @@ def generate_answer(txt, hst, response, img_panel, model, intents_model, vocab, 
                 
     # Retrieve text from text box
     global my_intent
+    
     my_question_text = txt.get()
                 
     # Tokenize and remove punctuation
     my_question = seperate_punct_doc(nlp(my_question_text))
             
-    
-    
-    """
-    The following line works as advertised but in the case that the final question contains 0 words in vocab 
-    an index out of bounds error is thrown in vectorizing the data - b/c question / intent will be empty list.
-    This is a prime spot to implement either an intent to print "Can't answer that question" or straight up print it.
-    The program does not break - the index out of bounds is handled by the GUI, it simply does not say anything back rn
-    for example try saying "sassy" to the bot.
-    """
-    
     # Remove words not currently in vocab -
     my_question = [word for word in my_question if word in vocab]
 
     # Insert user's original question text in chat window.
     hst.insert(INSERT, "User: " + my_question_text + "\n")
 
+
+    """
+    Look into refactoring this -- Turned into a pretty dirty ifelseifelse
+    """
+
     # If no vocab is found
     if not my_question:
-
-        unknown_answers = ["Don't know.",  "What??", "I don't understand what you're trying to say.", "Let's talk about something else.", "Was that English?", "Can you try wording that differently?", "I'm not sure what that means."]
-
-        random_index = random.randint(0, len(unknown_answers) - 1)
-
-        hst.insert(INSERT, "Chatbot: " + unknown_answers[random_index] + "\n")
     
+        processEmptyInput()
+        
     else:
-    
+        
         # Predict the Intent based on the question
         my_intent = get_intent_prediction(intents_model, my_question, tokenizer, max_question_len)
-
+    
         # Update the bot image according to the intent
         set_bot_img(my_intent, img_panel)
-     
+         
         # Predict the Answer based on predicted intent and question / prompt
         bot_answer = get_bot_answer(model, my_intent, my_question, tokenizer, max_intent_len, max_question_len)
-           
+               
         print_bot_answer(bot_answer, hst, txt, response, idx_ans_list)
 
     hst.see("end")
            
+# Ignore this -- wip
+def processPOS(question_text):
+    spacy_question_text = nlp(question_text)
+    return [token for token in spacy_question_text if '&' not in token.text]    
+
+def processNER(question_text):
+    return 0
+
+def processEmptyInput():
+    unknown_answers = ["Don't know.",  "What??", "I don't understand what you're trying to say.", "Let's talk about something else.", "Was that English?", "Can you try wording that differently?", "I'm not sure what that means."]
+    random_index = random.randint(0, len(unknown_answers) - 1)
+    hst.insert(INSERT, "Chatbot: " + unknown_answers[random_index] + "\n")
+            
+
 #Enter key event
 def enter_hit(event):
     process_input()

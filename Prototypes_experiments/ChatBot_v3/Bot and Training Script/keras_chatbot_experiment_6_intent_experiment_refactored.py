@@ -51,22 +51,22 @@ for i in range(len(split_dir)):
         break
 
 # Global Variables for convenience
-model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-model_save_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-intents_model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
-intents_model_save_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
+model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_chatterbot_v3.h5'
+model_save_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_chatterbot_v3.h5'
+intents_model_load_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS_chatterbot.h5'
+intents_model_save_name = prev_dir + 'data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS_chatterbot.h5'
 
 
 data_frame_load_name = prev_dir + 'data/qa_df.txt'
-train_data_frame_load_name = prev_dir + 'data/qa_train_df_v2.txt'
-test_data_frame_load_name = prev_dir + 'data/qa_test_df_v2.txt'
+train_data_frame_load_name = prev_dir + 'data/qa_train_df_chatterbot_v3.txt'
+test_data_frame_load_name = prev_dir + 'data/qa_test_df_chatterbot_v3.txt'
 
-indexed_ans_list_load_name = prev_dir + 'data/qa_indexed_ans_v2.txt'
+indexed_ans_list_load_name = prev_dir + 'data/qa_indexed_ans_chatterbot_v3.txt'
 
-vocab_save_name = prev_dir + 'data/dialogue_vocab_v2.txt'
-vocab_load_name = prev_dir + 'data/dialogue_vocab_v2.txt'
-tokenizer_save_name = prev_dir + 'data/dialogue_tokenizer_v2.txt'
-tokenizer_load_name = prev_dir + 'data/dialogue_tokenizer_v2.txt'
+vocab_save_name = prev_dir + 'data/dialogue_vocab_chatterbot_v3.txt'
+vocab_load_name = prev_dir + 'data/dialogue_vocab_chatterbot_v3.txt'
+tokenizer_save_name = prev_dir + 'data/dialogue_tokenizer_chatterbot_v3.txt'
+tokenizer_load_name = prev_dir + 'data/dialogue_tokenizer_chatterbot_v3.txt'
 
 """
 ------------------------------------------------------------------------------------------------
@@ -427,7 +427,7 @@ def plot_training_model_accuracy(history):
 def train_intents_model(intents_model, questions_train, intents_train):
     
     # Fit model to data - in this case only the questions, 
-    history = intents_model.fit([questions_train, questions_train], intents_train, batch_size=128, epochs=2000, validation_data=([questions_train, questions_train], intents_train))
+    history = intents_model.fit([questions_train, questions_train], intents_train, batch_size=128, epochs=3000, validation_data=([questions_train, questions_train], intents_train))
     
     # Plot accuracy 
     plot_training_model_accuracy(history)
@@ -441,7 +441,7 @@ def train_intents_model(intents_model, questions_train, intents_train):
 def train_qa_model(model, intents_train, questions_train, answers_train):
     
     # Fit model - in this case using intents, questions and answers.
-    history = model.fit([intents_train, questions_train], answers_train, batch_size=128, epochs=2000, validation_data=([intents_train, questions_train], answers_train))
+    history = model.fit([intents_train, questions_train], answers_train, batch_size=128, epochs=3000, validation_data=([intents_train, questions_train], answers_train))
     
     plot_training_model_accuracy(history)
     
@@ -518,7 +518,7 @@ def retrieve_qa_model(max_intent_len, max_question_len, vocab_length, intents_tr
 # Either builds and trains a new intents model or loads previous model - model name at top of script
 def retrieve_intents_model(max_questions_len, vocab_length, intents_model_questions_train, intents_model_intents_train):
     if input("Create New Intents Model? (Y/N)").lower() in "yes":
-        intents_model = build_model(max_question_len, max_question_len, vocab_length)
+        intents_model = build_model(max_questions_len, max_questions_len, vocab_length)
         intents_model = train_intents_model(intents_model, intents_model_questions_train, intents_model_intents_train)
     else:
         intents_model = load_prev_model(intents_model_load_name)
