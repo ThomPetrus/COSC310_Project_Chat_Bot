@@ -134,9 +134,9 @@ Allows a client chatbot to create a connection with a server chatbot. Through th
 Sockets GUI:
 Gave the user a history of the conversation between the client chatbot and the server chatbot. This GUI also allows the user to safely close the connection at any time. This is an improvement over closing the GUI window, which can throw a ConnectionClosed exception.
 Sample Dialogue :
->Server: how your day is going
->Client: couldn't be better .
->Server: great !
->Client: terrific !
->Server: How are you getting on?
->Client: okay . i'm here .
+>Server: how your day is going  
+>Client: couldn't be better.  
+>Server: great !  
+>Client: terrific !  
+>Server: How are you getting on?  
+>Client: okay . i'm here.  
