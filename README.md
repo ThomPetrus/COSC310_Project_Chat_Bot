@@ -1,5 +1,6 @@
 # COSC310_Project_Chat_Bot
  COSC 310 Python Chat Bot
+ ***************************************************************************
  Authors:
  Andres Escobedo
  Ian Heales
