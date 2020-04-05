@@ -3,7 +3,9 @@
  ***************************************************************************
  Authors:
  Andres Escobedo
+ 
  Ian Heales
+ 
  Thomas Van De Crommenacker
 ***************************************************************************
 A2 - Script with Chat Bot only functionality is in :
