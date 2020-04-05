@@ -1,5 +1,9 @@
 # COSC310_Project_Chat_Bot
  COSC 310 Python Chat Bot
+ Authors:
+ Andres Escobedo
+ Ian Heales
+ Thomas Van De Crommenacker
 ***************************************************************************
 A2 - Script with Chat Bot only functionality is in :
 /Prototypes_experiments/ChatBot_v2_A2_DELIVERABLE/Bot and Training Script/
