@@ -126,9 +126,13 @@ run the chatbot program to run it in 'client-mode,' since I have to load in the 
 
 April 2nd:
 Added some chatterbot datasets to our dataset.
+
+April 1st:
+Added Part of Speech and Named Entity Recognition tagging, prefix or postfix * for POS and & for NER.
+
 # COSC310_Features
 ***************************************************************************
-Sockets Implementation:
+# Sockets Implementation:
 Allows a client chatbot to create a connection with a server chatbot. Through this connection, the client and server can then send and recieve data until the connection is closed. Since the module we used was the multiprocessing module, this was a strict upgrade over the sockets module because we could run the GUI concurrently.
 
 Sockets GUI:
@@ -140,3 +144,52 @@ Sample Dialogue :
 >Client: terrific !  
 >Server: How are you getting on?  
 >Client: okay . i'm here.  
+
+# New GUI
+Now includes a dynamically changing image of our chatbot that reacts differently based on input. While it does not directly affect the conversational ability of the chat bot this really adds a personality to the application.
+See the report for examples.
+
+# Improved Data Set
+The chat bot is now trained on 1929 different question and answer pairs to improve the chatbot's ability to respond to the user's input.
+There is a variety of new topics included now including movies, literature, AI, food and many more.
+
+>User: Heya!
+>Chatbot: howdy .
+>User: can you help me?
+>Chatbot: my pleasure .
+>User: What is illuminatus?
+>Chatbot: a weird sci fi trilogy written by robert anton wilson and robert shea about conspiracies competing to control the world .
+>User: awesome!
+>Chatbot: thanks i try .
+>User: Have you read homer?
+>Chatbot: he wrote the iliad and the odyssey did n't he ?
+>User: you are right!
+>Chatbot: of course i am .
+User: do androids dream of electric sheep?
+Chatbot: that is a good story by philip k. dick . have you read valis or the man in the high castle ?
+
+# Part of Speech and Named Entity Recognition
+Due to the method used to train our models we have not yet fully integrated POS or NER tagging into determining the output in conversation directly, you can however ask the chat bot to define the POS for any word or ask what a certain entity is if it is recognized.
+
+>User: * Hey
+>Chatbot: hi there friend !
+# >Chatbot: Oh btw, You placed a Part of Speech Pointer on "Hey", Hey is a interjection
+>User: What is * working ?
+>Chatbot: i always have time to help you out . what can i do for you ?
+# >Chatbot: Oh btw, You placed a Part of Speech Pointer on "working?", working? is a verb, gerund or present participle
+>User: What is * working ?
+>Chatbot: i always have time to help you out . what can i do for you ?
+# >Chatbot: Oh btw, The Part of Speech for "working" is : verb, gerund or present participle
+>User: cool
+>Chatbot: i 'm glad you think so .
+>User: what is &Apple ?
+>Chatbot: indeed .
+# >Chatbot: Oh btw, NAMED ENTITY DETECTED. lol jk, but "Apple" is a Companies, agencies, institutions, etc.
+>User: who is &Trump ?
+Chatbot: indeed .
+# Chatbot: Oh btw, You placed a Named Entity Recognition pointer on "Trump", its certainly something but I don't know what it is
+>User: What is &Tokyo ?
+>Chatbot: indeed .
+# >Chatbot: Oh btw, Uhm... "Tokyo" is a : Countries, cities, states
+
+
