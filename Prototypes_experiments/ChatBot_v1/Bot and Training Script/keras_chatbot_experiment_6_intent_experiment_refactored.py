@@ -19,7 +19,7 @@ Created on Mon Mar  2 21:22:46 2020
             prompts like "Can I ask a question?" etc
             It would be awesome to draw upon that second data set to answer questions!
 
-@author: tpvan
+@authors: Ian Heales, Andres Escobedo and Thomas Van De Crommenacker
 """
 
 """
@@ -52,22 +52,22 @@ nlp = spacy.load('en_core_web_sm')
 
 
 # Global Variables for convenience
-model_load_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-model_save_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_v2.h5'
-intents_model_load_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
-intents_model_save_name = '../data/chat_bot_experiment_5000_128_dialogue_dropout_validated_on_train_INTENTS.h5'
+model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_v3.h5'
+model_save_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_v3.h5'
+intents_model_load_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_INTENTS_v3.h5'
+intents_model_save_name = '../data/chat_bot_experiment_3000_128_dialogue_dropout_validated_on_train_INTENTS_v3.h5'
 
 
 data_frame_load_name = '../data/qa_df.txt' 
-train_data_frame_load_name = '../data/qa_train_df_v2.txt'
-test_data_frame_load_name = '../data/qa_test_df_v2.txt'
+train_data_frame_load_name = '../data/qa_train_df_v3.txt'
+test_data_frame_load_name = '../data/qa_test_df_v3.txt'
 
-indexed_ans_list_load_name = '../data/qa_indexed_ans_v2.txt'
+indexed_ans_list_load_name = '../data/qa_indexed_ans_v3.txt'
 
-vocab_save_name = '../data/dialogue_vocab_v2.txt'
-vocab_load_name = '../data/dialogue_vocab_v2.txt'
-tokenizer_save_name = '../data/dialogue_tokenizer_v2.txt'
-tokenizer_load_name = '../data/dialogue_tokenizer_v2.txt'
+vocab_save_name = '../data/dialogue_vocab_v3.txt'
+vocab_load_name = '../data/dialogue_vocab_v3.txt'
+tokenizer_save_name = '../data/dialogue_tokenizer_v3.txt'
+tokenizer_load_name = '../data/dialogue_tokenizer_v3.txt'
 
 """
 ------------------------------------------------------------------------------------------------
